@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+
+cd "$(basename $(dirname $0))"
+
+while read line; do
+  cargo tree --depth 0 --manifest-path "../../$line" --offline
+  break
+done < deps-files

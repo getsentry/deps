@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+./venv/bin/python eco/py/extract
+node eco/js/extract

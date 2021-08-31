@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+find repos -name \*requirements\*.txt \
+  > eco/py/deps-files
+
+find repos -name package.json \
+  | grep -v repos/sentry-docs/src/gatsby \
+  > eco/js/deps-files
+
+find repos -name Cargo.toml \
+  > eco/rs/deps-files
