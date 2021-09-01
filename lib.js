@@ -1,15 +1,19 @@
-const github = require('./github.json');
 const fs = require('fs');
+const filepath = `${__dirname}/github.json`
+const github = require(filepath);
 
-function record(org, repo, count) {
-  if (github[org] === undefined) {
-    github[org] = {}
+function record(eco, org, repo, count) {
+  if (github[eco] === undefined) {
+    github[eco] = {};
   }
-  github[org][repo] = count;
+  if (github[eco][org] === undefined) {
+    github[eco][org] = {};
+  }
+  github[eco][org][repo] = count;
 }
 
 function dump() {
-  fs.writeFileSync('github.json', JSON.stringify(github));
+  fs.writeFileSync(filepath, JSON.stringify(github));
 }
 
 module.exports = {record, dump, github};

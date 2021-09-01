@@ -12,5 +12,5 @@ for line in open('deps-files'):
     filepath = '../../' + line.strip()
     with open(filepath) as fp:
         for req in requirements.parse(fp):
-            deps[req.name] += 1
+            deps[req.name.lower()] += 1
 json.dump(deps, open('deps.json', 'w+'))
