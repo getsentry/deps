@@ -1,5 +1,3 @@
-#!/usr/bin/env zsh
-
 cd "$(dirname $0)"
 
 echo > cargo-tree-output
@@ -18,5 +16,8 @@ grep 'github.com' cargo-tree-output \
   | uniq -c \
   | sort -rn \
   | sed -e 's| *\([0-9]*\) \(.*\)|  "\2": \1,|' \
+  | sed '$ s/.$//' \
   >> deps.json
 echo '}' >> deps.json
+
+cd ../..

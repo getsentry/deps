@@ -1,3 +1,2 @@
-#!/usr/bin/env zsh
 echo -n 'Checking for cargo ... '
 cargo --version

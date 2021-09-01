@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+gh api graphql --field query='
+query {
+  repository(owner: "clap-rs", name: "clap") {
+    fundingLinks {
+      platform
+      url
+    }
+  }
+}'

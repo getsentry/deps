@@ -36,5 +36,5 @@
   "alexcrichton/rustc-demangle": 1,
   "Stebalien/tempfile": 1,
   "Lucretiel/nom-supreme": 1,
-  "Amanieu/parking_lot": 1,
+  "Amanieu/parking_lot": 1
 }

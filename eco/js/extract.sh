@@ -1,2 +1,1 @@
-#!/usr/bin/env zsh
 exec node "$(dirname $0)/extract.js"

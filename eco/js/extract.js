@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const fs = require('fs')
 const once = require('once')
 const process = require('process')

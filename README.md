@@ -1,8 +1,8 @@
 # deps
 
-This repo contains a pipeline for finding sponsorable dependencies for the most
-important ecosystems we inhabit (Python, JavaScript, Rust) in our most
-important repos ([these ones](https://open.sentry.io/structure/)).
+This repo contains a pipeline for finding sponsorable dependencies for our key
+ecosystems (Python, JavaScript, Rust) in our key repos ([these
+ones](https://open.sentry.io/structure/)).
 
 1. `bootstrap` - set up ecosystem runtimes
 1. `clone` - clones repos in `repo-list` into `repos/`

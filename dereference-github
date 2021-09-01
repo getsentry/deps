@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 set -euo pipefail
-cd "$(dirname $0)"
 for eco in js py rs; do
-  source "./eco/$eco/bootstrap.sh"
+  node "./eco/$eco/dereference-github.js"
 done

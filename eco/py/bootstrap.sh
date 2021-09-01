@@ -1,4 +1,3 @@
-#!/usr/bin/env zsh
 echo -n 'Checking for python3 ... '
 python3 --version
 
