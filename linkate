@@ -3,13 +3,9 @@ import csv
 from collections import defaultdict
 
 ecosystem_map = {
-    'CoffeeScript': 'JavaScript',
-    'TypeScript':   'JavaScript',
-    'HTML':         'JavaScript',
-    'Reason':       'JavaScript',
-    'undefined':    'JavaScript',
-    'C':            'Python',
-    'C++':          'Ruby',
+    'js': 'JavaScript',
+    'py': 'Python',
+    'rs': 'Ruby',
 }
 
 counts = {

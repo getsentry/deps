@@ -1,7 +1,6 @@
 const deps = require('./deps.json');
 const got = require('got');
 const fs = require('fs');
-const process = require('process');
 const lib = require(`${__dirname}/../../lib`);
 
 async function refresh(name) {

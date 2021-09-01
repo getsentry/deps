@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 set -euo pipefail
+echo '{}' > github.json
 for eco in js py rs; do
   node "./eco/$eco/dereference-github.js"
 done
