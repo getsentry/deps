@@ -1,0 +1,152 @@
+
+addr2line v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/examples/addr2line) 
+├── anyhow v1.0.43 https://github.com/dtolnay/anyhow
+├── clap v2.33.3 https://github.com/clap-rs/clap
+└── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic
+
+dump_cfi v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/examples/dump_cfi) 
+├── anyhow v1.0.43 https://github.com/dtolnay/anyhow
+├── clap v2.33.3 https://github.com/clap-rs/clap (*)
+└── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
+
+dump_sources v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/examples/dump_sources) 
+├── clap v2.33.3 https://github.com/clap-rs/clap (*)
+└── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
+
+minidump_stackwalk v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/examples/minidump_stackwalk) 
+├── clap v2.33.3 https://github.com/clap-rs/clap (*)
+├── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
+└── walkdir v2.3.2 https://github.com/BurntSushi/walkdir
+
+object_debug v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/examples/object_debug) 
+├── clap v2.33.3 https://github.com/clap-rs/clap (*)
+└── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
+
+symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
+
+symbolic-cabi v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-cabi) https://github.com/getsentry/symbolic
+├── apple-crash-report-parser v0.4.2 https://github.com/getsentry/apple-crash-report-parser
+├── proguard v4.1.1 https://github.com/getsentry/rust-proguard
+├── serde_json v1.0.67 https://github.com/serde-rs/json
+└── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
+
+symbolic-common v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-common) https://github.com/getsentry/symbolic
+├── debugid v0.7.2 https://github.com/getsentry/rust-debugid
+├── memmap v0.7.0 https://github.com/danburkert/memmap-rs
+├── serde v1.0.130 https://github.com/serde-rs/serde
+├── stable_deref_trait v1.2.0 https://github.com/storyyeller/stable_deref_trait
+└── uuid v0.8.2 https://github.com/uuid-rs/uuid
+[dev-dependencies]
+├── similar-asserts v1.1.0 https://github.com/mitsuhiko/similar-asserts
+├── symbolic-testutils v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-testutils) 
+└── tempfile v3.2.0 https://github.com/Stebalien/tempfile
+
+symbolic-debuginfo v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-debuginfo) https://github.com/getsentry/symbolic
+├── dmsort v1.0.1 https://github.com/emilk/drop-merge-sort
+├── elementtree v0.5.0 https://github.com/mitsuhiko/elementtree-rust
+├── fallible-iterator v0.2.0 https://github.com/sfackler/rust-fallible-iterator
+├── flate2 v1.0.21 https://github.com/rust-lang/flate2-rs
+├── gimli v0.24.0 https://github.com/gimli-rs/gimli
+├── goblin v0.4.2 https://github.com/m4b/goblin
+├── lazy_static v1.4.0 https://github.com/rust-lang-nursery/lazy-static.rs
+├── lazycell v1.3.0 https://github.com/indiv0/lazycell
+├── nom v6.2.1 https://github.com/Geal/nom
+│   [build-dependencies]
+├── nom-supreme v0.4.6 https://github.com/Lucretiel/nom-supreme
+├── parking_lot v0.11.2 https://github.com/Amanieu/parking_lot
+├── pdb v0.7.0 https://github.com/willglynn/pdb
+├── regex v1.4.6 https://github.com/rust-lang/regex
+├── scroll v0.10.2 https://github.com/m4b/scroll
+├── serde v1.0.130 https://github.com/serde-rs/serde (*)
+├── serde_json v1.0.67 https://github.com/serde-rs/json (*)
+├── smallvec v1.6.1 https://github.com/servo/rust-smallvec
+├── symbolic-common v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-common) https://github.com/getsentry/symbolic (*)
+├── thiserror v1.0.28 https://github.com/dtolnay/thiserror
+├── walrus v0.19.0 https://github.com/rustwasm/walrus
+├── wasmparser v0.77.0 https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wasmparser
+└── zip v0.5.13 https://github.com/zip-rs/zip.git
+[dev-dependencies]
+├── criterion v0.3.5 https://github.com/bheisler/criterion.rs
+├── insta v1.7.2 https://github.com/mitsuhiko/insta
+├── similar-asserts v1.1.0 https://github.com/mitsuhiko/similar-asserts (*)
+└── symbolic-testutils v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-testutils) 
+
+symbolic-demangle v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-demangle) https://github.com/getsentry/symbolic
+├── cpp_demangle v0.3.3 https://github.com/gimli-rs/cpp_demangle
+├── msvc-demangler v0.9.0 https://github.com/mstange/msvc-demangler-rust
+├── rustc-demangle v0.1.21 https://github.com/alexcrichton/rustc-demangle
+└── symbolic-common v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-common) https://github.com/getsentry/symbolic (*)
+[build-dependencies]
+└── cc v1.0.70 https://github.com/alexcrichton/cc-rs
+[dev-dependencies]
+└── similar-asserts v1.1.0 https://github.com/mitsuhiko/similar-asserts (*)
+
+symbolic-minidump v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-minidump) https://github.com/getsentry/symbolic
+├── lazy_static v1.4.0 https://github.com/rust-lang-nursery/lazy-static.rs
+├── regex v1.4.6 https://github.com/rust-lang/regex (*)
+├── symbolic-common v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-common) https://github.com/getsentry/symbolic (*)
+├── symbolic-debuginfo v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-debuginfo) https://github.com/getsentry/symbolic (*)
+└── thiserror v1.0.28 https://github.com/dtolnay/thiserror (*)
+[build-dependencies]
+└── cc v1.0.70 https://github.com/alexcrichton/cc-rs (*)
+[dev-dependencies]
+├── criterion v0.3.5 https://github.com/bheisler/criterion.rs (*)
+├── insta v1.7.2 https://github.com/mitsuhiko/insta (*)
+├── proptest v1.0.0 https://github.com/altsysrq/proptest
+├── rand v0.8.4 https://github.com/rust-random/rand
+├── similar-asserts v1.1.0 https://github.com/mitsuhiko/similar-asserts (*)
+├── symbolic-testutils v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-testutils) 
+└── walkdir v2.3.2 https://github.com/BurntSushi/walkdir (*)
+
+symbolic-sourcemap v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-sourcemap) https://github.com/getsentry/symbolic
+└── sourcemap v6.0.1 
+    [build-dependencies]
+[dev-dependencies]
+└── similar-asserts v1.1.0 https://github.com/mitsuhiko/similar-asserts (*)
+
+symbolic-symcache v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-symcache) https://github.com/getsentry/symbolic
+├── dmsort v1.0.1 https://github.com/emilk/drop-merge-sort
+├── fnv v1.0.7 https://github.com/servo/rust-fnv
+├── symbolic-common v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-common) https://github.com/getsentry/symbolic (*)
+├── symbolic-debuginfo v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-debuginfo) https://github.com/getsentry/symbolic (*)
+└── thiserror v1.0.28 https://github.com/dtolnay/thiserror (*)
+[dev-dependencies]
+├── criterion v0.3.5 https://github.com/bheisler/criterion.rs (*)
+├── insta v1.7.2 https://github.com/mitsuhiko/insta (*)
+├── similar-asserts v1.1.0 https://github.com/mitsuhiko/similar-asserts (*)
+└── symbolic-testutils v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-testutils) 
+
+symbolic-testutils v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-testutils) 
+
+symbolic-unreal v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-unreal) https://github.com/getsentry/symbolic
+├── anylog v0.6.1 
+├── bytes v0.5.6 https://github.com/tokio-rs/bytes
+├── chrono v0.4.19 https://github.com/chronotope/chrono
+├── elementtree v0.5.0 https://github.com/mitsuhiko/elementtree-rust (*)
+├── flate2 v1.0.21 https://github.com/rust-lang/flate2-rs (*)
+├── lazy_static v1.4.0 https://github.com/rust-lang-nursery/lazy-static.rs
+├── regex v1.4.6 https://github.com/rust-lang/regex (*)
+├── scroll v0.10.2 https://github.com/m4b/scroll (*)
+├── serde v1.0.130 https://github.com/serde-rs/serde (*)
+└── thiserror v1.0.28 https://github.com/dtolnay/thiserror (*)
+[dev-dependencies]
+├── insta v1.7.2 https://github.com/mitsuhiko/insta (*)
+├── similar-asserts v1.1.0 https://github.com/mitsuhiko/similar-asserts (*)
+└── symbolic-testutils v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-testutils) 
+
+symbolic-unwind v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic-unwind) https://github.com/getsentry/symbolic
+├── insta v1.7.2 https://github.com/mitsuhiko/insta (*)
+├── nom v6.2.1 https://github.com/Geal/nom (*)
+└── num-traits v0.2.14 https://github.com/rust-num/num-traits
+    [build-dependencies]
+[dev-dependencies]
+└── proptest v1.0.0 https://github.com/altsysrq/proptest (*)
+
+symcache_debug v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/examples/symcache_debug) 
+├── anyhow v1.0.43 https://github.com/dtolnay/anyhow
+├── clap v2.33.3 https://github.com/clap-rs/clap (*)
+└── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
+
+unreal_engine_crash v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/examples/unreal_engine_crash) 
+├── clap v2.33.3 https://github.com/clap-rs/clap (*)
+└── symbolic v8.3.0 (/Users/chadwhitacre/Desktop/deps/repos/symbolic/symbolic) https://github.com/getsentry/symbolic (*)
