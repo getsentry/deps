@@ -2,7 +2,7 @@ cd "$(dirname $0)"
 
 echo > cargo-tree-output
 while read line; do
-  cargo tree --depth 1 --manifest-path "../../$line" --format '{p} {r}' --offline \
+  cargo tree --depth 1 --manifest-path "../../repos/ours/$line" --format '{p} {r}' --offline \
     >> cargo-tree-output
   break
 done < deps-files
