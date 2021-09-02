@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
 
 while read repo; do
-  git clone "git@github.com:getsentry/$repo.git" "repos/$repo"
+  git clone "git@github.com:getsentry/$repo.git" "repos/ours/$repo"
 done < repos-list

@@ -15,8 +15,21 @@ function record(eco, org, repo, count) {
   github[eco][org][repo] = count;
 }
 
+function dereference(urls) {
+  let org, repo;
+  let pat = /^https:\/\/github.com\/(?<org>[^\/]*)\/(?<repo>[^\/#]*)\/?$/
+  for ([_, url] of Object.entries(urls)) {
+    let m = url.match(pat);
+    if (m) {
+      if (m.groups.org !== 'sponsors') {
+        return m.groups;
+      }
+    }
+  }
+}
+
 function dump() {
   fs.writeFileSync(filepath, JSON.stringify(github));
 }
 
-module.exports = {record, dump, github};
+module.exports = {record, dereference, dump, github};

@@ -14,7 +14,7 @@
   "alexcrichton/cc-rs": 2,
   "Geal/nom": 2,
   "BurntSushi/walkdir": 2,
-  "zip-rs/zip.git": 1,
+  "zip-rs/zip": 1,
   "willglynn/pdb": 1,
   "uuid-rs/uuid": 1,
   "tokio-rs/bytes": 1,

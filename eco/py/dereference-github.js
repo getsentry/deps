@@ -21,25 +21,15 @@ async function refresh(name) {
   return require(filepath);
 }
 
-function dereference(pkg) {
-  let org, repo;
-  let urls = pkg.info?.project_urls || {};
-  let pat = /^https:\/\/github.com\/(?<org>[^\/]*)\/(?<repo>[^\/]*)\/?$/
-  for ([_, url] of Object.entries(urls)) {
-    let m = url.match(pat);
-    if (m) {
-      return m.groups;
-    }
-  }
-}
-
 (async function main() {
-  let pkg;
   for ([name, count] of Object.entries(deps)) {
-    pkg = await refresh(name);
-    let ref = dereference(pkg);
-    if (ref) {
-      lib.record('py', ref.org, ref.repo, count);
+    let pkg = await refresh(name);
+    if (pkg) {
+      let urls = pkg.info?.project_urls || {};
+      let ref = lib.dereference(urls);
+      if (ref) {
+        lib.record('py', ref.org, ref.repo, count);
+      }
     }
   }
   lib.dump();

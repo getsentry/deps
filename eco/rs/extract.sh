@@ -12,6 +12,7 @@ grep 'github.com' cargo-tree-output \
   | grep -v 'getsentry' \
   | grep -v 'mitsuhiko' \
   | sed -e 's|.*https://github.com/\([^ ]*\).*|\1|' \
+  | sed -e 's|\(.*\)\.git|\1|' \
   | sort \
   | uniq -c \
   | sort -rn \

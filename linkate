@@ -1,50 +1,58 @@
 #!/usr/bin/env python3
 import csv
+import json
 from collections import defaultdict
 
-ecosystem_map = {
+eco_map = {
     'js': 'JavaScript',
     'py': 'Python',
-    'rs': 'Ruby',
+    'rs': 'Rust',
 }
 
+github = json.load(open('github.json'))
 counts = {
-    'ecosystems': defaultdict(int),
+    'ecos': defaultdict(int),
     'orgs': defaultdict(lambda: defaultdict(int))
 }
+urls = dict()
 data = defaultdict(lambda: defaultdict(list))
-for org, repo, stars, ecosystem, used_by in csv.reader(open('deps.csv')):
-    ecosystem = ecosystem_map.get(ecosystem, ecosystem)
-
+for org, url, repo, stars, eco in csv.reader(open('deps.csv')):
     stars = int(stars)
-    used_by = int(used_by)
+    occurrences = github[eco][org][repo]
+    eco = eco_map.get(eco, eco)
 
-    counts['ecosystems'][ecosystem] += 1
-    counts['orgs'][ecosystem][org] += 1
-    data[ecosystem][org].append((stars, used_by, repo))
+    counts['ecos'][eco] += 1
+    counts['orgs'][eco][org] += 1
+    urls[org] = url
+    data[eco][org].append((stars, occurrences, repo))
 
-print('<html><head><link rel="stylesheet" href="links.css"></head><body><div class="ecosystems">')
-for n, ecosystem in reversed(sorted([(v,k) for k,v in counts['ecosystems'].items()])):
-    print(f'<h1 class="pad">{ecosystem} ({n})</h1>')
-    print(f'<table class="orgs">')
-    for n, org in reversed(sorted([(v,k) for k,v in counts['orgs'][ecosystem].items()])):
-        print(f'<tr class="org">')
-        print(f'<td class="pad"><a href="https://github.com/sponsors/{org}" target="_blank">{org}</a> ({n})</td>')
-        print(f'<td class="scroll"><table class="repos">')
-        for i, (stars, used_by, repo) in enumerate(reversed(sorted(data[ecosystem][org]))):
-            print(f'<tr>')
-            print(f'<td class="pad"><a href="https://github.com/{org}/{repo}">{repo}</a></td>')
-            print(f'<td class="pad num">{stars}</td>')
-            print(f'<td class="pad num">{used_by}</td>')
-            print(f'</tr>')
+out = open('links.html', 'w+')
+def p(*a, **kw):
+    print(*a, **kw, file=out)
+
+p('<html><head><link rel="stylesheet" href="links.css"></head><body><div class="ecos">')
+for n, eco in reversed(sorted([(v,k) for k,v in counts['ecos'].items()])):
+    p(f'<h1 class="pad">{eco} ({n})</h1>')
+    p(f'<table class="orgs">')
+    for n, org in reversed(sorted([(v,k) for k,v in counts['orgs'][eco].items()])):
+        url = urls[org]
+        p(f'<tr class="org">')
+        p(f'<td class="pad"><a href="{url}" target="_blank">{org}</a> ({n})</td>')
+        p(f'<td class="scroll"><table class="repos">')
+        for i, (stars, occurrences, repo) in enumerate(reversed(sorted(data[eco][org]))):
+            p(f'<tr>')
+            p(f'<td class="pad"><a href="https://github.com/{org}/{repo}">{repo}</a></td>')
+            p(f'<td class="pad num">{stars}</td>')
+            p(f'<td class="pad num">{occurrences}</td>')
+            p(f'</tr>')
             if i == 4:
                 if i+i < n:
-                    print(f'<tr>')
-                    print(f'<td class="pad">...</td>')
-                    print(f'<td class="pad num">...</td>')
-                    print(f'<td class="pad num">...</td>')
-                    print(f'</tr>')
+                    p(f'<tr>')
+                    p(f'<td class="pad">...</td>')
+                    p(f'<td class="pad num">...</td>')
+                    p(f'<td class="pad num">...</td>')
+                    p(f'</tr>')
                 break
-        print(f'</table></td></tr>')
-    print(f'</table>')
-print('</div></body></html>')
+        p(f'</table></td></tr>')
+    p(f'</table>')
+p('</div></body></html>')

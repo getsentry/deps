@@ -24,22 +24,12 @@ async function refresh(name) {
   return require(filepath);
 }
 
-function dereference(pkg) {
-  let org, repo;
-  let url = pkg.collected?.metadata?.links?.repository || '';
-  let pat = /^https:\/\/github.com\/(?<org>[^\/]*)\/(?<repo>[^\/]*)\/?$/
-  let m = url.match(pat);
-  if (m) {
-    return m.groups;
-  }
-}
-
 (async function main() {
-  let pkg;
   for ([name, count] of Object.entries(deps)) {
-    pkg = await refresh(name);
+    let pkg = await refresh(name);
     if (pkg) {
-      let ref = dereference(pkg);
+      let urls = pkg.collected?.metadata?.links || '';
+      let ref = lib.dereference(urls);
       if (ref) {
         lib.record('js', ref.org, ref.repo, count);
       }

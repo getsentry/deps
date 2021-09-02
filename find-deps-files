@@ -1,14 +1,16 @@
 #!/usr/bin/env zsh
 
+cd repos/ours
+
 # js
-find repos -name package.json \
-  | grep -v repos/sentry-docs/src/gatsby \
-  > eco/js/deps-files
+find . -name package.json \
+  | grep -v sentry-docs/src/gatsby \
+  > ../../eco/js/deps-files
 
 # py
-find repos -name \*requirements\*.txt \
-  > eco/py/deps-files
+find . -name \*requirements\*.txt \
+  > ../../eco/py/deps-files
 
 # rs
-find repos -name Cargo.toml \
-  > eco/rs/deps-files
+find . -name Cargo.toml \
+  > ../../eco/rs/deps-files

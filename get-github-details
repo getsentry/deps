@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+import csv
+import json
+import os
+import subprocess
+
+github = json.load(open('github.json'))
+
+
+for eco in github:
+    for org in github[eco]:
+        for repo in github[eco][org]:
+            filepath = f'gh/{org}-{repo}.json'
+            if os.path.exists(filepath):
+                print(f'have {org}/{repo}')
+                continue
+            query = f'query {{ repository(owner: \"{org}\", name: \"{repo}\") {{ fundingLinks {{ platform url }} stargazerCount }} }}'
+            body = json.dumps({"query": query}).encode()
+            out, err = subprocess.Popen(
+                ['gh', 'api', 'graphql', '--input', '-'],
+                stdin=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+            ).communicate(body)
+            assert not err, err
+            open(filepath, 'wb+').write(out)
+            print(f'got  {org}/{repo}')

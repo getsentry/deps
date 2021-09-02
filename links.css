@@ -3,7 +3,7 @@
   padding: 0;
   font: normal 12pt/12pt serif;
 }
-div.ecosystems {
+div.ecos {
   max-width: 640px;
   margin: 0 auto;
 }
@@ -28,8 +28,6 @@ td.pad {
 }
 td.num {
   text-align: right;
-}
-table.ecosystems {
 }
 table.repos td.num {
   width: 40px;

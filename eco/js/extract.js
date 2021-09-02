@@ -11,8 +11,8 @@ var lineReader = require('readline').createInterface({
 });
 
 lineReader.on('line', function (line) {
-	var filepath = `../../${line}`;
-	var pj = require(filepath);
+  var filepath = `../../${line}`;
+  var pj = require(filepath);
 
   for (var key of ['dependencies', 'devDependencies', 'peerDependencies']) {
     if (pj[key]) {
