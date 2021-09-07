@@ -18,9 +18,9 @@ lineReader.on('line', function (line) {
     if (pj[key]) {
       for (const [name, _] of Object.entries(pj[key])) {
         if (deps[name] === undefined) {
-          deps[name] = 0;
+          deps[name] = [];
         }
-        deps[name] += 1;
+        deps[name].push(line);
       }
     }
   }

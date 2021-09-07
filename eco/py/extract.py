@@ -7,10 +7,11 @@ from os.path import dirname, join, realpath
 
 os.chdir(dirname(realpath(__file__)))
 
-deps = defaultdict(int)
+deps = defaultdict(list)
 for line in open('deps-files'):
-    filepath = '../../repos/ours/' + line.strip()
+    line = line.strip()
+    filepath = '../../repos/ours/' + line
     with open(filepath) as fp:
         for req in requirements.parse(fp):
-            deps[req.name.lower()] += 1
+            deps[req.name.lower()].append(line)
 json.dump(deps, open('deps.json', 'w+'))
