@@ -24,7 +24,7 @@ for org, url, repo, stars, eco in csv.reader(open('deps.csv')):
     counts['ecos'][eco] += 1
     counts['orgs'][eco][org] += 1
     urls[org] = url
-    data[eco][org].append((len(sources), stars, sources, repo))
+    data[eco][org].append((len(sources), stars, len(sources), repo))
 
 out = open('links.html', 'w+')
 def p(*a, **kw):
