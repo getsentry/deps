@@ -22,13 +22,13 @@ async function refresh(name) {
 }
 
 (async function main() {
-  for ([name, count] of Object.entries(deps)) {
+  for ([name, sources] of Object.entries(deps)) {
     let pkg = await refresh(name);
     if (pkg) {
       let urls = pkg.info?.project_urls || {};
       let ref = lib.dereference(urls);
       if (ref) {
-        lib.record('py', ref.org, ref.repo, count);
+        lib.record('py', ref.org, ref.repo, sources);
       }
     }
   }

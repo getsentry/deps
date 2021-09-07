@@ -18,13 +18,13 @@ urls = dict()
 data = defaultdict(lambda: defaultdict(list))
 for org, url, repo, stars, eco in csv.reader(open('deps.csv')):
     stars = int(stars)
-    occurrences = github[eco][org][repo]
+    sources = github[eco][org][repo]
     eco = eco_map.get(eco, eco)
 
     counts['ecos'][eco] += 1
     counts['orgs'][eco][org] += 1
     urls[org] = url
-    data[eco][org].append((stars, occurrences, repo))
+    data[eco][org].append((len(sources), stars, sources, repo))
 
 out = open('links.html', 'w+')
 def p(*a, **kw):
@@ -39,11 +39,11 @@ for n, eco in reversed(sorted([(v,k) for k,v in counts['ecos'].items()])):
         p(f'<tr class="org">')
         p(f'<td class="pad"><a href="{url}" target="_blank">{org}</a> ({n})</td>')
         p(f'<td class="scroll"><table class="repos">')
-        for i, (stars, occurrences, repo) in enumerate(reversed(sorted(data[eco][org]))):
+        for i, (nsources, stars, sources, repo) in enumerate(reversed(sorted(data[eco][org]))):
             p(f'<tr>')
             p(f'<td class="pad"><a href="https://github.com/{org}/{repo}">{repo}</a></td>')
             p(f'<td class="pad num">{stars}</td>')
-            p(f'<td class="pad num">{occurrences}</td>')
+            p(f'<td class="pad num">{nsources}</td>')
             p(f'</tr>')
             if i == 4:
                 if i+i < n:
