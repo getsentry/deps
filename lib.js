@@ -29,7 +29,7 @@ function dereference(urls) {
 }
 
 function dump() {
-  fs.writeFileSync(filepath, JSON.stringify(github));
+  fs.writeFileSync(filepath, JSON.stringify(github, null, 2));
 }
 
 module.exports = {record, dereference, dump, github};

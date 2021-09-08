@@ -28,10 +28,14 @@ for filepath in open('deps-files'):
         if not line:
             continue
         elif line[0] in '├└' and 'github' in line:
-            tmp = line.split(None, 1)[1][1:-1]  # rough parse
-            dep = tmp.split('github.com/')[1].split()[0]
+            dep = line.split('github.com/')[1].split("'")[0]
+            if dep.split('/', 1) in ['getsentry', 'mitsuhiko', 'jan-auer']:
+                continue
+            if dep.endswith('.git'): # goofy special case for zip-rs
+                dep = dep.split('.git')[0]
             deps[dep].append(loc)
         elif line[0] == '[':
             continue
 
 json.dump(deps, open('deps.json', 'w+'))
+

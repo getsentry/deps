@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 for eco in js py rs; do
-  source "./eco/$eco/extract.sh"
+  zsh "./eco/$eco/extract.sh"
 done

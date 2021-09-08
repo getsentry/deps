@@ -1,1 +1,2613 @@
-{"js":{"aws":{"aws-sdk-js-v3":["craft/package.json"],"aws-sdk-js":["sentry-javascript/packages/serverless/package.json"]},"googleapis":{"nodejs-storage":["craft/package.json","sentry-javascript/package.json"],"nodejs-bigquery":["sentry-javascript/packages/serverless/package.json"],"nodejs-common":["sentry-javascript/packages/serverless/package.json"],"nodejs-pubsub":["sentry-javascript/packages/serverless/package.json"],"gax-nodejs":["sentry-javascript/packages/serverless/package.json"]},"octokit":{"plugin-retry.js":["craft/package.json"],"rest.js":["craft/package.json"]},"DefinitelyTyped":{"DefinitelyTyped":["sentry/package.json"]},"sindresorhus":{"ora":["craft/package.json"],"string-length":["craft/package.json"],"query-string":["sentry-docs/package.json","sentry/package.json"],"find-up":["sentry-javascript/packages/serverless/package.json"],"read-pkg":["sentry-javascript/packages/serverless/package.json"],"copy-text-to-clipboard":["sentry/package.json"]},"typescript-eslint":{"typescript-eslint":["craft/package.json","sentry-docs/package.json","sentry-javascript/packages/eslint-config-sdk/package.json"]},"ajv-validator":{"ajv":["craft/package.json"]},"caolan":{"async":["craft/package.json"]},"mhart":{"aws4":["craft/package.json"]},"chalk":{"chalk":["craft/package.json"]},"Automattic":{"cli-table":["craft/package.json"]},"nuxt":{"consola":["craft/package.json"]},"evanw":{"esbuild":["craft/package.json"]},"eslint":{"eslint":["craft/package.json","sentry-docs/package.json","sentry-javascript/package.json","sentry-javascript/packages/eslint-config-sdk/package.json","sentry-javascript/packages/eslint-config-sdk/package.json","sentry-javascript/packages/nextjs/package.json","sentry/package.json"]},"prettier":{"eslint-config-prettier":["craft/package.json","sentry-javascript/packages/eslint-config-sdk/package.json"],"prettier":["craft/package.json","sentry-docs/package.json","sentry-javascript/package.json","sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/types/package.json","sentry-javascript/packages/core/package.json","sentry-javascript/packages/serverless/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/angular/package.json","sentry-javascript/packages/utils/package.json","sentry-javascript/packages/minimal/package.json","sentry-javascript/packages/gatsby/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json","sentry-javascript/packages/eslint-plugin-sdk/package.json","sentry-javascript/packages/node/package.json","sentry-javascript/packages/react/package.json","sentry-javascript/packages/hub/package.json","sentry/package.json"],"tslint-config-prettier":["sentry-javascript/packages/typescript/package.json"],"stylelint-config-prettier":["sentry/package.json"]},"NaturalIntelligence":{"fast-xml-parser":["craft/package.json"]},"IonicaBizau":{"git-url-parse":["craft/package.json"]},"watson":{"is-ci":["craft/package.json"]},"facebook":{"jest":["sentry/package.json"],"prop-types":["sentry-docs/package.json","sentry/package.json"],"react":["sentry/package.json"],"regenerator":["sentry/package.json"]},"nodeca":{"js-yaml":["craft/package.json","sentry/api-docs/package.json"]},"bcherny":{"json-schema-to-typescript":["craft/package.json"]},"isaacs":{"node-mkdirp":["craft/package.json"],"rimraf":["craft/package.json","sentry-javascript/package.json","sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/core/package.json","sentry-javascript/packages/serverless/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/angular/package.json","sentry-javascript/packages/utils/package.json","sentry-javascript/packages/minimal/package.json","sentry-javascript/packages/gatsby/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json","sentry-javascript/packages/nextjs/package.json","sentry-javascript/packages/node/package.json","sentry-javascript/packages/react/package.json","sentry-javascript/packages/hub/package.json"]},"janl":{"mustache.js":["craft/package.json"]},"node-fetch":{"node-fetch":["craft/package.json","sentry-javascript/packages/browser/package.json"]},"sneakertack":{"nvar":["craft/package.json"]},"terkelg":{"prompts":["craft/package.json"]},"substack":{"node-shell-quote":["craft/package.json"]},"steveukx":{"git-js":["craft/package.json"]},"dominictarr":{"split":["craft/package.json"]},"npm":{"node-tar":["craft/package.json"],"npm-packlist":["sentry-javascript/packages/serverless/package.json"]},"raszi":{"node-tmp":["craft/package.json"]},"kulshekhar":{"ts-jest":["craft/package.json","sentry-docs/package.json","sentry-javascript/package.json"]},"Microsoft":{"TypeScript":["craft/package.json","sentry-docs/package.json","sentry-javascript/package.json","sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/types/package.json","sentry-javascript/packages/core/package.json","sentry-javascript/packages/serverless/package.json","sentry-javascript/packages/typescript/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/angular/package.json","sentry-javascript/packages/utils/package.json","sentry-javascript/packages/minimal/package.json","sentry-javascript/packages/eslint-config-sdk/package.json","sentry-javascript/packages/gatsby/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json","sentry-javascript/packages/eslint-plugin-sdk/package.json","sentry-javascript/packages/ember/package.json","sentry-javascript/packages/nextjs/test/integration/package.json","sentry-javascript/packages/node/package.json","sentry-javascript/packages/react/package.json","sentry-javascript/packages/hub/package.json","sentry/package.json"],"tslib":["sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/core/package.json","sentry-javascript/packages/serverless/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/angular/package.json","sentry-javascript/packages/utils/package.json","sentry-javascript/packages/minimal/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json","sentry-javascript/packages/nextjs/package.json","sentry-javascript/packages/node/package.json","sentry-javascript/packages/react/package.json","sentry-javascript/packages/hub/package.json","sentry/package.json"],"typescript-styled-plugin":["sentry/package.json"]},"ZJONSSON":{"node-unzipper":["craft/package.json"]},"yargs":{"yargs":["craft/package.json","sentry-javascript/packages/nextjs/test/integration/package.json"]},"mdx-js":{"mdx":["sentry-docs/package.json"],"eslint-mdx":["sentry-docs/package.json"]},"ben-ng":{"add":["sentry-docs/package.json"]},"algolia":{"algoliasearch-client-javascript":["sentry-docs/package.json"],"gatsby-plugin-algolia":["sentry-docs/package.json"],"react-instantsearch":["sentry-docs/package.json"]},"axios":{"axios":["sentry-docs/package.json"]},"gatsbyjs":{"gatsby":["sentry-docs/package.json"]},"twbs":{"bootstrap":["sentry-docs/package.json"]},"sudodoki":{"copy-to-clipboard":["sentry-docs/package.json"]},"cure53":{"DOMPurify":["sentry-docs/package.json","sentry/package.json"]},"motdotla":{"dotenv":["sentry-docs/package.json"]},"framer":{"motion":["sentry-docs/package.json","sentry/package.json"]},"getchalk":{"gatsby-plugin-meta-redirect":["sentry-docs/package.json"]},"universse":{"gatsby-plugin-zeit-now":["sentry-docs/package.json"]},"trevorblades":{"gatsby-remark-check-links":["sentry-docs/package.json"]},"jonschlinkert":{"gray-matter":["sentry-docs/package.json"]},"jsdom":{"jsdom":["sentry-docs/package.json","sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/utils/package.json","sentry-javascript/packages/browser/package.json","sentry-javascript/packages/react/package.json"]},"sass":{"node-sass":["sentry-docs/package.json"]},"PrismJS":{"prism":["sentry-docs/package.json"]},"react-bootstrap":{"react-bootstrap":["sentry-docs/package.json"]},"feathericons":{"react-feather":["sentry-docs/package.json"]},"nfl":{"react-helmet":["sentry-docs/package.json"]},"popperjs":{"react-popper":["sentry-docs/package.json","sentry/package.json"]},"JedWatson":{"react-select":["sentry-docs/package.json","sentry/package.json"],"classnames":["sentry/package.json"]},"TypeStrong":{"ts-node":["sentry-docs/package.json","sentry/package.json"],"TypeDoc":["sentry-javascript/package.json"],"fork-ts-checker-webpack-plugin":["sentry/package.json"]},"testing-library":{"jest-dom":["sentry-docs/package.json","sentry/package.json"],"react-testing-library":["sentry-docs/package.json","sentry-javascript/packages/gatsby/package.json","sentry-javascript/packages/react/package.json","sentry/package.json"],"react-hooks-testing-library":["sentry-docs/package.json","sentry-javascript/packages/react/package.json"]},"jest-community":{"eslint-plugin-jest":["sentry-docs/package.json"],"jest-junit":["sentry/package.json"]},"yannickcr":{"eslint-plugin-react":["sentry-docs/package.json","sentry-javascript/packages/react/package.json"]},"tschaub":{"gh-pages":["sentry-docs/package.json"]},"http-party":{"http-server":["sentry-docs/package.json","sentry/examples/oauth2_consumer_implicit/package.json"]},"keyanzhang":{"identity-obj-proxy":["sentry-docs/package.json"]},"ianschmitz":{"jest-environment-jsdom-fourteen":["sentry-docs/package.json"]},"keplersj":{"jest-preset-gatsby":["sentry-docs/package.json"]},"palantir":{"tslint-react":["sentry-docs/package.json"],"tslint":["sentry-javascript/packages/typescript/package.json"]},"ai":{"size-limit":["sentry-javascript/package.json","sentry/package.json"]},"unstubbable":{"typedoc-plugin-monorepo":["sentry-javascript/package.json"]},"chaijs":{"chai":["sentry-javascript/package.json","sentry-javascript/packages/utils/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json"]},"codecov":{"codecov-node":["sentry-javascript/package.json"]},"karma-runner":{"karma-browserstack-launcher":["sentry-javascript/package.json"],"karma-firefox-launcher":["sentry-javascript/package.json"],"karma":["sentry-javascript/packages/browser/package.json"],"karma-chrome-launcher":["sentry-javascript/packages/browser/package.json"],"karma-mocha":["sentry-javascript/packages/browser/package.json"]},"lerna":{"lerna":["sentry-javascript/package.json"]},"pahen":{"madge":["sentry-javascript/package.json"]},"mochajs":{"mocha":["sentry-javascript/package.json","sentry-javascript/packages/eslint-plugin-sdk/package.json"]},"mysticatea":{"npm-run-all":["sentry-javascript/package.json","sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/types/package.json","sentry-javascript/packages/core/package.json","sentry-javascript/packages/serverless/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/angular/package.json","sentry-javascript/packages/utils/package.json","sentry-javascript/packages/minimal/package.json","sentry-javascript/packages/gatsby/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json","sentry-javascript/packages/ember/package.json","sentry-javascript/packages/node/package.json","sentry-javascript/packages/react/package.json","sentry-javascript/packages/hub/package.json"],"eslint-plugin-node":["sentry-javascript/packages/ember/package.json"]},"adamreisnz":{"replace-in-file":["sentry-javascript/package.json"]},"sinonjs":{"sinon":["sentry-javascript/package.json","sentry-javascript/packages/browser/package.json"]},"rollup":{"rollup":["sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json"],"rollup-plugin-commonjs":["sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json"],"rollup-plugin-node-resolve":["sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json"]},"mjeanroy":{"rollup-plugin-license":["sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/browser/package.json"]},"TrySound":{"rollup-plugin-terser":["sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json"]},"ezolenko":{"rollup-plugin-typescript2":["sentry-javascript/packages/tracing/package.json","sentry-javascript/packages/vue/package.json","sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/integrations/package.json","sentry-javascript/packages/browser/package.json"]},"GoogleCloudPlatform":{"functions-framework-nodejs":["sentry-javascript/packages/serverless/package.json"]},"nock":{"nock":["sentry-javascript/packages/serverless/package.json","sentry-javascript/packages/nextjs/test/integration/package.json","sentry-javascript/packages/node/package.json"]},"ajafff":{"tslint-consistent-codestyle":["sentry-javascript/packages/typescript/package.json"]},"vuejs":{"vue":["sentry-javascript/packages/vue/package.json"],"vue-router":["sentry-javascript/packages/vue/package.json"]},"kentcdodds":{"cross-env":["sentry-javascript/packages/wasm/package.json"]},"expressjs":{"express":["sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/node/package.json"]},"puppeteer":{"puppeteer":["sentry-javascript/packages/wasm/package.json","sentry-javascript/packages/nextjs/test/integration/package.json","sentry/tests/relay_integration/lang/javascript/example-project/package.json"]},"reactivex":{"rxjs":["sentry-javascript/packages/angular/package.json"]},"angular":{"angular":["sentry-javascript/packages/angular/package.json","sentry-javascript/packages/angular/package.json"]},"gund":{"eslint-plugin-deprecation":["sentry-javascript/packages/eslint-config-sdk/package.json"]},"import-js":{"eslint-plugin-import":["sentry-javascript/packages/eslint-config-sdk/package.json"]},"gajus":{"eslint-plugin-jsdoc":["sentry-javascript/packages/eslint-config-sdk/package.json"]},"lydell":{"eslint-plugin-simple-import-sort":["sentry-javascript/packages/eslint-config-sdk/package.json","sentry/package.json"]},"localForage":{"localForage":["sentry-javascript/packages/integrations/package.json"]},"paulmillr":{"chokidar":["sentry-javascript/packages/browser/package.json"]},"xdissent":{"karma-chai":["sentry-javascript/packages/browser/package.json"]},"litixsoft":{"karma-mocha-reporter":["sentry-javascript/packages/browser/package.json"]},"jlmakes":{"karma-rollup-preprocessor":["sentry-javascript/packages/browser/package.json"]},"yanoosh":{"karma-sinon":["sentry-javascript/packages/browser/package.json"]},"monounity":{"karma-typescript":["sentry-javascript/packages/browser/package.json"]},"webpack":{"webpack":["sentry-javascript/packages/browser/package.json","sentry-javascript/packages/node/test/manual/webpack-domain/package.json","sentry/package.json","sentry/examples/oauth2_consumer_implicit/package.json"],"webpack-cli":["sentry-javascript/packages/node/test/manual/webpack-domain/package.json","sentry/package.json"],"webpack-dev-server":["sentry/package.json"]},"stephenhandley":{"requireindex":["sentry-javascript/packages/eslint-plugin-sdk/package.json"]},"embroider-build":{"embroider":["sentry-javascript/packages/ember/package.json"]},"ef4":{"ember-auto-import":["sentry-javascript/packages/ember/package.json"]},"babel":{"ember-cli-babel":["sentry-javascript/packages/ember/package.json"],"babel-eslint":["sentry-javascript/packages/ember/package.json","sentry/package.json"],"babel":["sentry/examples/oauth2_consumer_implicit/package.json"],"babel-loader":["sentry/package.json","sentry/examples/oauth2_consumer_implicit/package.json"],"babel-preset-env":["sentry/examples/oauth2_consumer_implicit/package.json"]},"ember-cli":{"ember-cli-htmlbars":["sentry-javascript/packages/ember/package.json"],"ember-cli":["sentry-javascript/packages/ember/package.json"],"ember-cli-uglify":["sentry-javascript/packages/ember/package.json"],"ember-disable-prototype-extensions":["sentry-javascript/packages/ember/package.json"],"ember-export-application-global":["sentry-javascript/packages/ember/package.json"],"ember-load-initializers":["sentry-javascript/packages/ember/package.json"],"ember-resolver":["sentry-javascript/packages/ember/package.json"],"ember-try":["sentry-javascript/packages/ember/package.json"],"eslint-plugin-ember":["sentry-javascript/packages/ember/package.json"],"loader.js":["sentry-javascript/packages/ember/package.json"]},"typed-ember":{"ember-cli-typescript":["sentry-javascript/packages/ember/package.json"],"ember-cli-typescript-blueprints":["sentry-javascript/packages/ember/package.json"]},"emberjs":{"ember.js":["sentry-javascript/packages/ember/package.json","sentry-javascript/packages/ember/package.json"],"ember-optional-features":["sentry-javascript/packages/ember/package.json"],"ember-qunit":["sentry-javascript/packages/ember/package.json"]},"glimmerjs":{"glimmer.js":["sentry-javascript/packages/ember/package.json"]},"rickharrison":{"broccoli-asset-rev":["sentry-javascript/packages/ember/package.json"]},"quaertym":{"ember-cli-dependency-checker":["sentry-javascript/packages/ember/package.json"]},"rwjblue":{"ember-cli-inject-live-reload":["sentry-javascript/packages/ember/package.json"],"ember-source-channel-url":["sentry-javascript/packages/ember/package.json"]},"jonathanKingston":{"ember-cli-sri":["sentry-javascript/packages/ember/package.json"]},"machty":{"ember-maybe-import-regenerator":["sentry-javascript/packages/ember/package.json"]},"elwayman02":{"ember-sinon-qunit":["sentry-javascript/packages/ember/package.json"]},"ember-template-lint":{"ember-template-lint":["sentry-javascript/packages/ember/package.json"]},"simplabs":{"ember-test-selectors":["sentry-javascript/packages/ember/package.json"],"qunit-dom":["sentry-javascript/packages/ember/package.json"]},"kaliber5":{"ember-window-mock":["sentry-javascript/packages/ember/package.json"]},"vercel":{"next.js":["sentry-javascript/packages/nextjs/test/integration/package.json","sentry-javascript/packages/nextjs/package.json","sentry-javascript/packages/nextjs/package.json"]},"jshttp":{"cookie":["sentry-javascript/packages/node/package.json"]},"TooTallNate":{"node-https-proxy-agent":["sentry-javascript/packages/node/package.json"]},"rsms":{"js-lru":["sentry-javascript/packages/node/package.json"]},"mridgway":{"hoist-non-react-statics":["sentry-javascript/packages/react/package.json"]},"ReactTraining":{"react-router":["sentry/package.json"]},"reduxjs":{"redux":["sentry-javascript/packages/react/package.json"]},"GoogleChrome":{"chrome-launcher":["sentry/tests/relay_integration/lang/javascript/example-project/package.json"]},"errwischt":{"stacktrace-parser":["sentry/tests/relay_integration/lang/javascript/example-project/package.json"]},"nanjingboy":{"uglify":["sentry/tests/relay_integration/lang/javascript/example-project/package.json"]},"clauderic":{"dnd-kit":["sentry/package.json"]},"emotion-js":{"emotion":["sentry/package.json"]},"xpl":{"ansicolor":["sentry/package.json"]},"opbeat":{"babel-plugin-add-react-displayname":["sentry/package.json"]},"oliviertassinari":{"babel-plugin-transform-react-remove-prop-types":["sentry/package.json"]},"feross":{"buffer":["sentry/package.json"]},"Qix-":{"color":["sentry/package.json"]},"webpack-contrib":{"compression-webpack-plugin":["sentry/package.json"],"css-loader":["sentry/package.json"],"css-minimizer-webpack-plugin":["sentry/package.json"],"less-loader":["sentry/package.json"],"mini-css-extract-plugin":["sentry/package.json"],"style-loader":["sentry/package.json"],"url-loader":["sentry/package.json"]},"zloirock":{"core-js":["sentry/package.json"]},"crypto-browserify":{"crypto-browserify":["sentry/package.json"]},"brix":{"crypto-js":["sentry/package.json"]},"kpdecker":{"jsdiff":["sentry/package.json"]},"janjakubnanista":{"downsample":["sentry/package.json"]},"apache":{"echarts":["sentry/package.json"]},"hustcc":{"echarts-for-react":["sentry/package.json"],"jest-canvas-mock":["sentry/package.json"]},"focus-trap":{"focus-trap":["sentry/package.json"]},"WICG":{"focus-visible":["sentry/package.json"]},"krisk":{"Fuse":["sentry/package.json"]},"smhg":{"gettext-parser":["sentry/package.json"]},"w3c":{"IntersectionObserver":["sentry/package.json"]},"pbakondy":{"ios-device-list":["sentry/package.json"]},"SlexAxton":{"Jed":["sentry/package.json"]},"js-cookie":{"js-cookie":["sentry/package.json"]},"less":{"less.js":["sentry/package.json"]},"lodash":{"lodash":["sentry/package.json"]},"markedjs":{"marked":["sentry/package.json"]},"mobxjs":{"mobx":["sentry/package.json"]},"moment":{"moment":["sentry/package.json"],"moment-timezone":["sentry/package.json"]},"mholt":{"PapaParse":["sentry/package.json"]},"pegjs":{"pegjs":["sentry/package.json"]},"eploko":{"pegjs-loader":["sentry/package.json"]},"shtylman":{"node-process":["sentry/package.json"]},"zpao":{"qrcode.react":["sentry/package.json"]},"buildo":{"react-autosize-textarea":["sentry/package.json"]},"hypeserver":{"react-date-range":["sentry/package.json"]},"gaearon":{"react-document-title":["sentry/package.json"]},"glortho":{"react-keydown":["sentry/package.json"]},"jasonslyvia":{"react-lazyload":["sentry/package.json"]},"signavio":{"react-mentions":["sentry/package.json"]},"borisyankov":{"react-sparklines":["sentry/package.json"]},"bvaughn":{"react-virtualized":["sentry/package.json"]},"reflux":{"refluxjs":["sentry/package.json"]},"rrweb-io":{"rrweb":["sentry/package.json"]},"willhoag":{"scroll-to-element":["sentry/package.json"]},"alexei":{"sprintf.js":["sentry/package.json"]},"grantila":{"u2f-api":["sentry/package.json"]},"webdiscus":{"webpack-remove-empty-scripts":["sentry/package.json"]},"winkjs":{"wink-jaro-distance":["sentry/package.json"]},"dropbox":{"zxcvbn":["sentry/package.json"]},"pmmmwh":{"react-refresh-webpack-plugin":["sentry/package.json"]},"storybookjs":{"storybook":["sentry/package.json"]},"wojtekmaj":{"enzyme-adapter-react-17":["sentry/package.json"]},"airbnb":{"babel-plugin-dynamic-import-node":["sentry/package.json"],"enzyme":["sentry/package.json"]},"frenic":{"csstype":["sentry/package.json"]},"jantimon":{"html-webpack-plugin":["sentry/package.json"]},"jefflau":{"jest-fetch-mock":["sentry/package.json"]},"billyvg":{"jest-sentry-environment":["sentry/package.json"]},"boblauer":{"MockDate":["sentry/package.json"]},"romgain":{"react-select-event":["sentry/package.json"]},"stephencookdev":{"speed-measure-webpack-plugin":["sentry/package.json"]},"stylelint":{"stylelint":["sentry/package.json"],"stylelint-config-recommended":["sentry/package.json"]},"styled-components":{"stylelint-config-styled-components":["sentry/package.json"],"stylelint-processor-styled-components":["sentry/package.json"]},"jasonkuhrt":{"oauth2-implicit":["sentry/examples/oauth2_consumer_implicit/package.json"]},"whitlockjc":{"json-refs":["sentry/api-docs/package.json"]},"codekie":{"openapi-examples-validator":["sentry/api-docs/package.json"]}},"py":{"pallets":{"click":["cdc/requirements.txt","snuba/requirements.txt","sentry/requirements-base.txt"],"werkzeug":["sentry-python/test-requirements.txt","snuba/requirements.txt","relay/requirements-test.txt"],"flask":["snuba/requirements.txt","relay/requirements-test.txt","sentry/examples/oauth2_consumer_webserver/requirements.txt"],"itsdangerous":["snuba/requirements.txt"],"jinja":["snuba/requirements.txt"],"markupsafe":["snuba/requirements.txt"]},"yaml":{"pyyaml":["cdc/requirements.txt","sentry/requirements-base.txt"]},"confluentinc":{"confluent-kafka-python":["cdc/requirements.txt","arroyo/requirements.txt","snuba/requirements.txt","relay/requirements-test.txt","sentry/requirements-base.txt","sentry/requirements-base.txt"]},"DataDog":{"datadogpy":["cdc/requirements.txt","snuba/requirements.txt","sentry/requirements-base.txt"]},"Julian":{"jsonschema":["cdc/requirements.txt","sentry-python/test-requirements.txt","snuba/requirements.txt","sentry/requirements-base.txt"]},"psycopg":{"psycopg2":["cdc/requirements.txt","sentry/requirements-base.txt","sentry/requirements-base.txt"]},"psf":{"black":["cdc/requirements-dev.txt","sentry-python/linter-requirements.txt","sentry-native/tests/requirements.txt","arroyo/requirements-linter.txt","snuba/requirements.txt","relay/requirements-dev.txt","sentry/requirements-pre-commit.txt","snuba-sdk/linter-requirements.txt"],"requests":["relay/requirements-test.txt","sentry/requirements-base.txt"]},"PyCQA":{"pyflakes":["cdc/requirements-dev.txt"],"flake8-import-order":["sentry-python/linter-requirements.txt","snuba-sdk/linter-requirements.txt"],"flake8-bugbear":["sentry-python/linter-requirements.txt","snuba-sdk/linter-requirements.txt"],"pep8-naming":["sentry-python/linter-requirements.txt","snuba-sdk/linter-requirements.txt"]},"pytest-dev":{"pytest":["cdc/requirements-dev.txt","sentry-python/test-requirements.txt","sentry-native/tests/requirements.txt","arroyo/requirements-test.txt","snuba/requirements.txt","relay/requirements-test.txt","sentry/requirements-dev.txt","snuba-sdk/test-requirements.txt"],"pytest-forked":["sentry-python/test-requirements.txt","snuba-sdk/test-requirements.txt"],"pytest-cov":["sentry-python/test-requirements.txt","snuba/requirements.txt","sentry/requirements-dev.txt","snuba-sdk/test-requirements.txt"],"pluggy":["snuba/requirements.txt"],"pytest-xdist":["relay/requirements-test.txt"],"pytest-django":["sentry/requirements-dev.txt"],"pytest-rerunfailures":["sentry/requirements-dev.txt"]},"tox-dev":{"tox":["sentry-python/test-requirements.txt","snuba-sdk/test-requirements.txt"]},"gevent":{"gevent":["sentry-python/test-requirements.txt"]},"alexmojaki":{"executing":["sentry-python/test-requirements.txt"]},"gristlabs":{"asttokens":["sentry-python/test-requirements.txt"]},"sphinx-doc":{"sphinx":["sentry-python/docs-requirements.txt","snuba/docs-requirements.txt","snuba-sdk/docs-requirements.txt"]},"readthedocs":{"sphinx_rtd_theme":["sentry-python/docs-requirements.txt","snuba-sdk/docs-requirements.txt"]},"agronholm":{"sphinx-autodoc-typehints":["sentry-python/docs-requirements.txt","snuba-sdk/docs-requirements.txt"]},"untitaker":{"python-atomicwrites":["snuba/requirements.txt"],"pytest-sentry":["relay/requirements-test.txt","sentry/requirements-dev.txt"]},"python-attrs":{"attrs":["snuba/requirements.txt"]},"certifi":{"python-certifi":["snuba/requirements.txt"]},"chardet":{"chardet":["snuba/requirements.txt"]},"mymarilyn":{"clickhouse-driver":["snuba/requirements.txt"]},"tartley":{"colorama":["snuba/requirements.txt"]},"nedbat":{"coveragepy":["snuba/requirements.txt"]},"briancurtin":{"deprecation":["snuba/requirements.txt"]},"nickstenning":{"honcho":["snuba/requirements.txt","sentry/requirements-dev.txt"]},"kjd":{"idna":["snuba/requirements.txt"]},"pycqa":{"isort":["snuba/requirements.txt","sentry/requirements-pre-commit.txt","snuba-sdk/linter-requirements.txt"]},"python-lz4":{"python-lz4":["snuba/requirements.txt"]},"Python-Markdown":{"markdown":["snuba/requirements.txt"]},"mattrobenolt":{"mywsgi":["snuba/requirements.txt"]},"more-itertools":{"more-itertools":["snuba/requirements.txt"]},"pypa":{"packaging":["snuba/requirements.txt"]},"erikrose":{"parsimonious":["snuba/requirements.txt","sentry/requirements-base.txt"]},"pyparsing":{"pyparsing":["snuba/requirements.txt"]},"WoLpH":{"python-progressbar":["snuba/requirements.txt","sentry/requirements-base.txt"]},"dateutil":{"dateutil":["snuba/requirements.txt","sentry/requirements-base.txt"]},"python-rapidjson":{"python-rapidjson":["snuba/requirements.txt","sentry/requirements-base.txt"]},"andymccurdy":{"redis-py":["snuba/requirements.txt","relay/requirements-test.txt","sentry/requirements-base.txt"]},"simplejson":{"simplejson":["snuba/requirements.txt","sentry/requirements-base.txt"]},"urllib3":{"urllib3":["snuba/requirements.txt","sentry/requirements-base.txt"]},"jquast":{"wcwidth":["snuba/requirements.txt"]},"msgpack":{"msgpack-python":["relay/requirements-test.txt","sentry/requirements-base.txt"]},"boto":{"boto3":["sentry/requirements-base.txt"],"botocore":["sentry/requirements-base.txt"]},"celery":{"celery":["sentry/requirements-base.txt"],"billiard":["sentry/requirements-base.txt"]},"ericvsmith":{"dataclasses":["sentry/requirements-base.txt","snuba-sdk/test-requirements.txt"]},"django-crispy-forms":{"django-crispy-forms":["sentry/requirements-base.txt"]},"django":{"django":["sentry/requirements-base.txt"]},"encode":{"django-rest-framework":["sentry/requirements-base.txt"]},"zapier":{"email-reply-parser":["sentry/requirements-base.txt"]},"googleapis":{"python-api-core":["sentry/requirements-base.txt"],"google-auth-library-python":["sentry/requirements-base.txt"],"python-bigtable":["sentry/requirements-base.txt"],"python-cloud-core":["sentry/requirements-base.txt"],"python-api-common-protos":["sentry/requirements-base.txt"],"python-pubsub":["sentry/requirements-base.txt"],"python-storage":["sentry/requirements-base.txt"]},"lepture":{"mistune":["sentry/requirements-base.txt"]},"hajimes":{"mmh3":["sentry/requirements-base.txt"]},"daviddrysdale":{"python-phonenumbers":["sentry/requirements-base.txt"]},"python-pillow":{"Pillow":["sentry/requirements-base.txt","sentry/requirements-base.txt"]},"jpadilla":{"pyjwt":["sentry/requirements-base.txt"]},"linsomniac":{"python-memcached":["sentry/requirements-base.txt"]},"Yubico":{"python-u2flib-server":["sentry/requirements-base.txt"]},"onelogin":{"python3-saml":["sentry/requirements-base.txt"]},"requests":{"requests-oauthlib":["sentry/requirements-base.txt"]},"naimetti":{"rfc3339-validator":["sentry/requirements-base.txt"],"rfc3986-validator":["sentry/requirements-base.txt"]},"jsocol":{"pystatsd":["sentry/requirements-base.txt"]},"hynek":{"structlog":["sentry/requirements-base.txt"]},"ua-parser":{"uap-python":["sentry/requirements-base.txt"]},"indygreg":{"python-zstandard":["sentry/requirements-base.txt"]},"pyca":{"cryptography":["sentry/requirements-base.txt"]},"redis":{"hiredis-py":["sentry/requirements-base.txt"]},"jaraco":{"cssutils":["sentry/requirements-base.txt"]},"scrapy":{"cssselect":["sentry/requirements-base.txt"]},"SeleniumHQ":{"selenium":["sentry/requirements-base.txt"]},"andialbrecht":{"sqlparse":["sentry/requirements-base.txt"]},"pre-commit":{"pre-commit":["sentry/requirements-pre-commit.txt"]},"asottile":{"pyupgrade":["sentry/requirements-pre-commit.txt"]},"davidfischer":{"requirements-parser":["sentry/requirements-pre-commit.txt"]},"docker":{"docker-py":["sentry/requirements-dev.txt"]},"fluxx":{"exam":["sentry/requirements-dev.txt"]},"spulec":{"freezegun":["sentry/requirements-dev.txt"]},"p1c2u":{"openapi-core":["sentry/requirements-dev.txt"]}},"rs":{"dtolnay":{"anyhow":["symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/examples/addr2line/Cargo.toml","symbolic/examples/symcache_debug/Cargo.toml","symbolic/examples/dump_cfi/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/wasm-split/Cargo.toml","symbolicator/crates/process-event/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml","relay/tools/document-metrics/Cargo.toml","relay/tools/generate-schema/Cargo.toml","relay/tools/process-event/Cargo.toml","relay/tools/scrub-minidump/Cargo.toml"],"thiserror":["symbolic/Cargo.toml","symbolic/symbolic-unreal/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolic/symbolic-symcache/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"],"thiserror'":["symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/Cargo.toml"],"serde-yaml":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/tools/document-metrics/Cargo.toml","relay/relay-config/Cargo.toml"],"quote":["relay/relay-general/derive/Cargo.toml","relay/relay-ffi-macros/Cargo.toml"],"syn":["relay/relay-general/derive/Cargo.toml","relay/tools/document-metrics/Cargo.toml","relay/relay-ffi-macros/Cargo.toml"]},"clap-rs":{"clap":["symbolic/Cargo.toml","symbolic/examples/object_debug/Cargo.toml","symbolic/examples/unreal_engine_crash/Cargo.toml","symbolic/examples/dump_sources/Cargo.toml","symbolic/examples/addr2line/Cargo.toml","symbolic/examples/symcache_debug/Cargo.toml","symbolic/examples/dump_cfi/Cargo.toml","symbolic/examples/minidump_stackwalk/Cargo.toml","relay/Cargo.toml","relay/relay/Cargo.toml","relay/relay-server/Cargo.toml"],"clap'":["symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/Cargo.toml","relay/Cargo.toml","relay/relay/Cargo.toml"]},"BurntSushi":{"walkdir":["symbolic/Cargo.toml","symbolic/examples/minidump_stackwalk/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml"],"walkdir'":["symbolic/Cargo.toml"],"ripgrep":["relay/relay-common/Cargo.toml","relay/relay-filter/Cargo.toml"]},"serde-rs":{"json":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolic/symbolic-cabi/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/process-event/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml","relay/relay-general/Cargo.toml","relay/tools/document-metrics/Cargo.toml","relay/tools/generate-schema/Cargo.toml","relay/relay-metrics/Cargo.toml","relay/relay-filter/Cargo.toml","relay/relay-config/Cargo.toml","relay/relay-sampling/Cargo.toml","relay/relay-quotas/Cargo.toml","relay/relay-cabi/Cargo.toml","relay/relay-server/Cargo.toml","relay/relay-auth/Cargo.toml"],"serde":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/process-event/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml","relay/relay-common/Cargo.toml","relay/relay-common/Cargo.toml","relay/relay-general/Cargo.toml","relay/tools/document-metrics/Cargo.toml","relay/relay-metrics/Cargo.toml","relay/relay-filter/Cargo.toml","relay/relay-redis/Cargo.toml","relay/relay-config/Cargo.toml","relay/relay-sampling/Cargo.toml","relay/relay-quotas/Cargo.toml","relay/relay-cabi/Cargo.toml","relay/relay-server/Cargo.toml","relay/relay-auth/Cargo.toml"],"serde'":["symbolic/Cargo.toml","symbolic/Cargo.toml"],"json'":["symbolic/Cargo.toml"]},"danburkert":{"memmap-rs":["symbolic/Cargo.toml","symbolic/symbolic-common/Cargo.toml","relay/relay-general/Cargo.toml"]},"storyyeller":{"stable_deref_trait":["symbolic/Cargo.toml","symbolic/symbolic-common/Cargo.toml"]},"uuid-rs":{"uuid":["symbolic/Cargo.toml","symbolic/symbolic-common/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/wasm-split/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-general/Cargo.toml","relay/relay-server/Cargo.toml"]},"Stebalien":{"tempfile":["symbolic/Cargo.toml","symbolic/symbolic-common/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"]},"emilk":{"drop-merge-sort":["symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolic/symbolic-symcache/Cargo.toml"]},"sfackler":{"rust-fallible-iterator":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"]},"rust-lang":{"flate2-rs":["symbolic/Cargo.toml","symbolic/symbolic-unreal/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-server/Cargo.toml"],"regex":["symbolic/Cargo.toml","symbolic/symbolic-unreal/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml","relay/relay-common/Cargo.toml","relay/relay-general/Cargo.toml","relay/relay-filter/Cargo.toml","relay/relay-server/Cargo.toml"],"regex'":["symbolic/Cargo.toml","symbolic/Cargo.toml"],"flate2-rs'":["symbolic/Cargo.toml"],"backtrace-rs":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"],"futures-rs":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-server/Cargo.toml"],"glob":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"],"log":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-log/Cargo.toml"],"libc":["relay/relay-server/Cargo.toml"]},"gimli-rs":{"gimli":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"],"cpp_demangle":["symbolic/Cargo.toml","symbolic/symbolic-demangle/Cargo.toml"]},"m4b":{"goblin":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"],"scroll":["symbolic/Cargo.toml","symbolic/symbolic-unreal/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","relay/relay-general/Cargo.toml"],"scroll'":["symbolic/Cargo.toml"]},"rust-lang-nursery":{"lazy-static.rs":["symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/Cargo.toml","symbolic/symbolic-unreal/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml","relay/relay-common/Cargo.toml","relay/relay-general/Cargo.toml","relay/Cargo.toml","relay/relay-filter/Cargo.toml","relay/relay-quotas/Cargo.toml","relay/relay/Cargo.toml","relay/relay-cabi/Cargo.toml","relay/relay-server/Cargo.toml","relay/relay-statsd/Cargo.toml"],"failure":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-common/Cargo.toml","relay/relay-ffi/Cargo.toml","relay/relay-general/Cargo.toml","relay/Cargo.toml","relay/relay-log/Cargo.toml","relay/relay-redis/Cargo.toml","relay/relay-config/Cargo.toml","relay/relay/Cargo.toml","relay/relay-cabi/Cargo.toml","relay/relay-server/Cargo.toml","relay/relay-auth/Cargo.toml"],"futures-rs":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/Cargo.toml","relay/relay-metrics/Cargo.toml","relay/relay-test/Cargo.toml","relay/relay/Cargo.toml","relay/relay-server/Cargo.toml"]},"indiv0":{"lazycell":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","relay/relay-common/Cargo.toml"]},"Geal":{"nom":["symbolic/Cargo.toml","symbolic/symbolic-unwind/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"],"nom'":["symbolic/Cargo.toml"]},"Lucretiel":{"nom-supreme":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"]},"Amanieu":{"parking_lot":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-common/Cargo.toml","relay/relay-server/Cargo.toml","relay/relay-statsd/Cargo.toml"]},"willglynn":{"pdb":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"]},"servo":{"rust-smallvec":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","relay/relay-general/Cargo.toml","relay/relay-quotas/Cargo.toml","relay/relay-server/Cargo.toml"],"rust-fnv":["symbolic/Cargo.toml","symbolic/symbolic-symcache/Cargo.toml","relay/relay-metrics/Cargo.toml"],"rust-url":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-general/Cargo.toml","relay/relay-filter/Cargo.toml","relay/relay-config/Cargo.toml","relay/relay-server/Cargo.toml"]},"rustwasm":{"walrus":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"]},"bytecodealliance":{"wasm-tools":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml"]},"zip-rs":{"zip.git":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml"]},"bheisler":{"criterion.rs":["symbolic/Cargo.toml","symbolic/symbolic-debuginfo/Cargo.toml","symbolic/symbolic-symcache/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml","relay/relay-general/Cargo.toml"],"criterion.rs'":["symbolic/Cargo.toml","symbolic/Cargo.toml"]},"mstange":{"msvc-demangler-rust":["symbolic/Cargo.toml","symbolic/symbolic-demangle/Cargo.toml"]},"alexcrichton":{"rustc-demangle":["symbolic/Cargo.toml","symbolic/symbolic-demangle/Cargo.toml"],"cc-rs":["symbolic/Cargo.toml","symbolic/symbolic-demangle/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml"],"cc-rs'":["symbolic/Cargo.toml"],"filetime":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"],"cookie-rs":["relay/relay-general/Cargo.toml"],"proc-macro2":["relay/relay-general/derive/Cargo.toml"],"brotli2-rs":["relay/relay-server/Cargo.toml"]},"altsysrq":{"proptest":["symbolic/Cargo.toml","symbolic/symbolic-unwind/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml"],"proptest'":["symbolic/Cargo.toml"]},"rust-random":{"rand":["symbolic/Cargo.toml","symbolic/symbolic-minidump/Cargo.toml","relay/relay-sampling/Cargo.toml","relay/relay-sampling/Cargo.toml","relay/relay-auth/Cargo.toml","relay/relay-statsd/Cargo.toml"]},"tokio-rs":{"bytes":["symbolic/Cargo.toml","symbolic/symbolic-unreal/Cargo.toml"],"tokio":["symbolicator/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-test/Cargo.toml","relay/relay-server/Cargo.toml","relay/relay-server/Cargo.toml"]},"chronotope":{"chrono":["symbolic/Cargo.toml","symbolic/symbolic-unreal/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml","relay/relay-common/Cargo.toml","relay/relay-general/Cargo.toml","relay/relay-cabi/Cargo.toml","relay/relay-server/Cargo.toml","relay/relay-auth/Cargo.toml"]},"rust-num":{"num-traits":["symbolic/Cargo.toml","symbolic/symbolic-unwind/Cargo.toml","relay/relay-general/Cargo.toml"]},"actix":{"actix-web.git":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-test/Cargo.toml","relay/relay-server/Cargo.toml"],"actix.git":["relay/relay-metrics/Cargo.toml","relay/relay-test/Cargo.toml","relay/relay-server/Cargo.toml"]},"marshallpierce":{"rust-base64":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"]},"56quarters":{"cadence":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-statsd/Cargo.toml"]},"sebasmagri":{"env_logger":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"]},"svartalf":{"hostname":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/Cargo.toml","relay/relay/Cargo.toml"]},"jean-airoldie":{"humantime-serde":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"]},"achanda":{"ipnetwork":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-filter/Cargo.toml"]},"Keats":{"jsonwebtoken":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"]},"jeromefroe":{"lru-rs.git":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-common/Cargo.toml"]},"seanmonstar":{"num_cpus":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-config/Cargo.toml"],"pretty-env-logger":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"],"warp":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"],"reqwest":["symbolicator/crates/process-event/Cargo.toml","relay/relay-server/Cargo.toml"],"unicase":["relay/relay-sampling/Cargo.toml"]},"jan-auer":{"reqwest?tag=v0.11.0#62edd49d)":["symbolicator/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"],"dynfmt":["relay/relay-general/Cargo.toml"]},"rusoto":{"rusoto":["symbolicator/Cargo.toml","symbolicator/Cargo.toml","symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml"]},"TeXitoi":{"structopt":["symbolicator/Cargo.toml","symbolicator/crates/wasm-split/Cargo.toml","symbolicator/crates/process-event/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml","relay/tools/document-metrics/Cargo.toml","relay/tools/generate-schema/Cargo.toml","relay/tools/process-event/Cargo.toml","relay/tools/scrub-minidump/Cargo.toml"]},"gyscos":{"zstd-rs":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","symbolicator/crates/symsorter/Cargo.toml"]},"RustCrypto":{"hashes":["symbolicator/Cargo.toml","symbolicator/crates/symbolicator/Cargo.toml","relay/relay-general/Cargo.toml","relay/relay-auth/Cargo.toml"],"MACs":["relay/relay-general/Cargo.toml","relay/relay-auth/Cargo.toml"]},"KokaKiwi":{"rust-hex":["symbolicator/crates/wasm-split/Cargo.toml"]},"GoogleChromeLabs":{"wasmbin":["symbolicator/crates/wasm-split/Cargo.toml"]},"rayon-rs":{"rayon":["symbolicator/crates/symsorter/Cargo.toml"]},"ihrwein":{"backoff":["relay/relay-common/Cargo.toml"]},"llogiq":{"bytecount":["relay/relay-general/Cargo.toml"]},"Lymia":{"enumset":["relay/relay-general/Cargo.toml"]},"bluss":{"rust-itertools":["relay/relay-general/Cargo.toml","relay/relay-server/Cargo.toml"]},"oschwald":{"maxminddb-rust":["relay/relay-general/Cargo.toml"]},"luser":{"rust-minidump?rev=dedd6715af3a22f5fff9c065e7c4b22c44fef320#dedd6715)":["relay/relay-general/Cargo.toml"]},"pest-parser":{"pest":["relay/relay-general/Cargo.toml","relay/relay-general/Cargo.toml"]},"nox":{"serde_urlencoded":["relay/relay-general/Cargo.toml","relay/relay-server/Cargo.toml"]},"davidarmstronglewis":{"uap-rs":["relay/relay-general/Cargo.toml"]},"johannhof":{"difference.rs":["relay/relay-general/Cargo.toml"]},"wolandr":{"pretty-hex":["relay/relay-general/Cargo.toml"]},"mystor":{"synstructure":["relay/relay-general/derive/Cargo.toml"]},"rust-cli":{"paw":["relay/tools/document-metrics/Cargo.toml","relay/tools/generate-schema/Cargo.toml","relay/tools/process-event/Cargo.toml","relay/tools/scrub-minidump/Cargo.toml"]},"notriddle":{"rust-float-ord":["relay/relay-metrics/Cargo.toml"]},"japaric":{"hash32":["relay/relay-metrics/Cargo.toml"]},"Thomasdezeeuw":{"human-size-rs":["relay/relay-config/Cargo.toml"]},"alicemaz":{"rust-base64":["relay/relay-server/Cargo.toml","relay/relay-auth/Cargo.toml"]},"carllerche":{"bytes":["relay/relay-server/Cargo.toml"]},"3Hren":{"msgpack-rust":["relay/relay-server/Cargo.toml"]},"Sgeo":{"take_mut":["relay/relay-server/Cargo.toml"]},"dalek-cryptography":{"ed25519-dalek":["relay/relay-auth/Cargo.toml"]}}}
+{
+  "js": {
+    "aws": {
+      "aws-sdk-js-v3": [
+        "craft/package.json"
+      ],
+      "aws-sdk-js": [
+        "sentry-javascript/packages/serverless/package.json"
+      ]
+    },
+    "googleapis": {
+      "nodejs-storage": [
+        "craft/package.json",
+        "sentry-javascript/package.json"
+      ],
+      "nodejs-bigquery": [
+        "sentry-javascript/packages/serverless/package.json"
+      ],
+      "nodejs-common": [
+        "sentry-javascript/packages/serverless/package.json"
+      ],
+      "nodejs-pubsub": [
+        "sentry-javascript/packages/serverless/package.json"
+      ],
+      "gax-nodejs": [
+        "sentry-javascript/packages/serverless/package.json"
+      ]
+    },
+    "octokit": {
+      "plugin-retry.js": [
+        "craft/package.json"
+      ],
+      "rest.js": [
+        "craft/package.json"
+      ]
+    },
+    "DefinitelyTyped": {
+      "DefinitelyTyped": [
+        "sentry/package.json"
+      ]
+    },
+    "sindresorhus": {
+      "ora": [
+        "craft/package.json"
+      ],
+      "string-length": [
+        "craft/package.json"
+      ],
+      "query-string": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ],
+      "find-up": [
+        "sentry-javascript/packages/serverless/package.json"
+      ],
+      "read-pkg": [
+        "sentry-javascript/packages/serverless/package.json"
+      ],
+      "copy-text-to-clipboard": [
+        "sentry/package.json"
+      ]
+    },
+    "typescript-eslint": {
+      "typescript-eslint": [
+        "craft/package.json",
+        "sentry-docs/package.json",
+        "sentry-javascript/packages/eslint-config-sdk/package.json"
+      ]
+    },
+    "ajv-validator": {
+      "ajv": [
+        "craft/package.json"
+      ]
+    },
+    "caolan": {
+      "async": [
+        "craft/package.json"
+      ]
+    },
+    "mhart": {
+      "aws4": [
+        "craft/package.json"
+      ]
+    },
+    "chalk": {
+      "chalk": [
+        "craft/package.json"
+      ]
+    },
+    "Automattic": {
+      "cli-table": [
+        "craft/package.json"
+      ]
+    },
+    "nuxt": {
+      "consola": [
+        "craft/package.json"
+      ]
+    },
+    "evanw": {
+      "esbuild": [
+        "craft/package.json"
+      ]
+    },
+    "eslint": {
+      "eslint": [
+        "craft/package.json",
+        "sentry-docs/package.json",
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/eslint-config-sdk/package.json",
+        "sentry-javascript/packages/eslint-config-sdk/package.json",
+        "sentry-javascript/packages/nextjs/package.json",
+        "sentry/package.json"
+      ]
+    },
+    "prettier": {
+      "eslint-config-prettier": [
+        "craft/package.json",
+        "sentry-javascript/packages/eslint-config-sdk/package.json"
+      ],
+      "prettier": [
+        "craft/package.json",
+        "sentry-docs/package.json",
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/types/package.json",
+        "sentry-javascript/packages/core/package.json",
+        "sentry-javascript/packages/serverless/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/angular/package.json",
+        "sentry-javascript/packages/utils/package.json",
+        "sentry-javascript/packages/minimal/package.json",
+        "sentry-javascript/packages/gatsby/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/eslint-plugin-sdk/package.json",
+        "sentry-javascript/packages/node/package.json",
+        "sentry-javascript/packages/react/package.json",
+        "sentry-javascript/packages/hub/package.json",
+        "sentry/package.json"
+      ],
+      "tslint-config-prettier": [
+        "sentry-javascript/packages/typescript/package.json"
+      ],
+      "stylelint-config-prettier": [
+        "sentry/package.json"
+      ]
+    },
+    "NaturalIntelligence": {
+      "fast-xml-parser": [
+        "craft/package.json"
+      ]
+    },
+    "IonicaBizau": {
+      "git-url-parse": [
+        "craft/package.json"
+      ]
+    },
+    "watson": {
+      "is-ci": [
+        "craft/package.json"
+      ]
+    },
+    "facebook": {
+      "jest": [
+        "sentry/package.json"
+      ],
+      "prop-types": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ],
+      "react": [
+        "sentry/package.json"
+      ],
+      "regenerator": [
+        "sentry/package.json"
+      ]
+    },
+    "nodeca": {
+      "js-yaml": [
+        "craft/package.json",
+        "sentry/api-docs/package.json"
+      ]
+    },
+    "bcherny": {
+      "json-schema-to-typescript": [
+        "craft/package.json"
+      ]
+    },
+    "isaacs": {
+      "node-mkdirp": [
+        "craft/package.json"
+      ],
+      "rimraf": [
+        "craft/package.json",
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/core/package.json",
+        "sentry-javascript/packages/serverless/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/angular/package.json",
+        "sentry-javascript/packages/utils/package.json",
+        "sentry-javascript/packages/minimal/package.json",
+        "sentry-javascript/packages/gatsby/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/nextjs/package.json",
+        "sentry-javascript/packages/node/package.json",
+        "sentry-javascript/packages/react/package.json",
+        "sentry-javascript/packages/hub/package.json"
+      ]
+    },
+    "janl": {
+      "mustache.js": [
+        "craft/package.json"
+      ]
+    },
+    "node-fetch": {
+      "node-fetch": [
+        "craft/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "sneakertack": {
+      "nvar": [
+        "craft/package.json"
+      ]
+    },
+    "terkelg": {
+      "prompts": [
+        "craft/package.json"
+      ]
+    },
+    "substack": {
+      "node-shell-quote": [
+        "craft/package.json"
+      ]
+    },
+    "steveukx": {
+      "git-js": [
+        "craft/package.json"
+      ]
+    },
+    "dominictarr": {
+      "split": [
+        "craft/package.json"
+      ]
+    },
+    "npm": {
+      "node-tar": [
+        "craft/package.json"
+      ],
+      "npm-packlist": [
+        "sentry-javascript/packages/serverless/package.json"
+      ]
+    },
+    "raszi": {
+      "node-tmp": [
+        "craft/package.json"
+      ]
+    },
+    "kulshekhar": {
+      "ts-jest": [
+        "craft/package.json",
+        "sentry-docs/package.json",
+        "sentry-javascript/package.json"
+      ]
+    },
+    "Microsoft": {
+      "TypeScript": [
+        "craft/package.json",
+        "sentry-docs/package.json",
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/types/package.json",
+        "sentry-javascript/packages/core/package.json",
+        "sentry-javascript/packages/serverless/package.json",
+        "sentry-javascript/packages/typescript/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/angular/package.json",
+        "sentry-javascript/packages/utils/package.json",
+        "sentry-javascript/packages/minimal/package.json",
+        "sentry-javascript/packages/eslint-config-sdk/package.json",
+        "sentry-javascript/packages/gatsby/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/eslint-plugin-sdk/package.json",
+        "sentry-javascript/packages/ember/package.json",
+        "sentry-javascript/packages/nextjs/test/integration/package.json",
+        "sentry-javascript/packages/node/package.json",
+        "sentry-javascript/packages/react/package.json",
+        "sentry-javascript/packages/hub/package.json",
+        "sentry/package.json"
+      ],
+      "tslib": [
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/core/package.json",
+        "sentry-javascript/packages/serverless/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/angular/package.json",
+        "sentry-javascript/packages/utils/package.json",
+        "sentry-javascript/packages/minimal/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/nextjs/package.json",
+        "sentry-javascript/packages/node/package.json",
+        "sentry-javascript/packages/react/package.json",
+        "sentry-javascript/packages/hub/package.json",
+        "sentry/package.json"
+      ],
+      "typescript-styled-plugin": [
+        "sentry/package.json"
+      ]
+    },
+    "ZJONSSON": {
+      "node-unzipper": [
+        "craft/package.json"
+      ]
+    },
+    "yargs": {
+      "yargs": [
+        "craft/package.json",
+        "sentry-javascript/packages/nextjs/test/integration/package.json"
+      ]
+    },
+    "mdx-js": {
+      "mdx": [
+        "sentry-docs/package.json"
+      ],
+      "eslint-mdx": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "ben-ng": {
+      "add": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "algolia": {
+      "algoliasearch-client-javascript": [
+        "sentry-docs/package.json"
+      ],
+      "gatsby-plugin-algolia": [
+        "sentry-docs/package.json"
+      ],
+      "react-instantsearch": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "axios": {
+      "axios": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "gatsbyjs": {
+      "gatsby": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "twbs": {
+      "bootstrap": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "sudodoki": {
+      "copy-to-clipboard": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "cure53": {
+      "DOMPurify": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ]
+    },
+    "motdotla": {
+      "dotenv": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "framer": {
+      "motion": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ]
+    },
+    "getchalk": {
+      "gatsby-plugin-meta-redirect": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "universse": {
+      "gatsby-plugin-zeit-now": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "trevorblades": {
+      "gatsby-remark-check-links": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "jonschlinkert": {
+      "gray-matter": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "jsdom": {
+      "jsdom": [
+        "sentry-docs/package.json",
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/utils/package.json",
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/react/package.json"
+      ]
+    },
+    "sass": {
+      "node-sass": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "PrismJS": {
+      "prism": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "react-bootstrap": {
+      "react-bootstrap": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "feathericons": {
+      "react-feather": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "nfl": {
+      "react-helmet": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "popperjs": {
+      "react-popper": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ]
+    },
+    "JedWatson": {
+      "react-select": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ],
+      "classnames": [
+        "sentry/package.json"
+      ]
+    },
+    "TypeStrong": {
+      "ts-node": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ],
+      "TypeDoc": [
+        "sentry-javascript/package.json"
+      ],
+      "fork-ts-checker-webpack-plugin": [
+        "sentry/package.json"
+      ]
+    },
+    "testing-library": {
+      "jest-dom": [
+        "sentry-docs/package.json",
+        "sentry/package.json"
+      ],
+      "react-testing-library": [
+        "sentry-docs/package.json",
+        "sentry-javascript/packages/gatsby/package.json",
+        "sentry-javascript/packages/react/package.json",
+        "sentry/package.json"
+      ],
+      "react-hooks-testing-library": [
+        "sentry-docs/package.json",
+        "sentry-javascript/packages/react/package.json"
+      ]
+    },
+    "jest-community": {
+      "eslint-plugin-jest": [
+        "sentry-docs/package.json"
+      ],
+      "jest-junit": [
+        "sentry/package.json"
+      ]
+    },
+    "yannickcr": {
+      "eslint-plugin-react": [
+        "sentry-docs/package.json",
+        "sentry-javascript/packages/react/package.json"
+      ]
+    },
+    "tschaub": {
+      "gh-pages": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "http-party": {
+      "http-server": [
+        "sentry-docs/package.json",
+        "sentry/examples/oauth2_consumer_implicit/package.json"
+      ]
+    },
+    "keyanzhang": {
+      "identity-obj-proxy": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "ianschmitz": {
+      "jest-environment-jsdom-fourteen": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "keplersj": {
+      "jest-preset-gatsby": [
+        "sentry-docs/package.json"
+      ]
+    },
+    "palantir": {
+      "tslint-react": [
+        "sentry-docs/package.json"
+      ],
+      "tslint": [
+        "sentry-javascript/packages/typescript/package.json"
+      ]
+    },
+    "ai": {
+      "size-limit": [
+        "sentry-javascript/package.json",
+        "sentry/package.json"
+      ]
+    },
+    "unstubbable": {
+      "typedoc-plugin-monorepo": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "chaijs": {
+      "chai": [
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/utils/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "codecov": {
+      "codecov-node": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "karma-runner": {
+      "karma-browserstack-launcher": [
+        "sentry-javascript/package.json"
+      ],
+      "karma-firefox-launcher": [
+        "sentry-javascript/package.json"
+      ],
+      "karma": [
+        "sentry-javascript/packages/browser/package.json"
+      ],
+      "karma-chrome-launcher": [
+        "sentry-javascript/packages/browser/package.json"
+      ],
+      "karma-mocha": [
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "lerna": {
+      "lerna": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "pahen": {
+      "madge": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "mochajs": {
+      "mocha": [
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/eslint-plugin-sdk/package.json"
+      ]
+    },
+    "mysticatea": {
+      "npm-run-all": [
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/types/package.json",
+        "sentry-javascript/packages/core/package.json",
+        "sentry-javascript/packages/serverless/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/angular/package.json",
+        "sentry-javascript/packages/utils/package.json",
+        "sentry-javascript/packages/minimal/package.json",
+        "sentry-javascript/packages/gatsby/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/ember/package.json",
+        "sentry-javascript/packages/node/package.json",
+        "sentry-javascript/packages/react/package.json",
+        "sentry-javascript/packages/hub/package.json"
+      ],
+      "eslint-plugin-node": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "adamreisnz": {
+      "replace-in-file": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "sinonjs": {
+      "sinon": [
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "rollup": {
+      "rollup": [
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ],
+      "rollup-plugin-commonjs": [
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ],
+      "rollup-plugin-node-resolve": [
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "mjeanroy": {
+      "rollup-plugin-license": [
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "TrySound": {
+      "rollup-plugin-terser": [
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "ezolenko": {
+      "rollup-plugin-typescript2": [
+        "sentry-javascript/packages/tracing/package.json",
+        "sentry-javascript/packages/vue/package.json",
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/integrations/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "GoogleCloudPlatform": {
+      "functions-framework-nodejs": [
+        "sentry-javascript/packages/serverless/package.json"
+      ]
+    },
+    "nock": {
+      "nock": [
+        "sentry-javascript/packages/serverless/package.json",
+        "sentry-javascript/packages/nextjs/test/integration/package.json",
+        "sentry-javascript/packages/node/package.json"
+      ]
+    },
+    "ajafff": {
+      "tslint-consistent-codestyle": [
+        "sentry-javascript/packages/typescript/package.json"
+      ]
+    },
+    "vuejs": {
+      "vue": [
+        "sentry-javascript/packages/vue/package.json"
+      ],
+      "vue-router": [
+        "sentry-javascript/packages/vue/package.json"
+      ]
+    },
+    "kentcdodds": {
+      "cross-env": [
+        "sentry-javascript/packages/wasm/package.json"
+      ]
+    },
+    "expressjs": {
+      "express": [
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/node/package.json"
+      ]
+    },
+    "puppeteer": {
+      "puppeteer": [
+        "sentry-javascript/packages/wasm/package.json",
+        "sentry-javascript/packages/nextjs/test/integration/package.json",
+        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+      ]
+    },
+    "reactivex": {
+      "rxjs": [
+        "sentry-javascript/packages/angular/package.json"
+      ]
+    },
+    "angular": {
+      "angular": [
+        "sentry-javascript/packages/angular/package.json",
+        "sentry-javascript/packages/angular/package.json"
+      ]
+    },
+    "gund": {
+      "eslint-plugin-deprecation": [
+        "sentry-javascript/packages/eslint-config-sdk/package.json"
+      ]
+    },
+    "import-js": {
+      "eslint-plugin-import": [
+        "sentry-javascript/packages/eslint-config-sdk/package.json"
+      ]
+    },
+    "gajus": {
+      "eslint-plugin-jsdoc": [
+        "sentry-javascript/packages/eslint-config-sdk/package.json"
+      ]
+    },
+    "lydell": {
+      "eslint-plugin-simple-import-sort": [
+        "sentry-javascript/packages/eslint-config-sdk/package.json",
+        "sentry/package.json"
+      ]
+    },
+    "localForage": {
+      "localForage": [
+        "sentry-javascript/packages/integrations/package.json"
+      ]
+    },
+    "paulmillr": {
+      "chokidar": [
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "xdissent": {
+      "karma-chai": [
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "litixsoft": {
+      "karma-mocha-reporter": [
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "jlmakes": {
+      "karma-rollup-preprocessor": [
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "yanoosh": {
+      "karma-sinon": [
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "monounity": {
+      "karma-typescript": [
+        "sentry-javascript/packages/browser/package.json"
+      ]
+    },
+    "webpack": {
+      "webpack": [
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
+        "sentry/package.json",
+        "sentry/examples/oauth2_consumer_implicit/package.json"
+      ],
+      "webpack-cli": [
+        "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
+        "sentry/package.json"
+      ],
+      "webpack-dev-server": [
+        "sentry/package.json"
+      ]
+    },
+    "stephenhandley": {
+      "requireindex": [
+        "sentry-javascript/packages/eslint-plugin-sdk/package.json"
+      ]
+    },
+    "embroider-build": {
+      "embroider": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "ef4": {
+      "ember-auto-import": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "babel": {
+      "ember-cli-babel": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "babel-eslint": [
+        "sentry-javascript/packages/ember/package.json",
+        "sentry/package.json"
+      ],
+      "babel": [
+        "sentry/examples/oauth2_consumer_implicit/package.json"
+      ],
+      "babel-loader": [
+        "sentry/package.json",
+        "sentry/examples/oauth2_consumer_implicit/package.json"
+      ],
+      "babel-preset-env": [
+        "sentry/examples/oauth2_consumer_implicit/package.json"
+      ]
+    },
+    "ember-cli": {
+      "ember-cli-htmlbars": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-cli": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-cli-uglify": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-disable-prototype-extensions": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-export-application-global": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-load-initializers": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-resolver": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-try": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "eslint-plugin-ember": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "loader.js": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "typed-ember": {
+      "ember-cli-typescript": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-cli-typescript-blueprints": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "emberjs": {
+      "ember.js": [
+        "sentry-javascript/packages/ember/package.json",
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-optional-features": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-qunit": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "glimmerjs": {
+      "glimmer.js": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "rickharrison": {
+      "broccoli-asset-rev": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "quaertym": {
+      "ember-cli-dependency-checker": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "rwjblue": {
+      "ember-cli-inject-live-reload": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember-source-channel-url": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "jonathanKingston": {
+      "ember-cli-sri": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "machty": {
+      "ember-maybe-import-regenerator": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "elwayman02": {
+      "ember-sinon-qunit": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "ember-template-lint": {
+      "ember-template-lint": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "simplabs": {
+      "ember-test-selectors": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "qunit-dom": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "kaliber5": {
+      "ember-window-mock": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "vercel": {
+      "next.js": [
+        "sentry-javascript/packages/nextjs/test/integration/package.json",
+        "sentry-javascript/packages/nextjs/package.json",
+        "sentry-javascript/packages/nextjs/package.json"
+      ]
+    },
+    "jshttp": {
+      "cookie": [
+        "sentry-javascript/packages/node/package.json"
+      ]
+    },
+    "TooTallNate": {
+      "node-https-proxy-agent": [
+        "sentry-javascript/packages/node/package.json"
+      ]
+    },
+    "rsms": {
+      "js-lru": [
+        "sentry-javascript/packages/node/package.json"
+      ]
+    },
+    "mridgway": {
+      "hoist-non-react-statics": [
+        "sentry-javascript/packages/react/package.json"
+      ]
+    },
+    "ReactTraining": {
+      "react-router": [
+        "sentry/package.json"
+      ]
+    },
+    "reduxjs": {
+      "redux": [
+        "sentry-javascript/packages/react/package.json"
+      ]
+    },
+    "GoogleChrome": {
+      "chrome-launcher": [
+        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+      ]
+    },
+    "errwischt": {
+      "stacktrace-parser": [
+        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+      ]
+    },
+    "nanjingboy": {
+      "uglify": [
+        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+      ]
+    },
+    "clauderic": {
+      "dnd-kit": [
+        "sentry/package.json"
+      ]
+    },
+    "emotion-js": {
+      "emotion": [
+        "sentry/package.json"
+      ]
+    },
+    "xpl": {
+      "ansicolor": [
+        "sentry/package.json"
+      ]
+    },
+    "opbeat": {
+      "babel-plugin-add-react-displayname": [
+        "sentry/package.json"
+      ]
+    },
+    "oliviertassinari": {
+      "babel-plugin-transform-react-remove-prop-types": [
+        "sentry/package.json"
+      ]
+    },
+    "feross": {
+      "buffer": [
+        "sentry/package.json"
+      ]
+    },
+    "Qix-": {
+      "color": [
+        "sentry/package.json"
+      ]
+    },
+    "webpack-contrib": {
+      "compression-webpack-plugin": [
+        "sentry/package.json"
+      ],
+      "css-loader": [
+        "sentry/package.json"
+      ],
+      "css-minimizer-webpack-plugin": [
+        "sentry/package.json"
+      ],
+      "less-loader": [
+        "sentry/package.json"
+      ],
+      "mini-css-extract-plugin": [
+        "sentry/package.json"
+      ],
+      "style-loader": [
+        "sentry/package.json"
+      ],
+      "url-loader": [
+        "sentry/package.json"
+      ]
+    },
+    "zloirock": {
+      "core-js": [
+        "sentry/package.json"
+      ]
+    },
+    "crypto-browserify": {
+      "crypto-browserify": [
+        "sentry/package.json"
+      ]
+    },
+    "brix": {
+      "crypto-js": [
+        "sentry/package.json"
+      ]
+    },
+    "kpdecker": {
+      "jsdiff": [
+        "sentry/package.json"
+      ]
+    },
+    "janjakubnanista": {
+      "downsample": [
+        "sentry/package.json"
+      ]
+    },
+    "apache": {
+      "echarts": [
+        "sentry/package.json"
+      ]
+    },
+    "hustcc": {
+      "echarts-for-react": [
+        "sentry/package.json"
+      ],
+      "jest-canvas-mock": [
+        "sentry/package.json"
+      ]
+    },
+    "focus-trap": {
+      "focus-trap": [
+        "sentry/package.json"
+      ]
+    },
+    "WICG": {
+      "focus-visible": [
+        "sentry/package.json"
+      ]
+    },
+    "krisk": {
+      "Fuse": [
+        "sentry/package.json"
+      ]
+    },
+    "smhg": {
+      "gettext-parser": [
+        "sentry/package.json"
+      ]
+    },
+    "w3c": {
+      "IntersectionObserver": [
+        "sentry/package.json"
+      ]
+    },
+    "pbakondy": {
+      "ios-device-list": [
+        "sentry/package.json"
+      ]
+    },
+    "SlexAxton": {
+      "Jed": [
+        "sentry/package.json"
+      ]
+    },
+    "js-cookie": {
+      "js-cookie": [
+        "sentry/package.json"
+      ]
+    },
+    "less": {
+      "less.js": [
+        "sentry/package.json"
+      ]
+    },
+    "lodash": {
+      "lodash": [
+        "sentry/package.json"
+      ]
+    },
+    "markedjs": {
+      "marked": [
+        "sentry/package.json"
+      ]
+    },
+    "mobxjs": {
+      "mobx": [
+        "sentry/package.json"
+      ]
+    },
+    "moment": {
+      "moment": [
+        "sentry/package.json"
+      ],
+      "moment-timezone": [
+        "sentry/package.json"
+      ]
+    },
+    "mholt": {
+      "PapaParse": [
+        "sentry/package.json"
+      ]
+    },
+    "pegjs": {
+      "pegjs": [
+        "sentry/package.json"
+      ]
+    },
+    "eploko": {
+      "pegjs-loader": [
+        "sentry/package.json"
+      ]
+    },
+    "shtylman": {
+      "node-process": [
+        "sentry/package.json"
+      ]
+    },
+    "zpao": {
+      "qrcode.react": [
+        "sentry/package.json"
+      ]
+    },
+    "buildo": {
+      "react-autosize-textarea": [
+        "sentry/package.json"
+      ]
+    },
+    "hypeserver": {
+      "react-date-range": [
+        "sentry/package.json"
+      ]
+    },
+    "gaearon": {
+      "react-document-title": [
+        "sentry/package.json"
+      ]
+    },
+    "glortho": {
+      "react-keydown": [
+        "sentry/package.json"
+      ]
+    },
+    "jasonslyvia": {
+      "react-lazyload": [
+        "sentry/package.json"
+      ]
+    },
+    "signavio": {
+      "react-mentions": [
+        "sentry/package.json"
+      ]
+    },
+    "borisyankov": {
+      "react-sparklines": [
+        "sentry/package.json"
+      ]
+    },
+    "bvaughn": {
+      "react-virtualized": [
+        "sentry/package.json"
+      ]
+    },
+    "reflux": {
+      "refluxjs": [
+        "sentry/package.json"
+      ]
+    },
+    "rrweb-io": {
+      "rrweb": [
+        "sentry/package.json"
+      ]
+    },
+    "willhoag": {
+      "scroll-to-element": [
+        "sentry/package.json"
+      ]
+    },
+    "alexei": {
+      "sprintf.js": [
+        "sentry/package.json"
+      ]
+    },
+    "grantila": {
+      "u2f-api": [
+        "sentry/package.json"
+      ]
+    },
+    "webdiscus": {
+      "webpack-remove-empty-scripts": [
+        "sentry/package.json"
+      ]
+    },
+    "winkjs": {
+      "wink-jaro-distance": [
+        "sentry/package.json"
+      ]
+    },
+    "dropbox": {
+      "zxcvbn": [
+        "sentry/package.json"
+      ]
+    },
+    "pmmmwh": {
+      "react-refresh-webpack-plugin": [
+        "sentry/package.json"
+      ]
+    },
+    "storybookjs": {
+      "storybook": [
+        "sentry/package.json"
+      ]
+    },
+    "wojtekmaj": {
+      "enzyme-adapter-react-17": [
+        "sentry/package.json"
+      ]
+    },
+    "airbnb": {
+      "babel-plugin-dynamic-import-node": [
+        "sentry/package.json"
+      ],
+      "enzyme": [
+        "sentry/package.json"
+      ]
+    },
+    "frenic": {
+      "csstype": [
+        "sentry/package.json"
+      ]
+    },
+    "jantimon": {
+      "html-webpack-plugin": [
+        "sentry/package.json"
+      ]
+    },
+    "jefflau": {
+      "jest-fetch-mock": [
+        "sentry/package.json"
+      ]
+    },
+    "billyvg": {
+      "jest-sentry-environment": [
+        "sentry/package.json"
+      ]
+    },
+    "boblauer": {
+      "MockDate": [
+        "sentry/package.json"
+      ]
+    },
+    "romgain": {
+      "react-select-event": [
+        "sentry/package.json"
+      ]
+    },
+    "stephencookdev": {
+      "speed-measure-webpack-plugin": [
+        "sentry/package.json"
+      ]
+    },
+    "stylelint": {
+      "stylelint": [
+        "sentry/package.json"
+      ],
+      "stylelint-config-recommended": [
+        "sentry/package.json"
+      ]
+    },
+    "styled-components": {
+      "stylelint-config-styled-components": [
+        "sentry/package.json"
+      ],
+      "stylelint-processor-styled-components": [
+        "sentry/package.json"
+      ]
+    },
+    "jasonkuhrt": {
+      "oauth2-implicit": [
+        "sentry/examples/oauth2_consumer_implicit/package.json"
+      ]
+    },
+    "whitlockjc": {
+      "json-refs": [
+        "sentry/api-docs/package.json"
+      ]
+    },
+    "codekie": {
+      "openapi-examples-validator": [
+        "sentry/api-docs/package.json"
+      ]
+    }
+  },
+  "py": {
+    "pallets": {
+      "click": [
+        "cdc/requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ],
+      "werkzeug": [
+        "sentry-python/test-requirements.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-test.txt"
+      ],
+      "flask": [
+        "snuba/requirements.txt",
+        "relay/requirements-test.txt",
+        "sentry/examples/oauth2_consumer_webserver/requirements.txt"
+      ],
+      "itsdangerous": [
+        "snuba/requirements.txt"
+      ],
+      "jinja": [
+        "snuba/requirements.txt"
+      ],
+      "markupsafe": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "yaml": {
+      "pyyaml": [
+        "cdc/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "confluentinc": {
+      "confluent-kafka-python": [
+        "cdc/requirements.txt",
+        "arroyo/requirements.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-test.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "DataDog": {
+      "datadogpy": [
+        "cdc/requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "Julian": {
+      "jsonschema": [
+        "cdc/requirements.txt",
+        "sentry-python/test-requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "psycopg": {
+      "psycopg2": [
+        "cdc/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "psf": {
+      "black": [
+        "cdc/requirements-dev.txt",
+        "sentry-python/linter-requirements.txt",
+        "sentry-native/tests/requirements.txt",
+        "arroyo/requirements-linter.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt",
+        "sentry/requirements-pre-commit.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "requests": [
+        "relay/requirements-test.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "PyCQA": {
+      "pyflakes": [
+        "cdc/requirements-dev.txt"
+      ],
+      "flake8-import-order": [
+        "sentry-python/linter-requirements.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "flake8-bugbear": [
+        "sentry-python/linter-requirements.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "pep8-naming": [
+        "sentry-python/linter-requirements.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ]
+    },
+    "pytest-dev": {
+      "pytest": [
+        "cdc/requirements-dev.txt",
+        "sentry-python/test-requirements.txt",
+        "sentry-native/tests/requirements.txt",
+        "arroyo/requirements-test.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-test.txt",
+        "sentry/requirements-dev.txt",
+        "snuba-sdk/test-requirements.txt"
+      ],
+      "pytest-forked": [
+        "sentry-python/test-requirements.txt",
+        "snuba-sdk/test-requirements.txt"
+      ],
+      "pytest-cov": [
+        "sentry-python/test-requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-dev.txt",
+        "snuba-sdk/test-requirements.txt"
+      ],
+      "pluggy": [
+        "snuba/requirements.txt"
+      ],
+      "pytest-xdist": [
+        "relay/requirements-test.txt"
+      ],
+      "pytest-django": [
+        "sentry/requirements-dev.txt"
+      ],
+      "pytest-rerunfailures": [
+        "sentry/requirements-dev.txt"
+      ]
+    },
+    "tox-dev": {
+      "tox": [
+        "sentry-python/test-requirements.txt",
+        "snuba-sdk/test-requirements.txt"
+      ]
+    },
+    "gevent": {
+      "gevent": [
+        "sentry-python/test-requirements.txt"
+      ]
+    },
+    "alexmojaki": {
+      "executing": [
+        "sentry-python/test-requirements.txt"
+      ]
+    },
+    "gristlabs": {
+      "asttokens": [
+        "sentry-python/test-requirements.txt"
+      ]
+    },
+    "sphinx-doc": {
+      "sphinx": [
+        "sentry-python/docs-requirements.txt",
+        "snuba/docs-requirements.txt",
+        "snuba-sdk/docs-requirements.txt"
+      ]
+    },
+    "readthedocs": {
+      "sphinx_rtd_theme": [
+        "sentry-python/docs-requirements.txt",
+        "snuba-sdk/docs-requirements.txt"
+      ]
+    },
+    "agronholm": {
+      "sphinx-autodoc-typehints": [
+        "sentry-python/docs-requirements.txt",
+        "snuba-sdk/docs-requirements.txt"
+      ]
+    },
+    "untitaker": {
+      "python-atomicwrites": [
+        "snuba/requirements.txt"
+      ],
+      "pytest-sentry": [
+        "relay/requirements-test.txt",
+        "sentry/requirements-dev.txt"
+      ]
+    },
+    "python-attrs": {
+      "attrs": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "certifi": {
+      "python-certifi": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "chardet": {
+      "chardet": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "mymarilyn": {
+      "clickhouse-driver": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "tartley": {
+      "colorama": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "nedbat": {
+      "coveragepy": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "briancurtin": {
+      "deprecation": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "nickstenning": {
+      "honcho": [
+        "snuba/requirements.txt",
+        "sentry/requirements-dev.txt"
+      ]
+    },
+    "kjd": {
+      "idna": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "pycqa": {
+      "isort": [
+        "snuba/requirements.txt",
+        "sentry/requirements-pre-commit.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ]
+    },
+    "python-lz4": {
+      "python-lz4": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "Python-Markdown": {
+      "markdown": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "mattrobenolt": {
+      "mywsgi": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "more-itertools": {
+      "more-itertools": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "pypa": {
+      "packaging": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "erikrose": {
+      "parsimonious": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "pyparsing": {
+      "pyparsing": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "WoLpH": {
+      "python-progressbar": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "dateutil": {
+      "dateutil": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "python-rapidjson": {
+      "python-rapidjson": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "andymccurdy": {
+      "redis-py": [
+        "snuba/requirements.txt",
+        "relay/requirements-test.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "simplejson": {
+      "simplejson": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "urllib3": {
+      "urllib3": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "jquast": {
+      "wcwidth": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "msgpack": {
+      "msgpack-python": [
+        "relay/requirements-test.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "boto": {
+      "boto3": [
+        "sentry/requirements-base.txt"
+      ],
+      "botocore": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "celery": {
+      "celery": [
+        "sentry/requirements-base.txt"
+      ],
+      "billiard": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "ericvsmith": {
+      "dataclasses": [
+        "sentry/requirements-base.txt",
+        "snuba-sdk/test-requirements.txt"
+      ]
+    },
+    "django-crispy-forms": {
+      "django-crispy-forms": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "django": {
+      "django": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "encode": {
+      "django-rest-framework": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "zapier": {
+      "email-reply-parser": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "googleapis": {
+      "python-api-core": [
+        "sentry/requirements-base.txt"
+      ],
+      "google-auth-library-python": [
+        "sentry/requirements-base.txt"
+      ],
+      "python-bigtable": [
+        "sentry/requirements-base.txt"
+      ],
+      "python-cloud-core": [
+        "sentry/requirements-base.txt"
+      ],
+      "python-api-common-protos": [
+        "sentry/requirements-base.txt"
+      ],
+      "python-pubsub": [
+        "sentry/requirements-base.txt"
+      ],
+      "python-storage": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "lepture": {
+      "mistune": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "hajimes": {
+      "mmh3": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "daviddrysdale": {
+      "python-phonenumbers": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "python-pillow": {
+      "Pillow": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "jpadilla": {
+      "pyjwt": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "linsomniac": {
+      "python-memcached": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "Yubico": {
+      "python-u2flib-server": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "onelogin": {
+      "python3-saml": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "requests": {
+      "requests-oauthlib": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "naimetti": {
+      "rfc3339-validator": [
+        "sentry/requirements-base.txt"
+      ],
+      "rfc3986-validator": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "jsocol": {
+      "pystatsd": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "hynek": {
+      "structlog": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "ua-parser": {
+      "uap-python": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "indygreg": {
+      "python-zstandard": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "pyca": {
+      "cryptography": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "redis": {
+      "hiredis-py": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "jaraco": {
+      "cssutils": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "scrapy": {
+      "cssselect": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "SeleniumHQ": {
+      "selenium": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "andialbrecht": {
+      "sqlparse": [
+        "sentry/requirements-base.txt"
+      ]
+    },
+    "pre-commit": {
+      "pre-commit": [
+        "sentry/requirements-pre-commit.txt"
+      ]
+    },
+    "asottile": {
+      "pyupgrade": [
+        "sentry/requirements-pre-commit.txt"
+      ]
+    },
+    "davidfischer": {
+      "requirements-parser": [
+        "sentry/requirements-pre-commit.txt"
+      ]
+    },
+    "docker": {
+      "docker-py": [
+        "sentry/requirements-dev.txt"
+      ]
+    },
+    "fluxx": {
+      "exam": [
+        "sentry/requirements-dev.txt"
+      ]
+    },
+    "spulec": {
+      "freezegun": [
+        "sentry/requirements-dev.txt"
+      ]
+    },
+    "p1c2u": {
+      "openapi-core": [
+        "sentry/requirements-dev.txt"
+      ]
+    }
+  },
+  "rs": {
+    "dtolnay": {
+      "anyhow": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/examples/addr2line/Cargo.toml",
+        "symbolic/examples/symcache_debug/Cargo.toml",
+        "symbolic/examples/dump_cfi/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/wasm-split/Cargo.toml",
+        "symbolicator/crates/process-event/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/tools/generate-schema/Cargo.toml",
+        "relay/tools/process-event/Cargo.toml",
+        "relay/tools/scrub-minidump/Cargo.toml"
+      ],
+      "thiserror": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolic/symbolic-symcache/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ],
+      "serde-yaml": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/relay-config/Cargo.toml"
+      ],
+      "quote": [
+        "relay/relay-general/derive/Cargo.toml",
+        "relay/relay-ffi-macros/Cargo.toml"
+      ],
+      "syn": [
+        "relay/relay-general/derive/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/relay-ffi-macros/Cargo.toml"
+      ]
+    },
+    "clap-rs": {
+      "clap": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/examples/object_debug/Cargo.toml",
+        "symbolic/examples/unreal_engine_crash/Cargo.toml",
+        "symbolic/examples/dump_sources/Cargo.toml",
+        "symbolic/examples/addr2line/Cargo.toml",
+        "symbolic/examples/symcache_debug/Cargo.toml",
+        "symbolic/examples/dump_cfi/Cargo.toml",
+        "symbolic/examples/minidump_stackwalk/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "BurntSushi": {
+      "walkdir": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/examples/minidump_stackwalk/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml"
+      ],
+      "ripgrep": [
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-filter/Cargo.toml"
+      ]
+    },
+    "serde-rs": {
+      "json": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolic/symbolic-cabi/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/process-event/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/tools/generate-schema/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-quotas/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ],
+      "serde": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/process-event/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-redis/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-quotas/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ]
+    },
+    "danburkert": {
+      "memmap-rs": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "storyyeller": {
+      "stable_deref_trait": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-common/Cargo.toml"
+      ]
+    },
+    "uuid-rs": {
+      "uuid": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-common/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/wasm-split/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "Stebalien": {
+      "tempfile": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-common/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ]
+    },
+    "emilk": {
+      "drop-merge-sort": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolic/symbolic-symcache/Cargo.toml"
+      ]
+    },
+    "sfackler": {
+      "rust-fallible-iterator": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "rust-lang": {
+      "flate2-rs": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "regex": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "backtrace-rs": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ],
+      "futures-rs": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "glob": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ],
+      "log": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-log/Cargo.toml"
+      ],
+      "libc": [
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "gimli-rs": {
+      "gimli": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ],
+      "cpp_demangle": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml"
+      ]
+    },
+    "m4b": {
+      "goblin": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ],
+      "scroll": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "rust-lang-nursery": {
+      "lazy-static.rs": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-quotas/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-statsd/Cargo.toml"
+      ],
+      "failure": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-ffi/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay-log/Cargo.toml",
+        "relay/relay-redis/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ],
+      "futures-rs": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/relay-test/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "indiv0": {
+      "lazycell": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "relay/relay-common/Cargo.toml"
+      ]
+    },
+    "Geal": {
+      "nom": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unwind/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "Lucretiel": {
+      "nom-supreme": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "Amanieu": {
+      "parking_lot": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-statsd/Cargo.toml"
+      ]
+    },
+    "willglynn": {
+      "pdb": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "servo": {
+      "rust-smallvec": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-quotas/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "rust-fnv": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-symcache/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml"
+      ],
+      "rust-url": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "rustwasm": {
+      "walrus": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "bytecodealliance": {
+      "wasm-tools": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "zip-rs": {
+      "zip.git": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml"
+      ]
+    },
+    "bheisler": {
+      "criterion.rs": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolic/symbolic-symcache/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml",
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "mstange": {
+      "msvc-demangler-rust": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml"
+      ]
+    },
+    "alexcrichton": {
+      "rustc-demangle": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml"
+      ],
+      "cc-rs": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml"
+      ],
+      "filetime": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ],
+      "cookie-rs": [
+        "relay/relay-general/Cargo.toml"
+      ],
+      "proc-macro2": [
+        "relay/relay-general/derive/Cargo.toml"
+      ],
+      "brotli2-rs": [
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "altsysrq": {
+      "proptest": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unwind/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml"
+      ]
+    },
+    "rust-random": {
+      "rand": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-minidump/Cargo.toml",
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-auth/Cargo.toml",
+        "relay/relay-statsd/Cargo.toml"
+      ]
+    },
+    "tokio-rs": {
+      "bytes": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unreal/Cargo.toml"
+      ],
+      "tokio": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-test/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "chronotope": {
+      "chrono": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ]
+    },
+    "rust-num": {
+      "num-traits": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-unwind/Cargo.toml",
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "actix": {
+      "actix-web.git": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-test/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "actix.git": [
+        "relay/relay-metrics/Cargo.toml",
+        "relay/relay-test/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "marshallpierce": {
+      "rust-base64": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ]
+    },
+    "56quarters": {
+      "cadence": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-statsd/Cargo.toml"
+      ]
+    },
+    "sebasmagri": {
+      "env_logger": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ]
+    },
+    "svartalf": {
+      "hostname": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay/Cargo.toml"
+      ]
+    },
+    "jean-airoldie": {
+      "humantime-serde": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ]
+    },
+    "achanda": {
+      "ipnetwork": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-filter/Cargo.toml"
+      ]
+    },
+    "Keats": {
+      "jsonwebtoken": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ]
+    },
+    "jeromefroe": {
+      "lru-rs.git": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-common/Cargo.toml"
+      ]
+    },
+    "seanmonstar": {
+      "num_cpus": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-config/Cargo.toml"
+      ],
+      "pretty-env-logger": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ],
+      "warp": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ],
+      "reqwest": [
+        "symbolicator/crates/process-event/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "unicase": [
+        "relay/relay-sampling/Cargo.toml"
+      ]
+    },
+    "jan-auer": {
+      "reqwest?tag=v0.11.0#62edd49d) https:": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ],
+      "dynfmt": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "rusoto": {
+      "rusoto": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml"
+      ]
+    },
+    "TeXitoi": {
+      "structopt": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/wasm-split/Cargo.toml",
+        "symbolicator/crates/process-event/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/tools/generate-schema/Cargo.toml",
+        "relay/tools/process-event/Cargo.toml",
+        "relay/tools/scrub-minidump/Cargo.toml"
+      ]
+    },
+    "gyscos": {
+      "zstd-rs": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml"
+      ]
+    },
+    "RustCrypto": {
+      "hashes": [
+        "symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ],
+      "MACs": [
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ]
+    },
+    "KokaKiwi": {
+      "rust-hex": [
+        "symbolicator/crates/wasm-split/Cargo.toml"
+      ]
+    },
+    "GoogleChromeLabs": {
+      "wasmbin": [
+        "symbolicator/crates/wasm-split/Cargo.toml"
+      ]
+    },
+    "rayon-rs": {
+      "rayon": [
+        "symbolicator/crates/symsorter/Cargo.toml"
+      ]
+    },
+    "ihrwein": {
+      "backoff": [
+        "relay/relay-common/Cargo.toml"
+      ]
+    },
+    "llogiq": {
+      "bytecount": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "Lymia": {
+      "enumset": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "bluss": {
+      "rust-itertools": [
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "oschwald": {
+      "maxminddb-rust": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "luser": {
+      "rust-minidump?rev=dedd6715af3a22f5fff9c065e7c4b22c44fef320#dedd6715) https:": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "pest-parser": {
+      "pest": [
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "nox": {
+      "serde_urlencoded": [
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "davidarmstronglewis": {
+      "uap-rs": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "johannhof": {
+      "difference.rs": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "wolandr": {
+      "pretty-hex": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "mystor": {
+      "synstructure": [
+        "relay/relay-general/derive/Cargo.toml"
+      ]
+    },
+    "rust-cli": {
+      "paw": [
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/tools/generate-schema/Cargo.toml",
+        "relay/tools/process-event/Cargo.toml",
+        "relay/tools/scrub-minidump/Cargo.toml"
+      ]
+    },
+    "notriddle": {
+      "rust-float-ord": [
+        "relay/relay-metrics/Cargo.toml"
+      ]
+    },
+    "japaric": {
+      "hash32": [
+        "relay/relay-metrics/Cargo.toml"
+      ]
+    },
+    "Thomasdezeeuw": {
+      "human-size-rs": [
+        "relay/relay-config/Cargo.toml"
+      ]
+    },
+    "alicemaz": {
+      "rust-base64": [
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ]
+    },
+    "carllerche": {
+      "bytes": [
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "3Hren": {
+      "msgpack-rust": [
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "Sgeo": {
+      "take_mut": [
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "dalek-cryptography": {
+      "ed25519-dalek": [
+        "relay/relay-auth/Cargo.toml"
+      ]
+    }
+  }
+}

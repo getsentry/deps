@@ -12,6 +12,12 @@ ones](https://open.sentry.io/structure/)).
    `./eco/*/deps.json`, format is `{"dep": n}` where `dep` is an
 ecosystem-specific identifier, and `n` is the number of mentions across all of
 our dependency files
-1. `get-github-details`
-1. `make-deps-csv`
-1. `linkate`
+1. `dereference-github` - iterates over `eco/*/deps.json` and updates
+   `github.json` (if there are bugs upstream you can get garbage in here;
+remove and rerun)
+1. `get-github-details` - iterates over `github.json` and outputs additional
+   info (funding links, stars) to `gh/{org}-{repo}.json`
+1. `make-deps-csv` - iterates over `github.json`, pulls details from
+   `gh/{org}-{repo}.json`, and outputs `deps.csv`
+1. `linkate` - iterates over `deps.csv`, pulls details from `github.json` (I
+   know, I know), and outputs `links.html`
