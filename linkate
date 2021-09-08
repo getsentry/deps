@@ -12,29 +12,28 @@ eco_map = {
 github = json.load(open('github.json'))
 counts = {
     'ecos': defaultdict(set),
-    'orgs': defaultdict(lambda: defaultdict(lambda: {'used_in': set(), 'projects': set()}))
+    'sponsorables': defaultdict(lambda: defaultdict(lambda: {'used_in': set(), 'projects': set()}))
 }
 urls = dict()
 data = defaultdict(lambda: defaultdict(list))
-for org, url, repo, stars, eco in csv.reader(open('deps.csv')):
+for org, sponsorable, url, repo, stars, eco in csv.reader(open('deps.csv')):
     stars = int(stars)
     used_in = sorted(list(set([x.split('/')[0] for x in github[eco][org][repo]])))
-    #used_in = [x for x in used_in if 'example' not in used_in]
     eco = eco_map.get(eco, eco)
 
-    counts['ecos'][eco].add(org)
-    counts['orgs'][eco][org]['used_in'] |= set(used_in)
-    counts['orgs'][eco][org]['projects'].add(repo)
-    urls[org] = url
-    data[eco][org].append((len(used_in), stars, used_in, repo))
+    counts['ecos'][eco].add(sponsorable)
+    counts['sponsorables'][eco][sponsorable]['used_in'] |= set(used_in)
+    counts['sponsorables'][eco][sponsorable]['projects'].add(repo)
+    urls[sponsorable] = url
+    data[eco][sponsorable].append((len(used_in), stars, used_in, org, repo))
 
 for eco in counts['ecos']:
     counts['ecos'][eco] = len(counts['ecos'][eco])
-for eco in counts['orgs']:
-    for org in counts['orgs'][eco]:
-        nused_in = len(counts['orgs'][eco][org]['used_in'])
-        nprojects = len(counts['orgs'][eco][org]['projects'])
-        counts['orgs'][eco][org] = (nused_in, nprojects)
+for eco in counts['sponsorables']:
+    for sponsorable in counts['sponsorables'][eco]:
+        nused_in = len(counts['sponsorables'][eco][sponsorable]['used_in'])
+        nprojects = len(counts['sponsorables'][eco][sponsorable]['projects'])
+        counts['sponsorables'][eco][sponsorable] = (nused_in, nprojects)
 
 out = open('links.html', 'w+')
 def p(*a, **kw):
@@ -46,14 +45,14 @@ p(f'<p>This is a super-hacky <a href="https://github.com/getsentry/deps">hack</a
 for n, eco in reversed(sorted([(v,k) for k,v in counts['ecos'].items()])):
     p(f'<h2>{eco}</h2>')
     p(f'<table class="orgs">')
-    p(f'<thead><tr><th></th><th>Producer</th><th>Project</th></tr></thead>')
-    for i, ((nused_in, nprojects), org) in enumerate(reversed(sorted([(v,k) for k,v in counts['orgs'][eco].items()])), start=1):
-        url = urls[org]
-        p(f'<tr class="org">')
+    p(f'<thead><tr><th></th><th>Sponsorable</th><th>Project</th></tr></thead>')
+    for i, ((nused_in, nprojects), sponsorable) in enumerate(reversed(sorted([(v,k) for k,v in counts['sponsorables'][eco].items()])), start=1):
+        url = urls[sponsorable]
+        p(f'<tr class="sponsorable">')
         p(f'  <td class="i">{i}</td>')
-        p(f'  <td class="producer"><a href="{url}" target="_blank">{org}</a></td>')
+        p(f'  <td class="sponsorable"><a href="{url}" target="_blank">{sponsorable}</a></td>')
         p(f'  <td class="project">')
-        for j, (nused_in, stars, used_in, repo) in enumerate(reversed(sorted(data[eco][org]))):
+        for j, (nused_in, stars, used_in, org, repo) in enumerate(reversed(sorted(data[eco][sponsorable]))):
             p(f'<div><span class="stars">★ {stars:,}</span>')
             p(f'<a href="https://github.com/{org}/{repo}">{repo}</a><br>')
             for ours in used_in:

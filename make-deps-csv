@@ -6,22 +6,24 @@ github = json.load(open('github.json'))
 out = csv.writer(open('deps.csv', 'w'))
 
 
-def get_url(org, deets):
-    url = ''
+def get_url(deets):
+    url = slug = ''
     for link in deets['fundingLinks']:
         if link['platform'] == 'GITHUB':
-            url = f'https://github.com/sponsors/{org}'
             # link['url'] is not the sponsors URL
+            slug = link['url'].split('/')[-1]
+            url = f'https://github.com/sponsors/{slug}'
             break
         elif link['platform'] == 'OPEN_COLLECTIVE':
             url = link['url']
-    return url
+            slug = url.split('/')[-1]
+    return url, slug
 
 
 for eco in github:
     for org in github[eco]:
         for repo in github[eco][org]:
             deets = json.load(open(f'gh/{org}-{repo}.json'))['data']['repository']
-            url = get_url(org, deets)
+            url, sponsorable = get_url(deets)
             if url:
-                out.writerow([org, url, repo, deets['stargazerCount'], eco])
+                out.writerow([org, sponsorable, url, repo, deets['stargazerCount'], eco])

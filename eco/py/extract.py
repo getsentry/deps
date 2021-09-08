@@ -13,5 +13,6 @@ for line in open('deps-files'):
     filepath = '../../repos/ours/' + line
     with open(filepath) as fp:
         for req in requirements.parse(fp):
-            deps[req.name.lower()].append(line)
+            dep = req.name.lower()
+            deps[dep].append(line)
 json.dump(deps, open('deps.json', 'w+'))
