@@ -12,3 +12,6 @@ ones](https://open.sentry.io/structure/)).
    `./eco/*/deps.json`, format is `{"dep": n}` where `dep` is an
 ecosystem-specific identifier, and `n` is the number of mentions across all of
 our dependency files
+1. `get-github-details`
+1. `make-deps-csv`
+1. `linkate`
