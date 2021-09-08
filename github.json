@@ -2239,7 +2239,7 @@
       ]
     },
     "zip-rs": {
-      "zip.git": [
+      "zip": [
         "symbolic/Cargo.toml",
         "symbolic/symbolic-debuginfo/Cargo.toml",
         "symbolicator/crates/symsorter/Cargo.toml"
@@ -2342,13 +2342,13 @@
       ]
     },
     "actix": {
-      "actix-web.git": [
+      "actix-web": [
         "symbolicator/Cargo.toml",
         "symbolicator/crates/symbolicator/Cargo.toml",
         "relay/relay-test/Cargo.toml",
         "relay/relay-server/Cargo.toml"
       ],
-      "actix.git": [
+      "actix": [
         "relay/relay-metrics/Cargo.toml",
         "relay/relay-test/Cargo.toml",
         "relay/relay-server/Cargo.toml"
@@ -2401,7 +2401,7 @@
       ]
     },
     "jeromefroe": {
-      "lru-rs.git": [
+      "lru-rs": [
         "symbolicator/Cargo.toml",
         "symbolicator/crates/symbolicator/Cargo.toml",
         "relay/relay-common/Cargo.toml"
@@ -2427,17 +2427,6 @@
       ],
       "unicase": [
         "relay/relay-sampling/Cargo.toml"
-      ]
-    },
-    "jan-auer": {
-      "reqwest?tag=v0.11.0#62edd49d) https:": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ],
-      "dynfmt": [
-        "relay/relay-general/Cargo.toml"
       ]
     },
     "rusoto": {
@@ -2524,7 +2513,7 @@
       ]
     },
     "luser": {
-      "rust-minidump?rev=dedd6715af3a22f5fff9c065e7c4b22c44fef320#dedd6715) https:": [
+      "rust-minidump": [
         "relay/relay-general/Cargo.toml"
       ]
     },
