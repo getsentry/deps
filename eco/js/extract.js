@@ -27,5 +27,5 @@ lineReader.on('line', function (line) {
 });
 
 lineReader.once('close', () => {
-  fs.writeFileSync('deps.json', JSON.stringify(deps))
+  fs.writeFileSync('deps.json', JSON.stringify(deps, null, 2))
 });

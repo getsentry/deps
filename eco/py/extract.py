@@ -15,4 +15,4 @@ for line in open('deps-files'):
         for req in requirements.parse(fp):
             dep = req.name.lower()
             deps[dep].append(line)
-json.dump(deps, open('deps.json', 'w+'))
+json.dump(deps, open('deps.json', 'w+'), sort_keys=True, indent=2)

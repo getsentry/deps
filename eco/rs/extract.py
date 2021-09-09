@@ -39,5 +39,5 @@ for filepath in open('deps-files'):
         elif line[0] == '[':
             continue
 
-json.dump(deps, open('deps.json', 'w+'))
+json.dump(deps, open('deps.json', 'w+'), sort_keys=True, indent=2)
 
