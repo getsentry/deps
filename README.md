@@ -9,9 +9,8 @@ ones](https://open.sentry.io/structure/)).
 1. `find-deps-files` - find dependency files across ecosystems, listings end up
    at `./eco/*/deps-files`
 1. `extract-deps-from-files` - extracted deps (direct deps only) end up in
-   `./eco/*/deps.json`, format is `{"dep": n}` where `dep` is an
-ecosystem-specific identifier, and `n` is the number of mentions across all of
-our dependency files
+   `./eco/*/deps.json`, format is `{"dep": ["file1", "file2"]}` where `dep` is an
+ecosystem-specific identifier, and `file*` are paths to package manifest files (relative to `./repos/ours`) in which the `dep` is mentioned
 1. `dereference-github` - iterates over `eco/*/deps.json` and updates
    `github.json` (if there are bugs upstream you can get garbage in here;
 remove and rerun)
