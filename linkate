@@ -39,13 +39,13 @@ out = open('links.html', 'w+')
 def p(*a, **kw):
     print(*a, **kw, file=out)
 
-p('<!DOCTYPE html><html><head><title>Sentry\'s Dependencies</title><link rel="stylesheet" href="links.css"></head><body><div class="ecos">')
-p(f'<h1>Fundable Dependencies</h1>')
+p('<!DOCTYPE html><html><head><title>Sentry\'s Fundable Dependencies</title><link rel="stylesheet" href="links.css"></head><body><div class="ecos">')
+p(f'<h1>Sentry\'s Fundable Dependencies</h1>')
 p(f'<p>This is a super-hacky <a href="https://github.com/getsentry/deps">hack</a> to find GitHub orgs/users from our three primary ecosystems whose work we directly depend on in our <a href="https://open.sentry.io/structure/">main repos</a> and who accept funding on either <a href=">https://github.com/sponsors">GitHub Sponsors</a> or <a href="https://opencollective.com/">Open Collective</a>.</p>')
 for n, eco in reversed(sorted([(v,k) for k,v in counts['ecos'].items()])):
     p(f'<h2>{eco}</h2>')
     p(f'<table class="orgs">')
-    p(f'<thead><tr><th></th><th>Sponsorable</th><th>Project</th></tr></thead>')
+    p(f'<thead><tr><th></th><th>Org/User</th><th>Project</th></tr></thead>')
     for i, ((nused_in, nprojects), sponsorable) in enumerate(reversed(sorted([(v,k) for k,v in counts['sponsorables'][eco].items()])), start=1):
         url = urls[sponsorable]
         p(f'<tr class="sponsorable">')
