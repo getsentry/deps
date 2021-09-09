@@ -39,7 +39,7 @@ out = open('links.html', 'w+')
 def p(*a, **kw):
     print(*a, **kw, file=out)
 
-p('<!DOCTYPE html><html><head><link rel="stylesheet" href="links.css"></head><body><div class="ecos">')
+p('<!DOCTYPE html><html><head><title>Sentry\'s Dependencies</title><link rel="stylesheet" href="links.css"></head><body><div class="ecos">')
 p(f'<h1>Fundable Dependencies</h1>')
 p(f'<p>This is a super-hacky <a href="https://github.com/getsentry/deps">hack</a> to find GitHub orgs/users from our three primary ecosystems whose work we directly depend on in our <a href="https://open.sentry.io/structure/">main repos</a> and who accept funding on either <a href=">https://github.com/sponsors">GitHub Sponsors</a> or <a href="https://opencollective.com/">Open Collective</a>.</p>')
 for n, eco in reversed(sorted([(v,k) for k,v in counts['ecos'].items()])):
