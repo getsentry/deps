@@ -23,7 +23,12 @@ def get_url(deets):
 for eco in github:
     for org in github[eco]:
         for repo in github[eco][org]:
-            deets = json.load(open(f'gh/{org}-{repo}.json'))['data']['repository']
-            url, sponsorable = get_url(deets)
+            if org == 'psf':  # special case
+                import pdb; pdb.set_trace()
+                url = 'https://www.python.org/psf/donations/'
+                sponsorable = 'psf'
+            else:
+                deets = json.load(open(f'gh/{org}-{repo}.json'))['data']['repository']
+                url, sponsorable = get_url(deets)
             if url:
                 out.writerow([org, sponsorable, url, repo, deets['stargazerCount'], eco])
