@@ -18,5 +18,5 @@ remove and rerun)
    info (funding links, stars) to `gh/{org}-{repo}.json`
 1. `make-deps-csv` - iterates over `github.json`, pulls details from
    `gh/{org}-{repo}.json`, and outputs `deps.csv`
-1. `linkate` - iterates over `deps.csv`, pulls details from `github.json` (I
-   know, I know), and outputs `links.html`
+1. `make-index-html` - iterates over `deps.csv`, pulls details from `github.json` (I
+   know, I know), and outputs `index.html`
