@@ -8,15 +8,28 @@ out = csv.writer(open('deps.csv', 'w'))
 
 def get_url(deets):
     url = slug = ''
+    have_github = False
     for link in deets['fundingLinks']:
         if link['platform'] == 'GITHUB':
+            if have_github:
+                continue
+            have_github = True
             # link['url'] is not the sponsors URL
             slug = link['url'].split('/')[-1]
             url = f'https://github.com/sponsors/{slug}'
-            break
         elif link['platform'] == 'OPEN_COLLECTIVE':
-            url = link['url']
-            slug = url.split('/')[-1]
+            if 'unified' in link['url']:
+                # special case because we have two projects of theirs
+                # one of which has GH + OC the other has OC only
+                url = 'https://github.com/sponsors/unifiedjs'
+                slug = 'unifiedjs'
+                break
+            elif have_github:
+                print(f"also on OC: {link['url']}")
+                continue
+            else:
+                url = link['url']
+                slug = url.split('/')[-1]
     return url, slug
 
 
