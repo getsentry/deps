@@ -4,7 +4,7 @@ sentry-python/test-requirements.txt
 sentry-python/linter-requirements.txt
 sentry-python/docs-requirements.txt
 sentry-native/tests/requirements.txt
-onpremise/sentry/requirements.example.txt
+self-hosted/sentry/requirements.example.txt
 arroyo/requirements.txt
 arroyo/requirements-test.txt
 arroyo/requirements-linter.txt
