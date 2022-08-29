@@ -4,16 +4,19 @@ cd repos/ours
 
 # js
 find . -name package.json \
+  | grep -v example \
   | grep -v sentry-docs/src/gatsby \
   | sed -e 's|\./\(.*\)|\1|' \
   > ../../eco/js/deps-files
 
 # py
 find . -name \*requirements\*.txt \
+  | grep -v example \
   | sed -e 's|\./\(.*\)|\1|' \
   > ../../eco/py/deps-files
 
 # rs
 find . -name Cargo.toml \
+  | grep -v example \
   | sed -e 's|\./\(.*\)|\1|' \
   > ../../eco/rs/deps-files
