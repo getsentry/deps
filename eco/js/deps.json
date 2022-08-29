@@ -9,6 +9,9 @@
   "@octokit/plugin-retry": [
     "craft/package.json"
   ],
+  "@octokit/request-error": [
+    "craft/package.json"
+  ],
   "@octokit/rest": [
     "craft/package.json"
   ],
@@ -16,10 +19,12 @@
     "craft/package.json",
     "sentry-javascript/packages/serverless/package.json",
     "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/remix/package.json",
     "sentry/package.json"
   ],
   "@sentry/typescript": [
-    "craft/package.json"
+    "craft/package.json",
+    "sentry-react-native/package.json"
   ],
   "@types/async": [
     "craft/package.json"
@@ -39,10 +44,12 @@
   "@types/jest": [
     "craft/package.json",
     "sentry-javascript/package.json",
+    "sentry-react-native/package.json",
     "sentry/package.json"
   ],
   "@types/js-yaml": [
-    "craft/package.json"
+    "craft/package.json",
+    "sentry/api-docs/package.json"
   ],
   "@types/mkdirp": [
     "craft/package.json"
@@ -53,7 +60,8 @@
     "sentry-javascript/package.json",
     "sentry-javascript/packages/serverless/package.json",
     "sentry-javascript/packages/nextjs/test/integration/package.json",
-    "sentry-javascript/packages/node/package.json"
+    "sentry-javascript/packages/node/package.json",
+    "sentry/package.json"
   ],
   "@types/node-fetch": [
     "craft/package.json"
@@ -119,12 +127,16 @@
     "sentry-javascript/package.json",
     "sentry-javascript/packages/eslint-config-sdk/package.json",
     "sentry-javascript/packages/eslint-config-sdk/package.json",
-    "sentry-javascript/packages/nextjs/package.json",
+    "sentry-react-native/package.json",
+    "sentry-react-native/sample/package.json",
     "sentry/package.json"
   ],
   "eslint-config-prettier": [
     "craft/package.json",
     "sentry-javascript/packages/eslint-config-sdk/package.json"
+  ],
+  "eslint-formatter-github-annotations": [
+    "craft/package.json"
   ],
   "fast-xml-parser": [
     "craft/package.json"
@@ -139,19 +151,8 @@
     "craft/package.json",
     "sentry-docs/package.json",
     "sentry-javascript/package.json",
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/gatsby/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json",
+    "sentry-react-native/package.json",
+    "sentry-react-native/sample/package.json",
     "sentry/package.json"
   ],
   "js-yaml": [
@@ -167,6 +168,14 @@
   "mustache": [
     "craft/package.json"
   ],
+  "nock": [
+    "craft/package.json",
+    "sentry-javascript/packages/serverless/package.json",
+    "sentry-javascript/packages/nextjs/test/integration/package.json",
+    "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/node-integration-tests/package.json",
+    "sentry-javascript/packages/remix/test/integration/package.json"
+  ],
   "node-fetch": [
     "craft/package.json",
     "sentry-javascript/packages/browser/package.json"
@@ -181,22 +190,7 @@
     "craft/package.json",
     "sentry-docs/package.json",
     "sentry-javascript/package.json",
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/types/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/angular/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/gatsby/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/eslint-plugin-sdk/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json",
+    "sentry-react-native/package.json",
     "sentry/package.json"
   ],
   "prompts": [
@@ -205,26 +199,15 @@
   "rimraf": [
     "craft/package.json",
     "sentry-javascript/package.json",
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/angular/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/gatsby/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/nextjs/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json"
+    "sentry-react-native/package.json"
   ],
   "shell-quote": [
     "craft/package.json"
   ],
   "simple-git": [
+    "craft/package.json"
+  ],
+  "source-map-support": [
     "craft/package.json"
   ],
   "split": [
@@ -242,32 +225,20 @@
   "ts-jest": [
     "craft/package.json",
     "sentry-docs/package.json",
-    "sentry-javascript/package.json"
+    "sentry-javascript/package.json",
+    "sentry-react-native/package.json"
   ],
   "typescript": [
     "craft/package.json",
     "sentry-docs/package.json",
     "sentry-javascript/package.json",
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/types/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
     "sentry-javascript/packages/typescript/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
+    "sentry-javascript/packages/integration-tests/package.json",
     "sentry-javascript/packages/angular/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/eslint-config-sdk/package.json",
-    "sentry-javascript/packages/gatsby/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/eslint-plugin-sdk/package.json",
-    "sentry-javascript/packages/ember/package.json",
     "sentry-javascript/packages/nextjs/test/integration/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json",
+    "sentry-javascript/packages/remix/test/integration/package.json",
+    "sentry-react-native/package.json",
+    "snuba/snuba/admin/package.json",
     "sentry/package.json"
   ],
   "unzipper": [
@@ -296,12 +267,15 @@
     "sentry-javascript/packages/gatsby/package.json",
     "sentry-javascript/packages/ember/package.json",
     "sentry-javascript/packages/nextjs/package.json",
-    "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-react-native/package.json",
     "sentry/package.json"
   ],
   "@sentry/webpack-plugin": [
     "sentry-docs/package.json",
-    "sentry-javascript/packages/nextjs/package.json"
+    "sentry-javascript/packages/gatsby/package.json",
+    "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/remix/package.json"
   ],
   "@types/dompurify": [
     "sentry-docs/package.json",
@@ -310,12 +284,17 @@
   "@types/react": [
     "sentry-docs/package.json",
     "sentry-javascript/packages/nextjs/test/integration/package.json",
+    "sentry-javascript/packages/remix/test/integration/package.json",
     "sentry-javascript/packages/react/package.json",
+    "sentry-react-native/package.json",
+    "snuba/snuba/admin/package.json",
     "sentry/package.json"
   ],
   "@types/react-dom": [
     "sentry-docs/package.json",
     "sentry-javascript/packages/nextjs/test/integration/package.json",
+    "sentry-javascript/packages/remix/test/integration/package.json",
+    "snuba/snuba/admin/package.json",
     "sentry/package.json"
   ],
   "@types/react-helmet": [
@@ -332,7 +311,8 @@
     "sentry-docs/package.json"
   ],
   "axios": [
-    "sentry-docs/package.json"
+    "sentry-docs/package.json",
+    "sentry-javascript/packages/node-integration-tests/package.json"
   ],
   "babel-preset-gatsby": [
     "sentry-docs/package.json",
@@ -349,7 +329,8 @@
     "sentry/package.json"
   ],
   "dotenv": [
-    "sentry-docs/package.json"
+    "sentry-docs/package.json",
+    "sentry-react-native/sample/package.json"
   ],
   "framer-motion": [
     "sentry-docs/package.json",
@@ -392,10 +373,10 @@
   "gatsby-plugin-sharp": [
     "sentry-docs/package.json"
   ],
-  "gatsby-plugin-typescript": [
+  "gatsby-plugin-sitemap": [
     "sentry-docs/package.json"
   ],
-  "gatsby-plugin-vercel": [
+  "gatsby-plugin-typescript": [
     "sentry-docs/package.json"
   ],
   "gatsby-plugin-zeit-now": [
@@ -436,11 +417,7 @@
   ],
   "jsdom": [
     "sentry-docs/package.json",
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/react/package.json"
+    "sentry-javascript/package.json"
   ],
   "node-sass": [
     "sentry-docs/package.json"
@@ -454,7 +431,8 @@
     "sentry/package.json"
   ],
   "prismjs": [
-    "sentry-docs/package.json"
+    "sentry-docs/package.json",
+    "sentry/package.json"
   ],
   "prop-types": [
     "sentry-docs/package.json",
@@ -467,10 +445,18 @@
   "react": [
     "sentry-docs/package.json",
     "sentry-javascript/packages/gatsby/package.json",
+    "sentry-javascript/packages/gatsby/package.json",
     "sentry-javascript/packages/nextjs/test/integration/package.json",
     "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/remix/test/integration/package.json",
+    "sentry-javascript/packages/remix/package.json",
     "sentry-javascript/packages/react/package.json",
     "sentry-javascript/packages/react/package.json",
+    "sentry-javascript/scenarios/browser/react/package.json",
+    "sentry-react-native/package.json",
+    "sentry-react-native/package.json",
+    "sentry-react-native/sample/package.json",
+    "snuba/snuba/admin/package.json",
     "sentry/package.json"
   ],
   "react-bootstrap": [
@@ -479,7 +465,10 @@
   "react-dom": [
     "sentry-docs/package.json",
     "sentry-javascript/packages/nextjs/test/integration/package.json",
+    "sentry-javascript/packages/remix/test/integration/package.json",
     "sentry-javascript/packages/react/package.json",
+    "sentry-javascript/scenarios/browser/react/package.json",
+    "snuba/snuba/admin/package.json",
     "sentry/package.json"
   ],
   "react-feather": [
@@ -504,6 +493,7 @@
   ],
   "ts-node": [
     "sentry-docs/package.json",
+    "sentry-javascript/package.json",
     "sentry/package.json"
   ],
   "@testing-library/jest-dom": [
@@ -518,10 +508,16 @@
   ],
   "@testing-library/react-hooks": [
     "sentry-docs/package.json",
-    "sentry-javascript/packages/react/package.json"
+    "sentry-javascript/packages/react/package.json",
+    "sentry/package.json"
+  ],
+  "@untitaker/hyperlink": [
+    "sentry-docs/package.json"
   ],
   "babel-jest": [
     "sentry-docs/package.json",
+    "sentry-react-native/package.json",
+    "sentry-react-native/sample/package.json",
     "sentry/package.json"
   ],
   "eslint-plugin-jest": [
@@ -532,7 +528,8 @@
   ],
   "eslint-plugin-react": [
     "sentry-docs/package.json",
-    "sentry-javascript/packages/react/package.json"
+    "sentry-javascript/packages/react/package.json",
+    "sentry-react-native/package.json"
   ],
   "est": [
     "sentry-docs/package.json"
@@ -541,8 +538,7 @@
     "sentry-docs/package.json"
   ],
   "http-server": [
-    "sentry-docs/package.json",
-    "sentry/examples/oauth2_consumer_implicit/package.json"
+    "sentry-docs/package.json"
   ],
   "identity-obj-proxy": [
     "sentry-docs/package.json"
@@ -558,7 +554,7 @@
   ],
   "react-test-renderer": [
     "sentry-docs/package.json",
-    "sentry-javascript/packages/react/package.json",
+    "sentry-react-native/sample/package.json",
     "sentry/package.json"
   ],
   "react-testing-library": [
@@ -566,6 +562,19 @@
   ],
   "tslint-react": [
     "sentry-docs/package.json"
+  ],
+  "@rollup/plugin-commonjs": [
+    "sentry-javascript/package.json"
+  ],
+  "@rollup/plugin-node-resolve": [
+    "sentry-javascript/package.json"
+  ],
+  "@rollup/plugin-replace": [
+    "sentry-javascript/package.json"
+  ],
+  "@rollup/plugin-sucrase": [
+    "sentry-javascript/package.json",
+    "sentry-javascript/packages/nextjs/package.json"
   ],
   "@size-limit/preset-small-lib": [
     "sentry-javascript/package.json",
@@ -577,10 +586,16 @@
   "@types/chai": [
     "sentry-javascript/package.json"
   ],
+  "@types/jsdom": [
+    "sentry-javascript/package.json"
+  ],
   "@types/mocha": [
     "sentry-javascript/package.json"
   ],
   "@types/sinon": [
+    "sentry-javascript/package.json"
+  ],
+  "acorn": [
     "sentry-javascript/package.json"
   ],
   "chai": [
@@ -592,11 +607,18 @@
   "codecov": [
     "sentry-javascript/package.json"
   ],
+  "deepmerge": [
+    "sentry-javascript/package.json"
+  ],
+  "jest-environment-node": [
+    "sentry-javascript/package.json"
+  ],
   "karma-browserstack-launcher": [
     "sentry-javascript/package.json"
   ],
   "karma-firefox-launcher": [
-    "sentry-javascript/package.json"
+    "sentry-javascript/package.json",
+    "sentry-javascript/packages/browser/package.json"
   ],
   "lerna": [
     "sentry-javascript/package.json"
@@ -608,26 +630,33 @@
     "sentry-javascript/package.json",
     "sentry-javascript/packages/eslint-plugin-sdk/package.json"
   ],
+  "nodemon": [
+    "sentry-javascript/package.json"
+  ],
   "npm-run-all": [
-    "sentry-javascript/package.json",
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/types/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/angular/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/gatsby/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/ember/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json"
+    "sentry-javascript/package.json"
+  ],
+  "recast": [
+    "sentry-javascript/package.json"
   ],
   "replace-in-file": [
+    "sentry-javascript/package.json",
+    "sentry-react-native/package.json"
+  ],
+  "rollup": [
+    "sentry-javascript/package.json",
+    "sentry-javascript/packages/nextjs/package.json"
+  ],
+  "rollup-plugin-license": [
+    "sentry-javascript/package.json"
+  ],
+  "rollup-plugin-re": [
+    "sentry-javascript/package.json"
+  ],
+  "rollup-plugin-terser": [
+    "sentry-javascript/package.json"
+  ],
+  "rollup-plugin-typescript2": [
     "sentry-javascript/package.json"
   ],
   "sinon": [
@@ -638,144 +667,93 @@
     "sentry-javascript/package.json",
     "sentry/package.json"
   ],
+  "tslib": [
+    "sentry-javascript/package.json",
+    "sentry-javascript/packages/tracing/package.json",
+    "sentry-javascript/packages/svelte/package.json",
+    "sentry-javascript/packages/core/package.json",
+    "sentry-javascript/packages/serverless/package.json",
+    "sentry-javascript/packages/vue/package.json",
+    "sentry-javascript/packages/wasm/package.json",
+    "sentry-javascript/packages/angular/package.json",
+    "sentry-javascript/packages/utils/package.json",
+    "sentry-javascript/packages/integrations/package.json",
+    "sentry-javascript/packages/browser/package.json",
+    "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-javascript/packages/react/package.json",
+    "sentry-javascript/packages/hub/package.json",
+    "sentry/package.json"
+  ],
   "typedoc": [
     "sentry-javascript/package.json"
   ],
   "@sentry/hub": [
     "sentry-javascript/packages/tracing/package.json",
     "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/node/package.json"
-  ],
-  "@sentry/minimal": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/react/package.json"
+    "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-react-native/package.json"
   ],
   "@sentry/types": [
     "sentry-javascript/packages/tracing/package.json",
+    "sentry-javascript/packages/svelte/package.json",
     "sentry-javascript/packages/core/package.json",
     "sentry-javascript/packages/serverless/package.json",
     "sentry-javascript/packages/vue/package.json",
     "sentry-javascript/packages/wasm/package.json",
     "sentry-javascript/packages/angular/package.json",
     "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/ember/package.json",
-    "sentry-javascript/packages/nextjs/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json"
-  ],
-  "@sentry/utils": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/angular/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/ember/package.json",
-    "sentry-javascript/packages/nextjs/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json",
-    "sentry/package.json"
-  ],
-  "tslib": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/angular/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/nextjs/package.json",
-    "sentry-javascript/packages/node/package.json",
-    "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json",
-    "sentry/package.json"
-  ],
-  "@sentry-internal/eslint-config-sdk": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/types/package.json",
-    "sentry-javascript/packages/core/package.json",
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/angular/package.json",
-    "sentry-javascript/packages/utils/package.json",
-    "sentry-javascript/packages/minimal/package.json",
     "sentry-javascript/packages/gatsby/package.json",
     "sentry-javascript/packages/integrations/package.json",
     "sentry-javascript/packages/browser/package.json",
     "sentry-javascript/packages/ember/package.json",
+    "sentry-javascript/packages/nextjs/package.json",
     "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/remix/package.json",
     "sentry-javascript/packages/react/package.json",
-    "sentry-javascript/packages/hub/package.json"
+    "sentry-javascript/packages/hub/package.json",
+    "sentry-react-native/package.json"
+  ],
+  "@sentry/utils": [
+    "sentry-javascript/packages/tracing/package.json",
+    "sentry-javascript/packages/svelte/package.json",
+    "sentry-javascript/packages/core/package.json",
+    "sentry-javascript/packages/serverless/package.json",
+    "sentry-javascript/packages/vue/package.json",
+    "sentry-javascript/packages/wasm/package.json",
+    "sentry-javascript/packages/angular/package.json",
+    "sentry-javascript/packages/gatsby/package.json",
+    "sentry-javascript/packages/integrations/package.json",
+    "sentry-javascript/packages/browser/package.json",
+    "sentry-javascript/packages/ember/package.json",
+    "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-javascript/packages/react/package.json",
+    "sentry-javascript/packages/hub/package.json",
+    "sentry-react-native/package.json",
+    "sentry/package.json"
   ],
   "@sentry/browser": [
     "sentry-javascript/packages/tracing/package.json",
+    "sentry-javascript/packages/svelte/package.json",
     "sentry-javascript/packages/vue/package.json",
     "sentry-javascript/packages/wasm/package.json",
     "sentry-javascript/packages/angular/package.json",
     "sentry-javascript/packages/ember/package.json",
-    "sentry-javascript/packages/react/package.json"
+    "sentry-javascript/packages/react/package.json",
+    "sentry-react-native/package.json"
   ],
   "@types/express": [
     "sentry-javascript/packages/tracing/package.json",
     "sentry-javascript/packages/serverless/package.json",
     "sentry-javascript/packages/node/package.json"
   ],
-  "@types/jsdom": [
-    "sentry-javascript/packages/tracing/package.json"
-  ],
-  "rollup": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json"
-  ],
-  "rollup-plugin-commonjs": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json"
-  ],
-  "rollup-plugin-license": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/browser/package.json"
-  ],
-  "rollup-plugin-node-resolve": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json"
-  ],
-  "rollup-plugin-terser": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json"
-  ],
-  "rollup-plugin-typescript2": [
-    "sentry-javascript/packages/tracing/package.json",
-    "sentry-javascript/packages/vue/package.json",
-    "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/integrations/package.json",
-    "sentry-javascript/packages/browser/package.json"
+  "svelte": [
+    "sentry-javascript/packages/svelte/package.json"
   ],
   "@types/aws-lambda": [
     "sentry-javascript/packages/serverless/package.json"
@@ -801,36 +779,21 @@
   "google-gax": [
     "sentry-javascript/packages/serverless/package.json"
   ],
-  "nock": [
-    "sentry-javascript/packages/serverless/package.json",
-    "sentry-javascript/packages/nextjs/test/integration/package.json",
-    "sentry-javascript/packages/node/package.json"
-  ],
   "npm-packlist": [
     "sentry-javascript/packages/serverless/package.json"
   ],
   "read-pkg": [
     "sentry-javascript/packages/serverless/package.json"
   ],
-  "tslint-config-prettier": [
-    "sentry-javascript/packages/typescript/package.json"
-  ],
-  "tslint-consistent-codestyle": [
-    "sentry-javascript/packages/typescript/package.json"
-  ],
-  "tslint": [
-    "sentry-javascript/packages/typescript/package.json"
-  ],
   "@sentry/core": [
     "sentry-javascript/packages/vue/package.json",
     "sentry-javascript/packages/browser/package.json",
     "sentry-javascript/packages/nextjs/package.json",
-    "sentry-javascript/packages/node/package.json"
+    "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-react-native/package.json"
   ],
   "vue": [
-    "sentry-javascript/packages/vue/package.json"
-  ],
-  "vue-router": [
     "sentry-javascript/packages/vue/package.json"
   ],
   "@types/jest-environment-puppeteer": [
@@ -845,21 +808,60 @@
   ],
   "express": [
     "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/node/package.json"
+    "sentry-javascript/packages/node/package.json",
+    "sentry-javascript/packages/node-integration-tests/package.json"
   ],
   "jest-puppeteer": [
     "sentry-javascript/packages/wasm/package.json"
   ],
   "puppeteer": [
     "sentry-javascript/packages/wasm/package.json",
-    "sentry-javascript/packages/nextjs/test/integration/package.json",
-    "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+    "sentry-javascript/packages/nextjs/test/integration/package.json"
   ],
-  "rxjs": [
+  "@babel/preset-typescript": [
+    "sentry-javascript/packages/integration-tests/package.json",
+    "sentry/package.json"
+  ],
+  "@playwright/test": [
+    "sentry-javascript/packages/integration-tests/package.json"
+  ],
+  "babel-loader": [
+    "sentry-javascript/packages/integration-tests/package.json",
+    "sentry/package.json"
+  ],
+  "html-webpack-plugin": [
+    "sentry-javascript/packages/integration-tests/package.json",
+    "sentry-javascript/scenarios/browser/package.json",
+    "sentry/package.json"
+  ],
+  "playwright": [
+    "sentry-javascript/packages/integration-tests/package.json",
+    "sentry-javascript/packages/browser/package.json"
+  ],
+  "webpack": [
+    "sentry-javascript/packages/integration-tests/package.json",
+    "sentry-javascript/packages/browser/package.json",
+    "sentry-javascript/packages/ember/package.json",
+    "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
+    "sentry-javascript/scenarios/browser/package.json",
+    "snuba/snuba/admin/package.json",
+    "sentry/package.json"
+  ],
+  "@angular-devkit/build-angular": [
+    "sentry-javascript/packages/angular/package.json"
+  ],
+  "@angular/cli": [
     "sentry-javascript/packages/angular/package.json"
   ],
   "@angular/common": [
     "sentry-javascript/packages/angular/package.json",
+    "sentry-javascript/packages/angular/package.json"
+  ],
+  "@angular/compiler": [
+    "sentry-javascript/packages/angular/package.json"
+  ],
+  "@angular/compiler-cli": [
     "sentry-javascript/packages/angular/package.json"
   ],
   "@angular/core": [
@@ -870,8 +872,21 @@
     "sentry-javascript/packages/angular/package.json",
     "sentry-javascript/packages/angular/package.json"
   ],
+  "ng-packagr": [
+    "sentry-javascript/packages/angular/package.json"
+  ],
+  "rxjs": [
+    "sentry-javascript/packages/angular/package.json"
+  ],
+  "@types/array.prototype.flat": [
+    "sentry-javascript/packages/utils/package.json"
+  ],
+  "array.prototype.flat": [
+    "sentry-javascript/packages/utils/package.json"
+  ],
   "@sentry-internal/eslint-plugin-sdk": [
-    "sentry-javascript/packages/eslint-config-sdk/package.json"
+    "sentry-javascript/packages/eslint-config-sdk/package.json",
+    "sentry-react-native/package.json"
   ],
   "@sentry-internal/typescript": [
     "sentry-javascript/packages/eslint-config-sdk/package.json"
@@ -886,19 +901,17 @@
     "sentry-javascript/packages/eslint-config-sdk/package.json"
   ],
   "eslint-plugin-simple-import-sort": [
-    "sentry-javascript/packages/eslint-config-sdk/package.json",
-    "sentry/package.json"
+    "sentry-javascript/packages/eslint-config-sdk/package.json"
   ],
   "@sentry/react": [
     "sentry-javascript/packages/gatsby/package.json",
     "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-react-native/package.json",
     "sentry/package.json"
   ],
   "localforage": [
     "sentry-javascript/packages/integrations/package.json"
-  ],
-  "@types/eslint": [
-    "sentry-javascript/packages/browser/package.json"
   ],
   "@types/md5": [
     "sentry-javascript/packages/browser/package.json"
@@ -936,11 +949,8 @@
   "karma-typescript-es6-transform": [
     "sentry-javascript/packages/browser/package.json"
   ],
-  "webpack": [
-    "sentry-javascript/packages/browser/package.json",
-    "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
-    "sentry/package.json",
-    "sentry/examples/oauth2_consumer_implicit/package.json"
+  "karma-webkit-launcher": [
+    "sentry-javascript/packages/browser/package.json"
   ],
   "requireindex": [
     "sentry-javascript/packages/eslint-plugin-sdk/package.json"
@@ -958,10 +968,6 @@
     "sentry-javascript/packages/ember/package.json"
   ],
   "ember-cli-typescript": [
-    "sentry-javascript/packages/ember/package.json"
-  ],
-  "ember-source": [
-    "sentry-javascript/packages/ember/package.json",
     "sentry-javascript/packages/ember/package.json"
   ],
   "@ember/optional-features": [
@@ -982,6 +988,9 @@
   "@types/ember-qunit": [
     "sentry-javascript/packages/ember/package.json"
   ],
+  "@types/ember__debug": [
+    "sentry-javascript/packages/ember/package.json"
+  ],
   "@types/ember__test-helpers": [
     "sentry-javascript/packages/ember/package.json"
   ],
@@ -992,8 +1001,7 @@
     "sentry-javascript/packages/ember/package.json"
   ],
   "babel-eslint": [
-    "sentry-javascript/packages/ember/package.json",
-    "sentry/package.json"
+    "sentry-javascript/packages/ember/package.json"
   ],
   "broccoli-asset-rev": [
     "sentry-javascript/packages/ember/package.json"
@@ -1037,6 +1045,9 @@
   "ember-sinon-qunit": [
     "sentry-javascript/packages/ember/package.json"
   ],
+  "ember-source": [
+    "sentry-javascript/packages/ember/package.json"
+  ],
   "ember-source-channel-url": [
     "sentry-javascript/packages/ember/package.json"
   ],
@@ -1065,22 +1076,39 @@
     "sentry-javascript/packages/ember/package.json"
   ],
   "@sentry/nextjs": [
-    "sentry-javascript/packages/nextjs/test/integration/package.json"
+    "sentry-javascript/packages/nextjs/test/integration/package.json",
+    "sentry-javascript/packages/nextjs/package.json"
   ],
   "next": [
     "sentry-javascript/packages/nextjs/test/integration/package.json",
     "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/scenarios/browser/nextjs-client/package.json"
+  ],
+  "@babel/parser": [
     "sentry-javascript/packages/nextjs/package.json"
   ],
   "@sentry/integrations": [
     "sentry-javascript/packages/nextjs/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-react-native/package.json",
     "sentry/package.json"
+  ],
+  "jscodeshift": [
+    "sentry-javascript/packages/nextjs/package.json"
+  ],
+  "@babel/types": [
+    "sentry-javascript/packages/nextjs/package.json"
+  ],
+  "@types/jscodeshift": [
+    "sentry-javascript/packages/nextjs/package.json"
   ],
   "@types/webpack": [
     "sentry-javascript/packages/nextjs/package.json"
   ],
   "webpack-cli": [
     "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
+    "snuba/snuba/admin/package.json",
     "sentry/package.json"
   ],
   "cookie": [
@@ -1097,6 +1125,72 @@
   ],
   "@types/lru-cache": [
     "sentry-javascript/packages/node/package.json"
+  ],
+  "@prisma/client": [
+    "sentry-javascript/packages/node-integration-tests/suites/tracing/prisma-orm/package.json",
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "prisma": [
+    "sentry-javascript/packages/node-integration-tests/suites/tracing/prisma-orm/package.json"
+  ],
+  "@types/mongodb": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "@types/mysql": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "@types/pg": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "apollo-server": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "cors": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "graphql": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "mongodb": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "mongodb-memory-server-global": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "mysql": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "pg": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "portfinder": [
+    "sentry-javascript/packages/node-integration-tests/package.json"
+  ],
+  "@remix-run/express": [
+    "sentry-javascript/packages/remix/test/integration/package.json"
+  ],
+  "@remix-run/node": [
+    "sentry-javascript/packages/remix/test/integration/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-javascript/packages/remix/package.json"
+  ],
+  "@remix-run/react": [
+    "sentry-javascript/packages/remix/test/integration/package.json",
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-javascript/packages/remix/package.json"
+  ],
+  "@remix-run/serve": [
+    "sentry-javascript/packages/remix/test/integration/package.json"
+  ],
+  "@sentry/remix": [
+    "sentry-javascript/packages/remix/test/integration/package.json"
+  ],
+  "@remix-run/dev": [
+    "sentry-javascript/packages/remix/test/integration/package.json"
+  ],
+  "@sentry/cli": [
+    "sentry-javascript/packages/remix/package.json",
+    "sentry-react-native/package.json"
   ],
   "hoist-non-react-statics": [
     "sentry-javascript/packages/react/package.json"
@@ -1137,23 +1231,88 @@
   "react-router-5": [
     "sentry-javascript/packages/react/package.json"
   ],
-  "redux": [
+  "react-router-6": [
     "sentry-javascript/packages/react/package.json"
   ],
-  "chrome-launcher": [
-    "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+  "redux": [
+    "sentry-javascript/packages/react/package.json",
+    "sentry-react-native/sample/package.json"
   ],
-  "stacktrace-parser": [
-    "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+  "webpack-bundle-analyzer": [
+    "sentry-javascript/scenarios/browser/package.json"
   ],
-  "uglify": [
-    "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+  "inquirer": [
+    "sentry-javascript/scenarios/browser/package.json"
+  ],
+  "@sentry/wizard": [
+    "sentry-react-native/package.json"
+  ],
+  "@sentry-internal/eslint-config-sdk": [
+    "sentry-react-native/package.json"
+  ],
+  "@types/react-native": [
+    "sentry-react-native/package.json"
+  ],
+  "eslint-plugin-react-native": [
+    "sentry-react-native/package.json"
+  ],
+  "react-native": [
+    "sentry-react-native/package.json",
+    "sentry-react-native/package.json",
+    "sentry-react-native/sample/package.json"
+  ],
+  "@react-native-community/masked-view": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "@react-navigation/native": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "@react-navigation/stack": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "appium": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "appium-doctor": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "react-native-gesture-handler": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "react-native-reanimated": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "react-native-safe-area-context": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "react-native-screens": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "react-redux": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "wd": [
+    "sentry-react-native/sample/package.json"
   ],
   "@babel/core": [
+    "sentry-react-native/sample/package.json",
     "sentry/package.json"
   ],
-  "@babel/plugin-proposal-decorators": [
+  "@babel/runtime": [
+    "sentry-react-native/sample/package.json",
     "sentry/package.json"
+  ],
+  "@react-native-community/eslint-config": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "babel-plugin-module-resolver": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "metro-react-native-babel-preset": [
+    "sentry-react-native/sample/package.json"
+  ],
+  "ts-loader": [
+    "snuba/snuba/admin/package.json"
   ],
   "@babel/plugin-transform-react-jsx": [
     "sentry/package.json"
@@ -1165,12 +1324,6 @@
     "sentry/package.json"
   ],
   "@babel/preset-react": [
-    "sentry/package.json"
-  ],
-  "@babel/preset-typescript": [
-    "sentry/package.json"
-  ],
-  "@babel/runtime": [
     "sentry/package.json"
   ],
   "@dnd-kit/core": [
@@ -1191,25 +1344,64 @@
   "@emotion/styled": [
     "sentry/package.json"
   ],
+  "@monaco-editor/react": [
+    "sentry/package.json"
+  ],
+  "@popperjs/core": [
+    "sentry/package.json"
+  ],
+  "@react-aria/button": [
+    "sentry/package.json"
+  ],
+  "@react-aria/focus": [
+    "sentry/package.json"
+  ],
+  "@react-aria/interactions": [
+    "sentry/package.json"
+  ],
+  "@react-aria/menu": [
+    "sentry/package.json"
+  ],
+  "@react-aria/overlays": [
+    "sentry/package.json"
+  ],
+  "@react-aria/separator": [
+    "sentry/package.json"
+  ],
+  "@react-aria/utils": [
+    "sentry/package.json"
+  ],
+  "@react-stately/collections": [
+    "sentry/package.json"
+  ],
+  "@react-stately/menu": [
+    "sentry/package.json"
+  ],
+  "@react-stately/tree": [
+    "sentry/package.json"
+  ],
+  "@react-types/menu": [
+    "sentry/package.json"
+  ],
+  "@react-types/shared": [
+    "sentry/package.json"
+  ],
   "@sentry/release-parser": [
     "sentry/package.json"
   ],
-  "@sentry/rrweb": [
+  "@sentry/replay": [
+    "sentry/package.json"
+  ],
+  "@testing-library/user-event": [
     "sentry/package.json"
   ],
   "@types/color": [
     "sentry/package.json"
   ],
-  "@types/compression-webpack-plugin": [
-    "sentry/package.json"
-  ],
-  "@types/css-minimizer-webpack-plugin": [
-    "sentry/package.json"
-  ],
   "@types/diff": [
     "sentry/package.json"
   ],
-  "@types/echarts": [
+  "@types/enzyme": [
     "sentry/package.json"
   ],
   "@types/js-cookie": [
@@ -1236,6 +1428,9 @@
   "@types/react-document-title": [
     "sentry/package.json"
   ],
+  "@types/react-grid-layout": [
+    "sentry/package.json"
+  ],
   "@types/react-mentions": [
     "sentry/package.json"
   ],
@@ -1257,12 +1452,14 @@
   "@types/webpack-dev-server": [
     "sentry/package.json"
   ],
-  "ansicolor": [
+  "@types/webpack-env": [
     "sentry/package.json"
   ],
-  "babel-loader": [
-    "sentry/package.json",
-    "sentry/examples/oauth2_consumer_implicit/package.json"
+  "@wojtekmaj/enzyme-adapter-react-17": [
+    "sentry/package.json"
+  ],
+  "ansi-to-react": [
+    "sentry/package.json"
   ],
   "babel-plugin-add-react-displayname": [
     "sentry/package.json"
@@ -1271,6 +1468,9 @@
     "sentry/package.json"
   ],
   "buffer": [
+    "sentry/package.json"
+  ],
+  "cbor-web": [
     "sentry/package.json"
   ],
   "classnames": [
@@ -1312,6 +1512,9 @@
   "echarts-for-react": [
     "sentry/package.json"
   ],
+  "enzyme": [
+    "sentry/package.json"
+  ],
   "focus-trap": [
     "sentry/package.json"
   ],
@@ -1327,6 +1530,9 @@
   "gettext-parser": [
     "sentry/package.json"
   ],
+  "gl-matrix": [
+    "sentry/package.json"
+  ],
   "intersection-observer": [
     "sentry/package.json"
   ],
@@ -1334,6 +1540,9 @@
     "sentry/package.json"
   ],
   "jed": [
+    "sentry/package.json"
+  ],
+  "js-beautify": [
     "sentry/package.json"
   ],
   "js-cookie": [
@@ -1360,10 +1569,16 @@
   "mobx-react": [
     "sentry/package.json"
   ],
+  "mockdate": [
+    "sentry/package.json"
+  ],
   "moment": [
     "sentry/package.json"
   ],
   "moment-timezone": [
+    "sentry/package.json"
+  ],
+  "pako": [
     "sentry/package.json"
   ],
   "papaparse": [
@@ -1381,6 +1596,9 @@
   "process": [
     "sentry/package.json"
   ],
+  "pyright": [
+    "sentry/package.json"
+  ],
   "qrcode.react": [
     "sentry/package.json"
   ],
@@ -1393,7 +1611,10 @@
   "react-document-title": [
     "sentry/package.json"
   ],
-  "react-keydown": [
+  "react-grid-layout": [
+    "sentry/package.json"
+  ],
+  "react-hotkeys-hook": [
     "sentry/package.json"
   ],
   "react-lazyload": [
@@ -1403,6 +1624,9 @@
     "sentry/package.json"
   ],
   "react-router": [
+    "sentry/package.json"
+  ],
+  "react-select-event": [
     "sentry/package.json"
   ],
   "react-sparklines": [
@@ -1417,7 +1641,13 @@
   "regenerator-runtime": [
     "sentry/package.json"
   ],
+  "rrweb": [
+    "sentry/package.json"
+  ],
   "rrweb-player": [
+    "sentry/package.json"
+  ],
+  "screenfull": [
     "sentry/package.json"
   ],
   "scroll-to-element": [
@@ -1435,9 +1665,6 @@
   "webpack-remove-empty-scripts": [
     "sentry/package.json"
   ],
-  "wink-jaro-distance": [
-    "sentry/package.json"
-  ],
   "zxcvbn": [
     "sentry/package.json"
   ],
@@ -1451,6 +1678,9 @@
     "sentry/package.json"
   ],
   "@storybook/addon-actions": [
+    "sentry/package.json"
+  ],
+  "@storybook/addon-docs": [
     "sentry/package.json"
   ],
   "@storybook/addon-essentials": [
@@ -1474,13 +1704,19 @@
   "@storybook/react": [
     "sentry/package.json"
   ],
+  "@storybook/router": [
+    "sentry/package.json"
+  ],
   "@storybook/theming": [
+    "sentry/package.json"
+  ],
+  "@types/js-beautify": [
     "sentry/package.json"
   ],
   "@visual-snapshot/jest": [
     "sentry/package.json"
   ],
-  "@wojtekmaj/enzyme-adapter-react-17": [
+  "assert": [
     "sentry/package.json"
   ],
   "babel-gettext-extractor": [
@@ -1489,22 +1725,16 @@
   "babel-plugin-dynamic-import-node": [
     "sentry/package.json"
   ],
-  "csstype": [
-    "sentry/package.json"
-  ],
-  "enzyme": [
+  "benchmark": [
     "sentry/package.json"
   ],
   "eslint-config-sentry-app": [
     "sentry/package.json"
   ],
-  "html-webpack-plugin": [
-    "sentry/package.json"
-  ],
   "jest-canvas-mock": [
     "sentry/package.json"
   ],
-  "jest-circus": [
+  "jest-environment-jsdom": [
     "sentry/package.json"
   ],
   "jest-fetch-mock": [
@@ -1516,16 +1746,16 @@
   "jest-sentry-environment": [
     "sentry/package.json"
   ],
-  "mockdate": [
+  "postcss-jsx": [
+    "sentry/package.json"
+  ],
+  "postcss-syntax": [
     "sentry/package.json"
   ],
   "react-refresh": [
     "sentry/package.json"
   ],
-  "react-select-event": [
-    "sentry/package.json"
-  ],
-  "speed-measure-webpack-plugin": [
+  "storybook-dark-mode": [
     "sentry/package.json"
   ],
   "stylelint": [
@@ -1537,10 +1767,10 @@
   "stylelint-config-recommended": [
     "sentry/package.json"
   ],
-  "stylelint-config-styled-components": [
+  "tocbot": [
     "sentry/package.json"
   ],
-  "stylelint-processor-styled-components": [
+  "tsconfig-paths": [
     "sentry/package.json"
   ],
   "typescript-styled-plugin": [
@@ -1552,19 +1782,16 @@
   "webpack-dev-server": [
     "sentry/package.json"
   ],
-  "babel-core": [
-    "sentry/examples/oauth2_consumer_implicit/package.json"
-  ],
-  "babel-preset-env": [
-    "sentry/examples/oauth2_consumer_implicit/package.json"
-  ],
-  "oauth2-implicit": [
-    "sentry/examples/oauth2_consumer_implicit/package.json"
+  "json-diff": [
+    "sentry/api-docs/package.json"
   ],
   "json-refs": [
     "sentry/api-docs/package.json"
   ],
   "openapi-examples-validator": [
+    "sentry/api-docs/package.json"
+  ],
+  "@types/json-diff": [
     "sentry/api-docs/package.json"
   ]
 }

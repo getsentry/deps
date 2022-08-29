@@ -3,15 +3,14 @@
     "relay/relay-server/Cargo.toml"
   ],
   "56quarters/cadence": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-statsd/Cargo.toml"
   ],
   "Amanieu/parking_lot": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-common/Cargo.toml",
     "relay/relay-server/Cargo.toml",
     "relay/relay-statsd/Cargo.toml"
@@ -22,59 +21,58 @@
   ],
   "BurntSushi/walkdir": [
     "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/examples/minidump_stackwalk/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml"
   ],
   "Geal/nom": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-unwind/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "GoogleChromeLabs/wasmbin": [
     "symbolicator/crates/wasm-split/Cargo.toml"
   ],
   "Keats/jsonwebtoken": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "KokaKiwi/rust-hex": [
     "symbolicator/crates/wasm-split/Cargo.toml"
   ],
   "Lucretiel/nom-supreme": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "Lymia/enumset": [
     "relay/relay-general/Cargo.toml"
+  ],
+  "RazrFalcon/memmap2-rs": [
+    "symbolic/symbolic-common/Cargo.toml"
   ],
   "RustCrypto/MACs": [
     "relay/relay-general/Cargo.toml",
     "relay/relay-auth/Cargo.toml"
   ],
   "RustCrypto/hashes": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-general/Cargo.toml",
     "relay/relay-auth/Cargo.toml"
+  ],
+  "SergioBenitez/cookie-rs": [
+    "relay/relay-general/Cargo.toml"
   ],
   "Sgeo/take_mut": [
     "relay/relay-server/Cargo.toml"
   ],
   "Stebalien/tempfile": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-common/Cargo.toml",
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolic/symbolic-debuginfo/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "TeXitoi/structopt": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/wasm-split/Cargo.toml",
     "symbolicator/crates/process-event/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/tools/document-metrics/Cargo.toml",
     "relay/tools/generate-schema/Cargo.toml",
     "relay/tools/process-event/Cargo.toml",
@@ -84,18 +82,18 @@
     "relay/relay-config/Cargo.toml"
   ],
   "achanda/ipnetwork": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-filter/Cargo.toml"
   ],
   "actix/actix": [
+    "relay/relay-aws-extension/Cargo.toml",
+    "relay/relay-system/Cargo.toml",
     "relay/relay-metrics/Cargo.toml",
     "relay/relay-test/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "actix/actix-web": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml",
     "relay/relay-test/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
@@ -104,60 +102,60 @@
   ],
   "alexcrichton/cc-rs": [
     "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-demangle/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml"
+    "symbolic/symbolic-demangle/Cargo.toml"
   ],
-  "alexcrichton/cookie-rs": [
-    "relay/relay-general/Cargo.toml"
+  "alexcrichton/cmake-rs": [
+    "symbolicator/crates/symbolicator-crash/Cargo.toml",
+    "relay/relay-crash/Cargo.toml"
   ],
   "alexcrichton/filetime": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
-  ],
-  "alexcrichton/proc-macro2": [
-    "relay/relay-general/derive/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "alexcrichton/rustc-demangle": [
     "symbolic/Cargo.toml",
     "symbolic/symbolic-demangle/Cargo.toml"
   ],
   "alicemaz/rust-base64": [
+    "relay/relay-profiling/Cargo.toml",
     "relay/relay-server/Cargo.toml",
     "relay/relay-auth/Cargo.toml"
   ],
-  "altsysrq/proptest": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-unwind/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml"
-  ],
   "bheisler/criterion.rs": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
     "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
     "symbolic/symbolic-symcache/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml",
-    "relay/relay-general/Cargo.toml"
+    "relay/relay-general/Cargo.toml",
+    "relay/relay-metrics/Cargo.toml"
+  ],
+  "bitvecto-rs/bitvec": [
+    "symbolic/symbolic-debuginfo/Cargo.toml"
+  ],
+  "bluss/indexmap": [
+    "symbolic/symbolic-il2cpp/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/symbolic-ppdb/Cargo.toml",
+    "symbolic/symbolic-symcache/Cargo.toml"
   ],
   "bluss/rust-itertools": [
     "relay/relay-general/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "bytecodealliance/wasm-tools/tree/main/crates/wasmparser": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "carllerche/bytes": [
+    "relay/relay-profiling/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "chronotope/chrono": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-unreal/Cargo.toml",
-    "symbolicator/Cargo.toml",
+    "symbolic/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-common/Cargo.toml",
     "relay/relay-general/Cargo.toml",
     "relay/relay-cabi/Cargo.toml",
@@ -172,13 +170,6 @@
     "symbolic/Cargo.toml",
     "symbolic/Cargo.toml",
     "symbolic/Cargo.toml",
-    "symbolic/examples/object_debug/Cargo.toml",
-    "symbolic/examples/unreal_engine_crash/Cargo.toml",
-    "symbolic/examples/dump_sources/Cargo.toml",
-    "symbolic/examples/addr2line/Cargo.toml",
-    "symbolic/examples/symcache_debug/Cargo.toml",
-    "symbolic/examples/dump_cfi/Cargo.toml",
-    "symbolic/examples/minidump_stackwalk/Cargo.toml",
     "relay/Cargo.toml",
     "relay/Cargo.toml",
     "relay/relay/Cargo.toml",
@@ -189,8 +180,6 @@
     "relay/relay-auth/Cargo.toml"
   ],
   "danburkert/memmap-rs": [
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-common/Cargo.toml",
     "relay/relay-general/Cargo.toml"
   ],
   "davidarmstronglewis/uap-rs": [
@@ -200,27 +189,33 @@
     "symbolic/Cargo.toml",
     "symbolic/Cargo.toml",
     "symbolic/Cargo.toml",
-    "symbolic/examples/addr2line/Cargo.toml",
-    "symbolic/examples/symcache_debug/Cargo.toml",
-    "symbolic/examples/dump_cfi/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/wasm-split/Cargo.toml",
     "symbolicator/crates/process-event/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/tools/document-metrics/Cargo.toml",
     "relay/tools/generate-schema/Cargo.toml",
     "relay/tools/process-event/Cargo.toml",
     "relay/tools/scrub-minidump/Cargo.toml"
+  ],
+  "dtolnay/async-trait": [
+    "symbolic/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
+  ],
+  "dtolnay/proc-macro2": [
+    "relay/relay-general/derive/Cargo.toml"
   ],
   "dtolnay/quote": [
     "relay/relay-general/derive/Cargo.toml",
     "relay/relay-ffi-macros/Cargo.toml"
   ],
   "dtolnay/serde-yaml": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/tools/document-metrics/Cargo.toml",
+    "relay/relay-redis/Cargo.toml",
     "relay/relay-config/Cargo.toml"
   ],
   "dtolnay/syn": [
@@ -229,83 +224,99 @@
     "relay/relay-ffi-macros/Cargo.toml"
   ],
   "dtolnay/thiserror": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-unreal/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
+    "symbolic/symbolic-ppdb/Cargo.toml",
     "symbolic/symbolic-symcache/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml",
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolic/symbolic-cfi/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "emilk/drop-merge-sort": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-debuginfo/Cargo.toml",
-    "symbolic/symbolic-symcache/Cargo.toml"
+    "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "gimli-rs/cpp_demangle": [
     "symbolic/Cargo.toml",
     "symbolic/symbolic-demangle/Cargo.toml"
   ],
   "gimli-rs/gimli": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
+  "gimli-rs/leb128": [
+    "symbolic/Cargo.toml",
+    "symbolic/symbolic-ppdb/Cargo.toml"
+  ],
   "gyscos/zstd-rs": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
-    "symbolicator/crates/symsorter/Cargo.toml"
+    "symbolicator/crates/symsorter/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "relay/relay-server/Cargo.toml"
+  ],
+  "hrvolapeter/gcp_auth": [
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "ihrwein/backoff": [
     "relay/relay-common/Cargo.toml"
   ],
   "indiv0/lazycell": [
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-debuginfo/Cargo.toml",
-    "relay/relay-common/Cargo.toml"
+    "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "japaric/hash32": [
     "relay/relay-metrics/Cargo.toml"
   ],
   "jean-airoldie/humantime-serde": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "jeromefroe/lru-rs": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-common/Cargo.toml"
-  ],
-  "johannhof/difference.rs": [
-    "relay/relay-general/Cargo.toml"
   ],
   "llogiq/bytecount": [
     "relay/relay-general/Cargo.toml"
   ],
-  "luser/rust-minidump": [
-    "relay/relay-general/Cargo.toml"
+  "luser/rust-test-assembler": [
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "m4b/goblin": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "m4b/scroll": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-unreal/Cargo.toml",
-    "symbolic/symbolic-debuginfo/Cargo.toml",
-    "relay/relay-general/Cargo.toml"
+    "symbolic/Cargo.toml",
+    "symbolic/symbolic-debuginfo/Cargo.toml"
+  ],
+  "manishearth/elsa": [
+    "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "marshallpierce/rust-base64": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
+  ],
+  "matklad/once_cell": [
+    "relay/relay-common/Cargo.toml",
+    "relay/relay-system/Cargo.toml",
+    "relay/relay-general/Cargo.toml",
+    "relay/relay-filter/Cargo.toml",
+    "relay/Cargo.toml",
+    "relay/relay/Cargo.toml",
+    "relay/relay-cabi/Cargo.toml",
+    "relay/relay-server/Cargo.toml"
   ],
   "mstange/msvc-demangler-rust": [
     "symbolic/Cargo.toml",
     "symbolic/symbolic-demangle/Cargo.toml"
+  ],
+  "mstange/pdb-addr2line": [
+    "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "mystor/synstructure": [
     "relay/relay-general/derive/Cargo.toml"
@@ -320,20 +331,27 @@
   "oschwald/maxminddb-rust": [
     "relay/relay-general/Cargo.toml"
   ],
+  "pavlukivan/android_trace_log/": [
+    "relay/relay-profiling/Cargo.toml"
+  ],
   "pest-parser/pest": [
     "relay/relay-general/Cargo.toml",
     "relay/relay-general/Cargo.toml"
+  ],
+  "programatik29/axum-server": [
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "rayon-rs/rayon": [
     "symbolicator/crates/symsorter/Cargo.toml"
   ],
   "rusoto/rusoto": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "rust-cli/paw": [
     "relay/tools/document-metrics/Cargo.toml",
@@ -341,166 +359,158 @@
     "relay/tools/process-event/Cargo.toml",
     "relay/tools/scrub-minidump/Cargo.toml"
   ],
+  "rust-fuzz/libfuzzer": [
+    "symbolic/symbolic-debuginfo/fuzz/Cargo.toml",
+    "symbolic/symbolic-ppdb/fuzz/Cargo.toml"
+  ],
   "rust-lang-nursery/failure": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml",
+    "relay/relay-aws-extension/Cargo.toml",
     "relay/relay-common/Cargo.toml",
+    "relay/relay-system/Cargo.toml",
     "relay/relay-ffi/Cargo.toml",
     "relay/relay-general/Cargo.toml",
-    "relay/Cargo.toml",
     "relay/relay-log/Cargo.toml",
+    "relay/relay-metrics/Cargo.toml",
+    "relay/Cargo.toml",
     "relay/relay-redis/Cargo.toml",
     "relay/relay-config/Cargo.toml",
+    "relay/relay-profiling/Cargo.toml",
     "relay/relay/Cargo.toml",
     "relay/relay-cabi/Cargo.toml",
     "relay/relay-server/Cargo.toml",
     "relay/relay-auth/Cargo.toml"
   ],
   "rust-lang-nursery/futures-rs": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml",
-    "relay/Cargo.toml",
+    "relay/relay-aws-extension/Cargo.toml",
+    "relay/relay-system/Cargo.toml",
     "relay/relay-metrics/Cargo.toml",
+    "relay/Cargo.toml",
     "relay/relay-test/Cargo.toml",
     "relay/relay/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "rust-lang-nursery/lazy-static.rs": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-unreal/Cargo.toml",
+    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml",
-    "relay/relay-common/Cargo.toml",
-    "relay/relay-general/Cargo.toml",
-    "relay/Cargo.toml",
-    "relay/relay-filter/Cargo.toml",
-    "relay/relay-quotas/Cargo.toml",
-    "relay/relay/Cargo.toml",
-    "relay/relay-cabi/Cargo.toml",
-    "relay/relay-server/Cargo.toml",
-    "relay/relay-statsd/Cargo.toml"
+    "symbolicator/Cargo.toml"
   ],
   "rust-lang/backtrace-rs": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "rust-lang/flate2-rs": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-unreal/Cargo.toml",
+    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "rust-lang/futures-rs": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "relay/relay-system/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "rust-lang/glob": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
+  ],
+  "rust-lang/hashbrown": [
+    "relay/relay-server/Cargo.toml"
   ],
   "rust-lang/libc": [
     "relay/relay-server/Cargo.toml"
   ],
   "rust-lang/log": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml",
     "relay/relay-log/Cargo.toml"
   ],
   "rust-lang/regex": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-unreal/Cargo.toml",
+    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-common/Cargo.toml",
     "relay/relay-general/Cargo.toml",
     "relay/relay-filter/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
-  "rust-num/num-traits": [
+  "rust-lang/rust-bindgen": [
+    "symbolicator/crates/symbolicator-crash/Cargo.toml",
+    "relay/relay-crash/Cargo.toml"
+  ],
+  "rust-minidump/rust-minidump": [
     "symbolic/Cargo.toml",
-    "symbolic/symbolic-unwind/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "relay/relay-general/Cargo.toml"
+  ],
+  "rust-num/num-traits": [
     "relay/relay-general/Cargo.toml"
   ],
   "rust-random/rand": [
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-minidump/Cargo.toml",
     "relay/relay-sampling/Cargo.toml",
     "relay/relay-sampling/Cargo.toml",
+    "relay/relay-replays/Cargo.toml",
+    "relay/relay-replays/Cargo.toml",
     "relay/relay-auth/Cargo.toml",
     "relay/relay-statsd/Cargo.toml"
   ],
-  "rustwasm/walrus": [
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-debuginfo/Cargo.toml"
-  ],
   "seanmonstar/num_cpus": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-config/Cargo.toml"
   ],
-  "seanmonstar/pretty-env-logger": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
-  ],
   "seanmonstar/reqwest": [
-    "symbolicator/crates/process-event/Cargo.toml",
+    "relay/relay-aws-extension/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "seanmonstar/unicase": [
-    "relay/relay-sampling/Cargo.toml"
+    "relay/relay-sampling/Cargo.toml",
+    "relay/relay-replays/Cargo.toml"
   ],
   "seanmonstar/warp": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
-  ],
-  "sebasmagri/env_logger/": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/crates/symbolicator/Cargo.toml"
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
   ],
   "serde-rs/json": [
-    "symbolic/Cargo.toml",
+    "symbolic/symbolic-il2cpp/Cargo.toml",
     "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
-    "symbolic/symbolic-cabi/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/process-event/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "relay/relay-aws-extension/Cargo.toml",
     "relay/relay-general/Cargo.toml",
     "relay/tools/document-metrics/Cargo.toml",
     "relay/tools/generate-schema/Cargo.toml",
     "relay/relay-metrics/Cargo.toml",
     "relay/relay-filter/Cargo.toml",
     "relay/relay-config/Cargo.toml",
+    "relay/relay-profiling/Cargo.toml",
     "relay/relay-sampling/Cargo.toml",
     "relay/relay-quotas/Cargo.toml",
+    "relay/relay-replays/Cargo.toml",
     "relay/relay-cabi/Cargo.toml",
     "relay/relay-server/Cargo.toml",
     "relay/relay-auth/Cargo.toml"
   ],
   "serde-rs/serde": [
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/process-event/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "relay/relay-aws-extension/Cargo.toml",
     "relay/relay-common/Cargo.toml",
     "relay/relay-common/Cargo.toml",
     "relay/relay-general/Cargo.toml",
@@ -509,77 +519,103 @@
     "relay/relay-filter/Cargo.toml",
     "relay/relay-redis/Cargo.toml",
     "relay/relay-config/Cargo.toml",
+    "relay/relay-profiling/Cargo.toml",
+    "relay/relay-profiling/Cargo.toml",
     "relay/relay-sampling/Cargo.toml",
     "relay/relay-quotas/Cargo.toml",
+    "relay/relay-replays/Cargo.toml",
     "relay/relay-cabi/Cargo.toml",
     "relay/relay-server/Cargo.toml",
     "relay/relay-auth/Cargo.toml"
   ],
   "servo/rust-fnv": [
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-symcache/Cargo.toml",
     "relay/relay-metrics/Cargo.toml"
   ],
   "servo/rust-smallvec": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
     "relay/relay-general/Cargo.toml",
     "relay/relay-quotas/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "servo/rust-url": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-general/Cargo.toml",
     "relay/relay-filter/Cargo.toml",
     "relay/relay-config/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
   "sfackler/rust-fallible-iterator": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "storyyeller/stable_deref_trait": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-common/Cargo.toml"
   ],
   "svartalf/hostname": [
-    "symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/Cargo.toml",
     "relay/relay/Cargo.toml"
   ],
+  "time-rs/time": [
+    "symbolic/symbolic-unreal/Cargo.toml",
+    "symbolic/Cargo.toml"
+  ],
+  "tokio-rs/axum": [
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
+  ],
   "tokio-rs/bytes": [
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-unreal/Cargo.toml"
+    "symbolic/symbolic-unreal/Cargo.toml",
+    "symbolic/Cargo.toml"
   ],
   "tokio-rs/tokio": [
-    "symbolicator/Cargo.toml",
-    "symbolicator/Cargo.toml",
+    "symbolic/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "relay/relay-aws-extension/Cargo.toml",
+    "relay/relay-system/Cargo.toml",
+    "relay/relay-system/Cargo.toml",
     "relay/relay-test/Cargo.toml",
     "relay/relay-server/Cargo.toml",
     "relay/relay-server/Cargo.toml"
   ],
-  "uuid-rs/uuid": [
+  "tokio-rs/tracing": [
     "symbolic/Cargo.toml",
-    "symbolic/symbolic-common/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/symbolic-symcache/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
     "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
+  ],
+  "tower-rs/tower": [
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml"
+  ],
+  "uuid-rs/uuid": [
+    "symbolic/symbolic-common/Cargo.toml",
+    "symbolic/Cargo.toml",
+    "symbolic/symbolic-ppdb/Cargo.toml",
     "symbolicator/crates/wasm-split/Cargo.toml",
     "symbolicator/crates/symbolicator/Cargo.toml",
+    "symbolicator/Cargo.toml",
     "relay/relay-general/Cargo.toml",
     "relay/relay-server/Cargo.toml"
-  ],
-  "willglynn/pdb": [
-    "symbolic/Cargo.toml",
-    "symbolic/symbolic-debuginfo/Cargo.toml"
   ],
   "wolandr/pretty-hex": [
     "relay/relay-general/Cargo.toml"
   ],
   "zip-rs/zip": [
-    "symbolic/Cargo.toml",
     "symbolic/symbolic-debuginfo/Cargo.toml",
     "symbolicator/crates/symsorter/Cargo.toml"
   ]
