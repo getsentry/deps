@@ -6,6 +6,7 @@ import subprocess
 
 github = json.load(open('github.json'))
 
+os.makedirs('gh', exist_ok=True)
 
 for eco in github:
     for org in github[eco]:
