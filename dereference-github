@@ -1,6 +1,13 @@
 #!/usr/bin/env zsh
 set -euo pipefail
+
 echo '{}' > github.json
+
+# For some ecosystems where we need to hit an API in order to determine a
+# GitHub repo for each package, cache the results for easier rerunning.
+mkdir -p eco/js/npm
+mkdir -p eco/py/pi
+
 for eco in js py rs; do
   node "./eco/$eco/dereference-github.js"
 done
