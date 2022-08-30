@@ -21,9 +21,16 @@ function dereference(urls) {
   for ([_, url] of Object.entries(urls)) {
     let m = url.match(pat);
     if (m) {
-      if (m.groups.org !== 'sponsors') {
-        return m.groups;
+      if (m.groups.org === 'sponsors') {
+        // Don't match on GitHub Sponsors URLs at this point.
+        continue
       }
+      if (m.groups.repo.endsWith('.git')) {
+        // I couldn't get negative lookahead to work in the regex. 🤷
+        // Anyway GitHub redirects these, so let's as well.
+        m.groups.repo = m.groups.repo.slice(0, -4);
+      }
+      return m.groups;
     }
   }
 }

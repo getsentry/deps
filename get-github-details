@@ -11,6 +11,8 @@ os.makedirs('gh', exist_ok=True)
 for eco in github:
     for org in github[eco]:
         for repo in github[eco][org]:
+            if repo.endswith('.git'):
+                raise Heck  # this is supposed to be filtered out in lib.js > dereference
             filepath = f'gh/{org}-{repo}.json'
             if os.path.exists(filepath):
                 print(f'have {org}/{repo}')

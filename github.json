@@ -1810,7 +1810,7 @@
         "sentry/requirements-dev-frozen.txt",
         "sentry/requirements-frozen.txt"
       ],
-      "proto-plus-python.git": [
+      "proto-plus-python": [
         "sentry/requirements-dev-frozen.txt",
         "sentry/requirements-frozen.txt"
       ]
@@ -2343,7 +2343,7 @@
       ]
     },
     "websocket-client": {
-      "websocket-client.git": [
+      "websocket-client": [
         "sentry/requirements-dev-frozen.txt",
         "sentry/requirements-dev-only-frozen.txt"
       ]
