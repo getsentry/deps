@@ -22,8 +22,8 @@ stuff? `curl`, maybe? Good luck!
    `./eco/*/deps.json`, format is `{"dep": ["file1", "file2"]}` where `dep` is an
 ecosystem-specific identifier, and `file*` are paths to package manifest files (relative to `./repos/ours`) in which the `dep` is mentioned
 1. `dereference-github` - iterate over `eco/*/deps.json` and update
-   `github.json` (if there are bugs upstream you can get garbage in here;
-remove and rerun)
+   `github.json` (if there are bugs upstream you can get garbage in here; fix
+upstream and rerun)
 1. `get-github-details` - iterate over `github.json` and output additional
    info (funding links, stars) to `gh/{org}-{repo}.json`
 1. `make-deps-csv` - iterate over `github.json`, pull details from
