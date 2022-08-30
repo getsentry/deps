@@ -8,6 +8,6 @@ echo '{}' > github.json
 mkdir -p eco/js/npm
 mkdir -p eco/py/pi
 
-for eco in js py rs; do
+for eco in $(cat eco-list); do
   node "./eco/$eco/dereference-github.js"
 done

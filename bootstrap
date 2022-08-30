@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 cd "$(dirname $0)"
-for eco in js py rs; do
+for eco in $(cat eco-list); do
   source "./eco/$eco/bootstrap.sh"
 done

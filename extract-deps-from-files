@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
 set -euo pipefail
-for eco in js py rs; do
+for eco in $(cat eco-list); do
   zsh "./eco/$eco/extract.sh"
 done
