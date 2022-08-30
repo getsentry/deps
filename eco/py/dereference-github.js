@@ -15,7 +15,7 @@ async function refresh(name) {
     } catch (error) {
       console.error(error.response.body);
     }
-    fs.writeFileSync(filepath, response.body)
+    fs.writeFileSync(filepath, JSON.stringify(JSON.parse(response.body), null, 2))
     console.log(`got  ${name}`);
   }
   return require(filepath);
