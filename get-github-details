@@ -26,5 +26,5 @@ for eco in github:
                 stderr=subprocess.PIPE,
             ).communicate(body)
             assert not err, err
-            open(filepath, 'wb+').write(out)
+            json.dump(json.loads(out), open(filepath, 'w+'), indent=2)
             print(f'got  {org}/{repo}')
