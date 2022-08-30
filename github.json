@@ -30,13 +30,11 @@
       "plugin-retry.js": [
         "craft/package.json"
       ],
+      "request-error.js": [
+        "craft/package.json"
+      ],
       "rest.js": [
         "craft/package.json"
-      ]
-    },
-    "DefinitelyTyped": {
-      "DefinitelyTyped": [
-        "sentry/package.json"
       ]
     },
     "sindresorhus": {
@@ -45,10 +43,6 @@
       ],
       "string-length": [
         "craft/package.json"
-      ],
-      "query-string": [
-        "sentry-docs/package.json",
-        "sentry/package.json"
       ],
       "find-up": [
         "sentry-javascript/packages/serverless/package.json"
@@ -100,6 +94,9 @@
     "evanw": {
       "esbuild": [
         "craft/package.json"
+      ],
+      "node-source-map-support": [
+        "craft/package.json"
       ]
     },
     "eslint": {
@@ -109,7 +106,8 @@
         "sentry-javascript/package.json",
         "sentry-javascript/packages/eslint-config-sdk/package.json",
         "sentry-javascript/packages/eslint-config-sdk/package.json",
-        "sentry-javascript/packages/nextjs/package.json",
+        "sentry-react-native/package.json",
+        "sentry-react-native/sample/package.json",
         "sentry/package.json"
       ]
     },
@@ -122,29 +120,16 @@
         "craft/package.json",
         "sentry-docs/package.json",
         "sentry-javascript/package.json",
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/types/package.json",
-        "sentry-javascript/packages/core/package.json",
-        "sentry-javascript/packages/serverless/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/angular/package.json",
-        "sentry-javascript/packages/utils/package.json",
-        "sentry-javascript/packages/minimal/package.json",
-        "sentry-javascript/packages/gatsby/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json",
-        "sentry-javascript/packages/eslint-plugin-sdk/package.json",
-        "sentry-javascript/packages/node/package.json",
-        "sentry-javascript/packages/react/package.json",
-        "sentry-javascript/packages/hub/package.json",
+        "sentry-react-native/package.json",
         "sentry/package.json"
-      ],
-      "tslint-config-prettier": [
-        "sentry-javascript/packages/typescript/package.json"
       ],
       "stylelint-config-prettier": [
         "sentry/package.json"
+      ]
+    },
+    "ableco": {
+      "eslint-formatter-github-annotations": [
+        "craft/package.json"
       ]
     },
     "NaturalIntelligence": {
@@ -173,14 +158,17 @@
       "react": [
         "sentry/package.json"
       ],
+      "jscodeshift": [
+        "sentry-javascript/packages/nextjs/package.json"
+      ],
+      "react-native": [
+        "sentry-react-native/sample/package.json"
+      ],
+      "metro": [
+        "sentry-react-native/sample/package.json"
+      ],
       "regenerator": [
         "sentry/package.json"
-      ]
-    },
-    "nodeca": {
-      "js-yaml": [
-        "craft/package.json",
-        "sentry/api-docs/package.json"
       ]
     },
     "bcherny": {
@@ -191,30 +179,21 @@
     "isaacs": {
       "node-mkdirp": [
         "craft/package.json"
-      ],
-      "rimraf": [
-        "craft/package.json",
-        "sentry-javascript/package.json",
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/core/package.json",
-        "sentry-javascript/packages/serverless/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/angular/package.json",
-        "sentry-javascript/packages/utils/package.json",
-        "sentry-javascript/packages/minimal/package.json",
-        "sentry-javascript/packages/gatsby/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json",
-        "sentry-javascript/packages/nextjs/package.json",
-        "sentry-javascript/packages/node/package.json",
-        "sentry-javascript/packages/react/package.json",
-        "sentry-javascript/packages/hub/package.json"
       ]
     },
     "janl": {
       "mustache.js": [
         "craft/package.json"
+      ]
+    },
+    "nock": {
+      "nock": [
+        "craft/package.json",
+        "sentry-javascript/packages/serverless/package.json",
+        "sentry-javascript/packages/nextjs/test/integration/package.json",
+        "sentry-javascript/packages/node/package.json",
+        "sentry-javascript/packages/node-integration-tests/package.json",
+        "sentry-javascript/packages/remix/test/integration/package.json"
       ]
     },
     "node-fetch": {
@@ -265,55 +244,8 @@
       "ts-jest": [
         "craft/package.json",
         "sentry-docs/package.json",
-        "sentry-javascript/package.json"
-      ]
-    },
-    "Microsoft": {
-      "TypeScript": [
-        "craft/package.json",
-        "sentry-docs/package.json",
         "sentry-javascript/package.json",
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/types/package.json",
-        "sentry-javascript/packages/core/package.json",
-        "sentry-javascript/packages/serverless/package.json",
-        "sentry-javascript/packages/typescript/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/angular/package.json",
-        "sentry-javascript/packages/utils/package.json",
-        "sentry-javascript/packages/minimal/package.json",
-        "sentry-javascript/packages/eslint-config-sdk/package.json",
-        "sentry-javascript/packages/gatsby/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json",
-        "sentry-javascript/packages/eslint-plugin-sdk/package.json",
-        "sentry-javascript/packages/ember/package.json",
-        "sentry-javascript/packages/nextjs/test/integration/package.json",
-        "sentry-javascript/packages/node/package.json",
-        "sentry-javascript/packages/react/package.json",
-        "sentry-javascript/packages/hub/package.json",
-        "sentry/package.json"
-      ],
-      "tslib": [
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/core/package.json",
-        "sentry-javascript/packages/serverless/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/angular/package.json",
-        "sentry-javascript/packages/utils/package.json",
-        "sentry-javascript/packages/minimal/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json",
-        "sentry-javascript/packages/nextjs/package.json",
-        "sentry-javascript/packages/node/package.json",
-        "sentry-javascript/packages/react/package.json",
-        "sentry-javascript/packages/hub/package.json",
-        "sentry/package.json"
-      ],
-      "typescript-styled-plugin": [
-        "sentry/package.json"
+        "sentry-react-native/package.json"
       ]
     },
     "ZJONSSON": {
@@ -344,16 +276,14 @@
       "algoliasearch-client-javascript": [
         "sentry-docs/package.json"
       ],
-      "gatsby-plugin-algolia": [
-        "sentry-docs/package.json"
-      ],
       "react-instantsearch": [
         "sentry-docs/package.json"
       ]
     },
     "axios": {
       "axios": [
-        "sentry-docs/package.json"
+        "sentry-docs/package.json",
+        "sentry-javascript/packages/node-integration-tests/package.json"
       ]
     },
     "gatsbyjs": {
@@ -371,31 +301,16 @@
         "sentry-docs/package.json"
       ]
     },
-    "cure53": {
-      "DOMPurify": [
-        "sentry-docs/package.json",
-        "sentry/package.json"
-      ]
-    },
     "motdotla": {
       "dotenv": [
-        "sentry-docs/package.json"
+        "sentry-docs/package.json",
+        "sentry-react-native/sample/package.json"
       ]
     },
     "framer": {
       "motion": [
         "sentry-docs/package.json",
         "sentry/package.json"
-      ]
-    },
-    "getchalk": {
-      "gatsby-plugin-meta-redirect": [
-        "sentry-docs/package.json"
-      ]
-    },
-    "universse": {
-      "gatsby-plugin-zeit-now": [
-        "sentry-docs/package.json"
       ]
     },
     "trevorblades": {
@@ -411,11 +326,7 @@
     "jsdom": {
       "jsdom": [
         "sentry-docs/package.json",
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/utils/package.json",
-        "sentry-javascript/packages/browser/package.json",
-        "sentry-javascript/packages/react/package.json"
+        "sentry-javascript/package.json"
       ]
     },
     "sass": {
@@ -425,7 +336,8 @@
     },
     "PrismJS": {
       "prism": [
-        "sentry-docs/package.json"
+        "sentry-docs/package.json",
+        "sentry/package.json"
       ]
     },
     "react-bootstrap": {
@@ -447,6 +359,9 @@
       "react-popper": [
         "sentry-docs/package.json",
         "sentry/package.json"
+      ],
+      "popper-core": [
+        "sentry/package.json"
       ]
     },
     "JedWatson": {
@@ -461,10 +376,14 @@
     "TypeStrong": {
       "ts-node": [
         "sentry-docs/package.json",
+        "sentry-javascript/package.json",
         "sentry/package.json"
       ],
       "TypeDoc": [
         "sentry-javascript/package.json"
+      ],
+      "ts-loader": [
+        "snuba/snuba/admin/package.json"
       ],
       "fork-ts-checker-webpack-plugin": [
         "sentry/package.json"
@@ -483,7 +402,11 @@
       ],
       "react-hooks-testing-library": [
         "sentry-docs/package.json",
-        "sentry-javascript/packages/react/package.json"
+        "sentry-javascript/packages/react/package.json",
+        "sentry/package.json"
+      ],
+      "user-event": [
+        "sentry/package.json"
       ]
     },
     "jest-community": {
@@ -494,10 +417,11 @@
         "sentry/package.json"
       ]
     },
-    "yannickcr": {
+    "jsx-eslint": {
       "eslint-plugin-react": [
         "sentry-docs/package.json",
-        "sentry-javascript/packages/react/package.json"
+        "sentry-javascript/packages/react/package.json",
+        "sentry-react-native/package.json"
       ]
     },
     "tschaub": {
@@ -507,8 +431,10 @@
     },
     "http-party": {
       "http-server": [
-        "sentry-docs/package.json",
-        "sentry/examples/oauth2_consumer_implicit/package.json"
+        "sentry-docs/package.json"
+      ],
+      "node-portfinder": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
       ]
     },
     "keyanzhang": {
@@ -529,9 +455,16 @@
     "palantir": {
       "tslint-react": [
         "sentry-docs/package.json"
+      ]
+    },
+    "rollup": {
+      "plugins": [
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/nextjs/package.json"
       ],
-      "tslint": [
-        "sentry-javascript/packages/typescript/package.json"
+      "rollup": [
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/nextjs/package.json"
       ]
     },
     "ai": {
@@ -540,8 +473,8 @@
         "sentry/package.json"
       ]
     },
-    "unstubbable": {
-      "typedoc-plugin-monorepo": [
+    "acornjs": {
+      "acorn": [
         "sentry-javascript/package.json"
       ]
     },
@@ -558,12 +491,18 @@
         "sentry-javascript/package.json"
       ]
     },
+    "TehShrike": {
+      "deepmerge": [
+        "sentry-javascript/package.json"
+      ]
+    },
     "karma-runner": {
       "karma-browserstack-launcher": [
         "sentry-javascript/package.json"
       ],
       "karma-firefox-launcher": [
-        "sentry-javascript/package.json"
+        "sentry-javascript/package.json",
+        "sentry-javascript/packages/browser/package.json"
       ],
       "karma": [
         "sentry-javascript/packages/browser/package.json"
@@ -591,32 +530,47 @@
         "sentry-javascript/packages/eslint-plugin-sdk/package.json"
       ]
     },
+    "remy": {
+      "nodemon": [
+        "sentry-javascript/package.json"
+      ]
+    },
     "mysticatea": {
       "npm-run-all": [
-        "sentry-javascript/package.json",
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/types/package.json",
-        "sentry-javascript/packages/core/package.json",
-        "sentry-javascript/packages/serverless/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/angular/package.json",
-        "sentry-javascript/packages/utils/package.json",
-        "sentry-javascript/packages/minimal/package.json",
-        "sentry-javascript/packages/gatsby/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json",
-        "sentry-javascript/packages/ember/package.json",
-        "sentry-javascript/packages/node/package.json",
-        "sentry-javascript/packages/react/package.json",
-        "sentry-javascript/packages/hub/package.json"
+        "sentry-javascript/package.json"
       ],
       "eslint-plugin-node": [
         "sentry-javascript/packages/ember/package.json"
       ]
     },
+    "benjamn": {
+      "recast": [
+        "sentry-javascript/package.json"
+      ]
+    },
     "adamreisnz": {
       "replace-in-file": [
+        "sentry-javascript/package.json",
+        "sentry-react-native/package.json"
+      ]
+    },
+    "mjeanroy": {
+      "rollup-plugin-license": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "jetiny": {
+      "rollup-plugin-re": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "TrySound": {
+      "rollup-plugin-terser": [
+        "sentry-javascript/package.json"
+      ]
+    },
+    "ezolenko": {
+      "rollup-plugin-typescript2": [
         "sentry-javascript/package.json"
       ]
     },
@@ -626,95 +580,95 @@
         "sentry-javascript/packages/browser/package.json"
       ]
     },
-    "rollup": {
-      "rollup": [
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json"
-      ],
-      "rollup-plugin-commonjs": [
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json"
-      ],
-      "rollup-plugin-node-resolve": [
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json"
-      ]
-    },
-    "mjeanroy": {
-      "rollup-plugin-license": [
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/browser/package.json"
-      ]
-    },
-    "TrySound": {
-      "rollup-plugin-terser": [
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json"
-      ]
-    },
-    "ezolenko": {
-      "rollup-plugin-typescript2": [
-        "sentry-javascript/packages/tracing/package.json",
-        "sentry-javascript/packages/vue/package.json",
-        "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/integrations/package.json",
-        "sentry-javascript/packages/browser/package.json"
-      ]
-    },
-    "GoogleCloudPlatform": {
-      "functions-framework-nodejs": [
-        "sentry-javascript/packages/serverless/package.json"
-      ]
-    },
-    "nock": {
-      "nock": [
-        "sentry-javascript/packages/serverless/package.json",
-        "sentry-javascript/packages/nextjs/test/integration/package.json",
-        "sentry-javascript/packages/node/package.json"
-      ]
-    },
-    "ajafff": {
-      "tslint-consistent-codestyle": [
-        "sentry-javascript/packages/typescript/package.json"
+    "sveltejs": {
+      "svelte": [
+        "sentry-javascript/packages/svelte/package.json"
       ]
     },
     "vuejs": {
-      "vue": [
+      "core": [
         "sentry-javascript/packages/vue/package.json"
-      ],
-      "vue-router": [
-        "sentry-javascript/packages/vue/package.json"
-      ]
-    },
-    "kentcdodds": {
-      "cross-env": [
-        "sentry-javascript/packages/wasm/package.json"
       ]
     },
     "expressjs": {
       "express": [
         "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/node/package.json"
+        "sentry-javascript/packages/node/package.json",
+        "sentry-javascript/packages/node-integration-tests/package.json"
+      ],
+      "cors": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
       ]
     },
     "puppeteer": {
       "puppeteer": [
         "sentry-javascript/packages/wasm/package.json",
-        "sentry-javascript/packages/nextjs/test/integration/package.json",
-        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
+        "sentry-javascript/packages/nextjs/test/integration/package.json"
+      ]
+    },
+    "Microsoft": {
+      "playwright": [
+        "sentry-javascript/packages/integration-tests/package.json",
+        "sentry-javascript/packages/browser/package.json"
+      ],
+      "pyright": [
+        "sentry/package.json"
+      ],
+      "typescript-styled-plugin": [
+        "sentry/package.json"
+      ]
+    },
+    "babel": {
+      "babel-loader": [
+        "sentry-javascript/packages/integration-tests/package.json",
+        "sentry/package.json"
+      ],
+      "ember-cli-babel": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "babel-eslint": [
+        "sentry-javascript/packages/ember/package.json"
+      ]
+    },
+    "jantimon": {
+      "html-webpack-plugin": [
+        "sentry-javascript/packages/integration-tests/package.json",
+        "sentry-javascript/scenarios/browser/package.json",
+        "sentry/package.json"
+      ]
+    },
+    "webpack": {
+      "webpack": [
+        "sentry-javascript/packages/integration-tests/package.json",
+        "sentry-javascript/packages/browser/package.json",
+        "sentry-javascript/packages/ember/package.json",
+        "sentry-javascript/packages/nextjs/package.json",
+        "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
+        "sentry-javascript/scenarios/browser/package.json",
+        "snuba/snuba/admin/package.json",
+        "sentry/package.json"
+      ],
+      "webpack-cli": [
+        "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
+        "snuba/snuba/admin/package.json",
+        "sentry/package.json"
+      ],
+      "webpack-dev-server": [
+        "sentry/package.json"
+      ]
+    },
+    "angular": {
+      "angular-cli": [
+        "sentry-javascript/packages/angular/package.json"
+      ],
+      "angular": [
+        "sentry-javascript/packages/angular/package.json",
+        "sentry-javascript/packages/angular/package.json"
+      ]
+    },
+    "ng-packagr": {
+      "ng-packagr": [
+        "sentry-javascript/packages/angular/package.json"
       ]
     },
     "reactivex": {
@@ -722,10 +676,9 @@
         "sentry-javascript/packages/angular/package.json"
       ]
     },
-    "angular": {
-      "angular": [
-        "sentry-javascript/packages/angular/package.json",
-        "sentry-javascript/packages/angular/package.json"
+    "es-shims": {
+      "Array.prototype.flat": [
+        "sentry-javascript/packages/utils/package.json"
       ]
     },
     "gund": {
@@ -745,8 +698,7 @@
     },
     "lydell": {
       "eslint-plugin-simple-import-sort": [
-        "sentry-javascript/packages/eslint-config-sdk/package.json",
-        "sentry/package.json"
+        "sentry-javascript/packages/eslint-config-sdk/package.json"
       ]
     },
     "localForage": {
@@ -774,29 +726,14 @@
         "sentry-javascript/packages/browser/package.json"
       ]
     },
-    "yanoosh": {
-      "karma-sinon": [
-        "sentry-javascript/packages/browser/package.json"
-      ]
-    },
     "monounity": {
       "karma-typescript": [
         "sentry-javascript/packages/browser/package.json"
       ]
     },
-    "webpack": {
-      "webpack": [
-        "sentry-javascript/packages/browser/package.json",
-        "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
-        "sentry/package.json",
-        "sentry/examples/oauth2_consumer_implicit/package.json"
-      ],
-      "webpack-cli": [
-        "sentry-javascript/packages/node/test/manual/webpack-domain/package.json",
-        "sentry/package.json"
-      ],
-      "webpack-dev-server": [
-        "sentry/package.json"
+    "google": {
+      "karma-webkit-launcher": [
+        "sentry-javascript/packages/browser/package.json"
       ]
     },
     "stephenhandley": {
@@ -807,30 +744,6 @@
     "embroider-build": {
       "embroider": [
         "sentry-javascript/packages/ember/package.json"
-      ]
-    },
-    "ef4": {
-      "ember-auto-import": [
-        "sentry-javascript/packages/ember/package.json"
-      ]
-    },
-    "babel": {
-      "ember-cli-babel": [
-        "sentry-javascript/packages/ember/package.json"
-      ],
-      "babel-eslint": [
-        "sentry-javascript/packages/ember/package.json",
-        "sentry/package.json"
-      ],
-      "babel": [
-        "sentry/examples/oauth2_consumer_implicit/package.json"
-      ],
-      "babel-loader": [
-        "sentry/package.json",
-        "sentry/examples/oauth2_consumer_implicit/package.json"
-      ],
-      "babel-preset-env": [
-        "sentry/examples/oauth2_consumer_implicit/package.json"
       ]
     },
     "ember-cli": {
@@ -855,9 +768,6 @@
       "ember-resolver": [
         "sentry-javascript/packages/ember/package.json"
       ],
-      "ember-try": [
-        "sentry-javascript/packages/ember/package.json"
-      ],
       "eslint-plugin-ember": [
         "sentry-javascript/packages/ember/package.json"
       ],
@@ -874,14 +784,13 @@
       ]
     },
     "emberjs": {
-      "ember.js": [
-        "sentry-javascript/packages/ember/package.json",
-        "sentry-javascript/packages/ember/package.json"
-      ],
       "ember-optional-features": [
         "sentry-javascript/packages/ember/package.json"
       ],
       "ember-qunit": [
+        "sentry-javascript/packages/ember/package.json"
+      ],
+      "ember.js": [
         "sentry-javascript/packages/ember/package.json"
       ]
     },
@@ -902,9 +811,6 @@
     },
     "rwjblue": {
       "ember-cli-inject-live-reload": [
-        "sentry-javascript/packages/ember/package.json"
-      ],
-      "ember-source-channel-url": [
         "sentry-javascript/packages/ember/package.json"
       ]
     },
@@ -931,9 +837,6 @@
     "simplabs": {
       "ember-test-selectors": [
         "sentry-javascript/packages/ember/package.json"
-      ],
-      "qunit-dom": [
-        "sentry-javascript/packages/ember/package.json"
       ]
     },
     "kaliber5": {
@@ -945,7 +848,8 @@
       "next.js": [
         "sentry-javascript/packages/nextjs/test/integration/package.json",
         "sentry-javascript/packages/nextjs/package.json",
-        "sentry-javascript/packages/nextjs/package.json"
+        "sentry-javascript/packages/nextjs/package.json",
+        "sentry-javascript/scenarios/browser/nextjs-client/package.json"
       ]
     },
     "jshttp": {
@@ -963,6 +867,49 @@
         "sentry-javascript/packages/node/package.json"
       ]
     },
+    "prisma": {
+      "prisma": [
+        "sentry-javascript/packages/node-integration-tests/suites/tracing/prisma-orm/package.json"
+      ]
+    },
+    "apollographql": {
+      "apollo-server": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
+      ]
+    },
+    "graphql": {
+      "graphql-js": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
+      ]
+    },
+    "mongodb": {
+      "node-mongodb-native": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
+      ]
+    },
+    "nodkz": {
+      "mongodb-memory-server": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
+      ]
+    },
+    "mysqljs": {
+      "mysql": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
+      ]
+    },
+    "brianc": {
+      "node-postgres": [
+        "sentry-javascript/packages/node-integration-tests/package.json"
+      ]
+    },
+    "remix-run": {
+      "remix": [
+        "sentry-javascript/packages/remix/test/integration/package.json"
+      ],
+      "react-router": [
+        "sentry/package.json"
+      ]
+    },
     "mridgway": {
       "hoist-non-react-statics": [
         "sentry-javascript/packages/react/package.json"
@@ -970,46 +917,99 @@
     },
     "ReactTraining": {
       "react-router": [
-        "sentry/package.json"
+        "sentry-javascript/packages/react/package.json"
       ]
     },
     "reduxjs": {
       "redux": [
-        "sentry-javascript/packages/react/package.json"
+        "sentry-javascript/packages/react/package.json",
+        "sentry-react-native/sample/package.json"
+      ],
+      "react-redux": [
+        "sentry-react-native/sample/package.json"
       ]
     },
-    "GoogleChrome": {
-      "chrome-launcher": [
-        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
-      ]
-    },
-    "errwischt": {
-      "stacktrace-parser": [
-        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
-      ]
-    },
-    "nanjingboy": {
-      "uglify": [
-        "sentry/tests/relay_integration/lang/javascript/example-project/package.json"
-      ]
-    },
-    "clauderic": {
-      "dnd-kit": [
+    "webpack-contrib": {
+      "webpack-bundle-analyzer": [
+        "sentry-javascript/scenarios/browser/package.json"
+      ],
+      "compression-webpack-plugin": [
+        "sentry/package.json"
+      ],
+      "css-minimizer-webpack-plugin": [
+        "sentry/package.json"
+      ],
+      "less-loader": [
+        "sentry/package.json"
+      ],
+      "mini-css-extract-plugin": [
+        "sentry/package.json"
+      ],
+      "url-loader": [
         "sentry/package.json"
       ]
     },
-    "emotion-js": {
-      "emotion": [
+    "SBoudrias": {
+      "Inquirer.js": [
+        "sentry-javascript/scenarios/browser/package.json"
+      ]
+    },
+    "intellicode": {
+      "eslint-plugin-react-native": [
+        "sentry-react-native/package.json"
+      ]
+    },
+    "react-native-community": {
+      "react-native-masked-view": [
+        "sentry-react-native/sample/package.json"
+      ]
+    },
+    "react-navigation": {
+      "react-navigation": [
+        "sentry-react-native/sample/package.json"
+      ]
+    },
+    "appium": {
+      "appium": [
+        "sentry-react-native/sample/package.json"
+      ],
+      "appium-doctor": [
+        "sentry-react-native/sample/package.json"
+      ]
+    },
+    "software-mansion": {
+      "react-native-gesture-handler": [
+        "sentry-react-native/sample/package.json"
+      ],
+      "react-native-reanimated": [
+        "sentry-react-native/sample/package.json"
+      ],
+      "react-native-screens": [
+        "sentry-react-native/sample/package.json"
+      ]
+    },
+    "th3rdwave": {
+      "react-native-safe-area-context": [
+        "sentry-react-native/sample/package.json"
+      ]
+    },
+    "admc": {
+      "wd": [
+        "sentry-react-native/sample/package.json"
+      ]
+    },
+    "suren-atoyan": {
+      "monaco-react": [
         "sentry/package.json"
       ]
     },
-    "xpl": {
-      "ansicolor": [
+    "adobe": {
+      "react-spectrum": [
         "sentry/package.json"
       ]
     },
-    "opbeat": {
-      "babel-plugin-add-react-displayname": [
+    "nteract": {
+      "ansi-to-react": [
         "sentry/package.json"
       ]
     },
@@ -1023,31 +1023,13 @@
         "sentry/package.json"
       ]
     },
-    "Qix-": {
-      "color": [
+    "hildjj": {
+      "node-cbor": [
         "sentry/package.json"
       ]
     },
-    "webpack-contrib": {
-      "compression-webpack-plugin": [
-        "sentry/package.json"
-      ],
-      "css-loader": [
-        "sentry/package.json"
-      ],
-      "css-minimizer-webpack-plugin": [
-        "sentry/package.json"
-      ],
-      "less-loader": [
-        "sentry/package.json"
-      ],
-      "mini-css-extract-plugin": [
-        "sentry/package.json"
-      ],
-      "style-loader": [
-        "sentry/package.json"
-      ],
-      "url-loader": [
+    "Qix-": {
+      "color": [
         "sentry/package.json"
       ]
     },
@@ -1081,11 +1063,11 @@
         "sentry/package.json"
       ]
     },
-    "hustcc": {
-      "echarts-for-react": [
+    "airbnb": {
+      "enzyme": [
         "sentry/package.json"
       ],
-      "jest-canvas-mock": [
+      "babel-plugin-dynamic-import-node": [
         "sentry/package.json"
       ]
     },
@@ -1109,13 +1091,8 @@
         "sentry/package.json"
       ]
     },
-    "w3c": {
-      "IntersectionObserver": [
-        "sentry/package.json"
-      ]
-    },
-    "pbakondy": {
-      "ios-device-list": [
+    "GoogleChromeLabs": {
+      "intersection-observer": [
         "sentry/package.json"
       ]
     },
@@ -1124,13 +1101,8 @@
         "sentry/package.json"
       ]
     },
-    "js-cookie": {
-      "js-cookie": [
-        "sentry/package.json"
-      ]
-    },
-    "less": {
-      "less.js": [
+    "beautify-web": {
+      "js-beautify": [
         "sentry/package.json"
       ]
     },
@@ -1154,6 +1126,11 @@
         "sentry/package.json"
       ],
       "moment-timezone": [
+        "sentry/package.json"
+      ]
+    },
+    "nodeca": {
+      "pako": [
         "sentry/package.json"
       ]
     },
@@ -1197,8 +1174,13 @@
         "sentry/package.json"
       ]
     },
-    "glortho": {
-      "react-keydown": [
+    "STRML": {
+      "react-grid-layout": [
+        "sentry/package.json"
+      ]
+    },
+    "JohannesKlauss": {
+      "react-keymap-hook": [
         "sentry/package.json"
       ]
     },
@@ -1209,6 +1191,11 @@
     },
     "signavio": {
       "react-mentions": [
+        "sentry/package.json"
+      ]
+    },
+    "romgain": {
+      "react-select-event": [
         "sentry/package.json"
       ]
     },
@@ -1232,11 +1219,6 @@
         "sentry/package.json"
       ]
     },
-    "willhoag": {
-      "scroll-to-element": [
-        "sentry/package.json"
-      ]
-    },
     "alexei": {
       "sprintf.js": [
         "sentry/package.json"
@@ -1249,11 +1231,6 @@
     },
     "webdiscus": {
       "webpack-remove-empty-scripts": [
-        "sentry/package.json"
-      ]
-    },
-    "winkjs": {
-      "wink-jaro-distance": [
         "sentry/package.json"
       ]
     },
@@ -1272,26 +1249,18 @@
         "sentry/package.json"
       ]
     },
-    "wojtekmaj": {
-      "enzyme-adapter-react-17": [
+    "browserify": {
+      "commonjs-assert": [
         "sentry/package.json"
       ]
     },
-    "airbnb": {
-      "babel-plugin-dynamic-import-node": [
-        "sentry/package.json"
-      ],
-      "enzyme": [
+    "bestiejs": {
+      "benchmark.js": [
         "sentry/package.json"
       ]
     },
-    "frenic": {
-      "csstype": [
-        "sentry/package.json"
-      ]
-    },
-    "jantimon": {
-      "html-webpack-plugin": [
+    "hustcc": {
+      "jest-canvas-mock": [
         "sentry/package.json"
       ]
     },
@@ -1305,18 +1274,16 @@
         "sentry/package.json"
       ]
     },
-    "boblauer": {
-      "MockDate": [
+    "gucong3000": {
+      "postcss-jsx": [
+        "sentry/package.json"
+      ],
+      "postcss-syntax": [
         "sentry/package.json"
       ]
     },
-    "romgain": {
-      "react-select-event": [
-        "sentry/package.json"
-      ]
-    },
-    "stephencookdev": {
-      "speed-measure-webpack-plugin": [
+    "hipstersmoothie": {
+      "storybook-dark-mode": [
         "sentry/package.json"
       ]
     },
@@ -1328,17 +1295,19 @@
         "sentry/package.json"
       ]
     },
-    "styled-components": {
-      "stylelint-config-styled-components": [
-        "sentry/package.json"
-      ],
-      "stylelint-processor-styled-components": [
+    "tscanlin": {
+      "tocbot": [
         "sentry/package.json"
       ]
     },
-    "jasonkuhrt": {
-      "oauth2-implicit": [
-        "sentry/examples/oauth2_consumer_implicit/package.json"
+    "dividab": {
+      "tsconfig-paths": [
+        "sentry/package.json"
+      ]
+    },
+    "andreyvit": {
+      "json-diff": [
+        "sentry/api-docs/package.json"
       ]
     },
     "whitlockjc": {
@@ -1353,68 +1322,46 @@
     }
   },
   "py": {
-    "pallets": {
-      "click": [
-        "cdc/requirements.txt",
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ],
-      "werkzeug": [
-        "sentry-python/test-requirements.txt",
-        "snuba/requirements.txt",
-        "relay/requirements-test.txt"
-      ],
-      "flask": [
-        "snuba/requirements.txt",
-        "relay/requirements-test.txt",
-        "sentry/examples/oauth2_consumer_webserver/requirements.txt"
-      ],
-      "itsdangerous": [
-        "snuba/requirements.txt"
-      ],
-      "jinja": [
-        "snuba/requirements.txt"
-      ],
-      "markupsafe": [
-        "snuba/requirements.txt"
+    "gristlabs": {
+      "asttokens": [
+        "sentry-python/test-requirements.txt"
       ]
     },
-    "yaml": {
-      "pyyaml": [
-        "cdc/requirements.txt",
-        "sentry/requirements-base.txt"
+    "python-trio": {
+      "async_generator": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "outcome": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "sniffio": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "trio": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "confluentinc": {
-      "confluent-kafka-python": [
-        "cdc/requirements.txt",
-        "arroyo/requirements.txt",
-        "snuba/requirements.txt",
-        "relay/requirements-test.txt",
+    "python-attrs": {
+      "attrs": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "celery": {
+      "billiard": [
         "sentry/requirements-base.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "DataDog": {
-      "datadogpy": [
-        "cdc/requirements.txt",
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "Julian": {
-      "jsonschema": [
-        "cdc/requirements.txt",
-        "sentry-python/test-requirements.txt",
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "psycopg": {
-      "psycopg2": [
-        "cdc/requirements.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "celery": [
         "sentry/requirements-base.txt",
-        "sentry/requirements-base.txt"
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
     "psf": {
@@ -1425,74 +1372,295 @@
         "arroyo/requirements-linter.txt",
         "snuba/requirements.txt",
         "relay/requirements-dev.txt",
-        "sentry/requirements-pre-commit.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
         "snuba-sdk/linter-requirements.txt"
       ],
       "requests": [
-        "relay/requirements-test.txt",
-        "sentry/requirements-base.txt"
+        "relay/requirements-dev.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "PyCQA": {
-      "pyflakes": [
-        "cdc/requirements-dev.txt"
-      ],
-      "flake8-import-order": [
-        "sentry-python/linter-requirements.txt",
-        "snuba-sdk/linter-requirements.txt"
-      ],
-      "flake8-bugbear": [
-        "sentry-python/linter-requirements.txt",
-        "snuba-sdk/linter-requirements.txt"
-      ],
-      "pep8-naming": [
-        "sentry-python/linter-requirements.txt",
-        "snuba-sdk/linter-requirements.txt"
-      ]
-    },
-    "pytest-dev": {
-      "pytest": [
-        "cdc/requirements-dev.txt",
-        "sentry-python/test-requirements.txt",
-        "sentry-native/tests/requirements.txt",
-        "arroyo/requirements-test.txt",
-        "snuba/requirements.txt",
-        "relay/requirements-test.txt",
-        "sentry/requirements-dev.txt",
-        "snuba-sdk/test-requirements.txt"
-      ],
-      "pytest-forked": [
-        "sentry-python/test-requirements.txt",
-        "snuba-sdk/test-requirements.txt"
-      ],
-      "pytest-cov": [
-        "sentry-python/test-requirements.txt",
-        "snuba/requirements.txt",
-        "sentry/requirements-dev.txt",
-        "snuba-sdk/test-requirements.txt"
-      ],
-      "pluggy": [
+    "pallets-eco": {
+      "blinker": [
         "snuba/requirements.txt"
-      ],
-      "pytest-xdist": [
-        "relay/requirements-test.txt"
-      ],
-      "pytest-django": [
-        "sentry/requirements-dev.txt"
-      ],
-      "pytest-rerunfailures": [
-        "sentry/requirements-dev.txt"
       ]
     },
-    "tox-dev": {
-      "tox": [
+    "boto": {
+      "boto3": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "botocore": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "s3transfer": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "google": {
+      "brotli": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "pypa": {
+      "build": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "distlib": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "packaging": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "pep517": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "pip": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "setuptools": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "virtualenv": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "wheel": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "tkem": {
+      "cachetools": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "certifi": {
+      "python-certifi": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "asottile": {
+      "cfgv": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "pyupgrade": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "tokenize-rt": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "chardet": {
+      "chardet": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "ousret": {
+      "charset_normalizer": [
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "pallets": {
+      "click": [
+        "cdc/requirements.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "flask": [
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt"
+      ],
+      "jinja": [
+        "snuba-sdk/docs-requirements.txt"
+      ],
+      "werkzeug": [
         "sentry-python/test-requirements.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "mymarilyn": {
+      "clickhouse-driver": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "confluentinc": {
+      "confluent-kafka-python": [
+        "cdc/requirements.txt",
+        "arroyo/requirements.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "nedbat": {
+      "coveragepy": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "pyca": {
+      "cryptography": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "scrapy": {
+      "cssselect": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "jaraco": {
+      "cssutils": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "zipp": [
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "ericvsmith": {
+      "dataclasses": [
         "snuba-sdk/test-requirements.txt"
       ]
     },
-    "gevent": {
-      "gevent": [
-        "sentry-python/test-requirements.txt"
+    "DataDog": {
+      "datadogpy": [
+        "cdc/requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "micheles": {
+      "decorator": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "p1c2u": {
+      "dictpath": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "openapi-core": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "openapi-schema-validator": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "openapi-spec-validator": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "django": {
+      "django": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "django-crispy-forms": {
+      "django-crispy-forms": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "tbicr": {
+      "django-pg-zero-downtime-migrations": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "encode": {
+      "django-rest-framework": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "docker": {
+      "docker-py": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "shin-": {
+      "dockerpy-creds": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "tfranzel": {
+      "drf-spectacular": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "zapier": {
+      "email-reply-parser": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "fluxx": {
+      "exam": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
       ]
     },
     "alexmojaki": {
@@ -1500,14 +1668,609 @@
         "sentry-python/test-requirements.txt"
       ]
     },
-    "gristlabs": {
-      "asttokens": [
+    "Yubico": {
+      "python-fido2": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-u2flib-server": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "tox-dev": {
+      "py-filelock": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "sphinx-autodoc-typehints": [
+        "sentry-python/docs-requirements.txt",
+        "snuba-sdk/docs-requirements.txt"
+      ],
+      "tox": [
+        "sentry-python/test-requirements.txt",
+        "snuba-sdk/test-requirements.txt"
+      ]
+    },
+    "pycqa": {
+      "flake8": [
+        "sentry-python/linter-requirements.txt",
+        "arroyo/requirements-linter.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "isort": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "mccabe": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "PyCQA": {
+      "flake8-bugbear": [
+        "sentry-python/linter-requirements.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "flake8-import-order": [
+        "sentry-python/linter-requirements.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "pep8-naming": [
+        "sentry-python/linter-requirements.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "pyflakes": [
+        "cdc/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "spulec": {
+      "freezegun": [
+        "snuba/requirements-test.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "gevent": {
+      "gevent": [
         "sentry-python/test-requirements.txt"
+      ]
+    },
+    "googleapis": {
+      "python-api-core": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "google-auth-library-python": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-bigtable": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-cloud-core": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-functions": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-pubsub": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-spanner": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-storage": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-crc32c": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "google-resumable-media-python": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-api-common-protos": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-grpc-google-iam-v1": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "proto-plus-python.git": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "python-hyper": {
+      "h11": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "wsproto": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "redis": {
+      "hiredis-py": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "redis-py": [
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "nickstenning": {
+      "honcho": [
+        "snuba/requirements.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "pre-commit": {
+      "identify": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "pre-commit": [
+        "sentry-python/linter-requirements.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "kjd": {
+      "idna": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "python": {
+      "importlib_resources": [
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "mypy": [
+        "cdc/requirements-dev.txt",
+        "sentry-python/linter-requirements.txt",
+        "arroyo/requirements-test.txt",
+        "snuba/requirements-test.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "snuba-sdk/linter-requirements.txt"
+      ],
+      "mypy_extensions": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "typeshed": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "typing_extensions": [
+        "sentry-python/docs-requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt",
+        "snuba-sdk/docs-requirements.txt"
+      ]
+    },
+    "jpvanhal": {
+      "inflection": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "gweis": {
+      "isodate": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "jmespath": {
+      "jmespath.py": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "python-jsonschema": {
+      "jsonschema": [
+        "cdc/requirements.txt",
+        "sentry-python/test-requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "ionelmc": {
+      "python-lazy-object-proxy": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "Instagram": {
+      "LibCST": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "lxml": {
+      "lxml": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "Python-Markdown": {
+      "markdown": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "lepture": {
+      "mistune": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "hajimes": {
+      "mmh3": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "more-itertools": {
+      "more-itertools": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "msgpack": {
+      "msgpack-python": [
+        "relay/requirements-dev.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "sbdchd": {
+      "msgpack-types": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "mattrobenolt": {
+      "mywsgi": [
+        "snuba/requirements.txt"
+      ]
+    },
+    "SethMMorton": {
+      "natsort": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "ekalinin": {
+      "nodeenv": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "oauthlib": {
+      "oauthlib": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "r1chardj0n3s": {
+      "parse": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "erikrose": {
+      "parsimonious": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "cpburnz": {
+      "python-path-specification": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "daviddrysdale": {
+      "python-phonenumbers": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "python-pillow": {
+      "Pillow": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "jazzband": {
+      "pip-tools": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "platformdirs": {
+      "platformdirs": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "pytest-dev": {
+      "pluggy": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "pytest": [
+        "cdc/requirements-dev.txt",
+        "sentry-python/test-requirements.txt",
+        "sentry-native/tests/requirements.txt",
+        "arroyo/requirements-test.txt",
+        "snuba/requirements.txt",
+        "relay/requirements-dev.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "snuba-sdk/test-requirements.txt"
+      ],
+      "pytest-cov": [
+        "sentry-python/test-requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "snuba-sdk/test-requirements.txt"
+      ],
+      "pytest-django": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "pytest-forked": [
+        "sentry-python/test-requirements.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "snuba-sdk/test-requirements.txt"
+      ],
+      "pytest-localserver": [
+        "sentry-python/test-requirements.txt",
+        "relay/requirements-dev.txt",
+        "snuba-sdk/test-requirements.txt"
+      ],
+      "pytest-rerunfailures": [
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ],
+      "pytest-xdist": [
+        "relay/requirements-dev.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "WoLpH": {
+      "python-progressbar": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "python-utils": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "psycopg": {
+      "psycopg2": [
+        "cdc/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "etingof": {
+      "pyasn1": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "pyasn1-modules": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "eliben": {
+      "pycparser": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "jpadilla": {
+      "pyjwt": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "pyparsing": {
+      "pyparsing": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "Anorov": {
+      "PySocks": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "csernazs": {
+      "pytest-httpserver": [
+        "sentry-native/tests/requirements.txt"
+      ]
+    },
+    "untitaker": {
+      "pytest-sentry": [
+        "relay/requirements-dev.txt",
+        "sentry/requirements-dev.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
+      ]
+    },
+    "dateutil": {
+      "dateutil": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "linsomniac": {
+      "python-memcached": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "python-rapidjson": {
+      "python-rapidjson": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "onelogin": {
+      "python3-saml": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "yaml": {
+      "pyyaml": [
+        "cdc/requirements.txt",
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "requests": {
+      "requests-oauthlib": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "naimetti": {
+      "rfc3339-validator": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ],
+      "rfc3986-validator": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "sybrenstuvel": {
+      "python-rsa": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "simplejson": {
+      "simplejson": [
+        "snuba/requirements.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "benjaminp": {
+      "six": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
+      ]
+    },
+    "facelessuser": {
+      "soupsieve": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
     "sphinx-doc": {
       "sphinx": [
         "sentry-python/docs-requirements.txt",
+        "arroyo/docs-requirements.txt",
         "snuba/docs-requirements.txt",
         "snuba-sdk/docs-requirements.txt"
       ]
@@ -1518,408 +2281,310 @@
         "snuba-sdk/docs-requirements.txt"
       ]
     },
-    "agronholm": {
-      "sphinx-autodoc-typehints": [
-        "sentry-python/docs-requirements.txt",
-        "snuba-sdk/docs-requirements.txt"
+    "andialbrecht": {
+      "sqlparse": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "untitaker": {
-      "python-atomicwrites": [
-        "snuba/requirements.txt"
-      ],
-      "pytest-sentry": [
-        "relay/requirements-test.txt",
-        "sentry/requirements-dev.txt"
+    "jsocol": {
+      "pystatsd": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "python-attrs": {
-      "attrs": [
-        "snuba/requirements.txt"
+    "hynek": {
+      "structlog": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "certifi": {
-      "python-certifi": [
-        "snuba/requirements.txt"
+    "uiri": {
+      "toml": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
       ]
     },
-    "chardet": {
-      "chardet": [
-        "snuba/requirements.txt"
+    "hukkin": {
+      "tomli": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
       ]
     },
-    "mymarilyn": {
-      "clickhouse-driver": [
-        "snuba/requirements.txt"
+    "HyperionGray": {
+      "trio-websocket": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "tartley": {
-      "colorama": [
-        "snuba/requirements.txt"
+    "ilevkivskyi": {
+      "typing_inspect": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "nedbat": {
-      "coveragepy": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "briancurtin": {
-      "deprecation": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "nickstenning": {
-      "honcho": [
-        "snuba/requirements.txt",
-        "sentry/requirements-dev.txt"
-      ]
-    },
-    "kjd": {
-      "idna": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "pycqa": {
-      "isort": [
-        "snuba/requirements.txt",
-        "sentry/requirements-pre-commit.txt",
-        "snuba-sdk/linter-requirements.txt"
-      ]
-    },
-    "python-lz4": {
-      "python-lz4": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "Python-Markdown": {
-      "markdown": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "mattrobenolt": {
-      "mywsgi": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "more-itertools": {
-      "more-itertools": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "pypa": {
-      "packaging": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "erikrose": {
-      "parsimonious": [
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "pyparsing": {
-      "pyparsing": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "WoLpH": {
-      "python-progressbar": [
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "dateutil": {
-      "dateutil": [
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "python-rapidjson": {
-      "python-rapidjson": [
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "andymccurdy": {
-      "redis-py": [
-        "snuba/requirements.txt",
-        "relay/requirements-test.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "simplejson": {
-      "simplejson": [
-        "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
+    "ua-parser": {
+      "uap-python": [
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
     "urllib3": {
       "urllib3": [
         "snuba/requirements.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "jquast": {
-      "wcwidth": [
-        "snuba/requirements.txt"
-      ]
-    },
-    "msgpack": {
-      "msgpack-python": [
-        "relay/requirements-test.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "boto": {
-      "boto3": [
-        "sentry/requirements-base.txt"
-      ],
-      "botocore": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "celery": {
-      "celery": [
-        "sentry/requirements-base.txt"
-      ],
-      "billiard": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "ericvsmith": {
-      "dataclasses": [
         "sentry/requirements-base.txt",
-        "snuba-sdk/test-requirements.txt"
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
-    "django-crispy-forms": {
-      "django-crispy-forms": [
-        "sentry/requirements-base.txt"
+    "websocket-client": {
+      "websocket-client.git": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
       ]
     },
-    "django": {
-      "django": [
-        "sentry/requirements-base.txt"
+    "GrahamDumpleton": {
+      "wrapt": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-dev-only-frozen.txt"
       ]
     },
-    "encode": {
-      "django-rest-framework": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "zapier": {
-      "email-reply-parser": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "googleapis": {
-      "python-api-core": [
-        "sentry/requirements-base.txt"
-      ],
-      "google-auth-library-python": [
-        "sentry/requirements-base.txt"
-      ],
-      "python-bigtable": [
-        "sentry/requirements-base.txt"
-      ],
-      "python-cloud-core": [
-        "sentry/requirements-base.txt"
-      ],
-      "python-api-common-protos": [
-        "sentry/requirements-base.txt"
-      ],
-      "python-pubsub": [
-        "sentry/requirements-base.txt"
-      ],
-      "python-storage": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "lepture": {
-      "mistune": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "hajimes": {
-      "mmh3": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "daviddrysdale": {
-      "python-phonenumbers": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "python-pillow": {
-      "Pillow": [
-        "sentry/requirements-base.txt",
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "jpadilla": {
-      "pyjwt": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "linsomniac": {
-      "python-memcached": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "Yubico": {
-      "python-u2flib-server": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "onelogin": {
-      "python3-saml": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "requests": {
-      "requests-oauthlib": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "naimetti": {
-      "rfc3339-validator": [
-        "sentry/requirements-base.txt"
-      ],
-      "rfc3986-validator": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "jsocol": {
-      "pystatsd": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "hynek": {
-      "structlog": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "ua-parser": {
-      "uap-python": [
-        "sentry/requirements-base.txt"
+    "mehcode": {
+      "python-xmlsec": [
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     },
     "indygreg": {
       "python-zstandard": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "pyca": {
-      "cryptography": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "redis": {
-      "hiredis-py": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "jaraco": {
-      "cssutils": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "scrapy": {
-      "cssselect": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "SeleniumHQ": {
-      "selenium": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "andialbrecht": {
-      "sqlparse": [
-        "sentry/requirements-base.txt"
-      ]
-    },
-    "pre-commit": {
-      "pre-commit": [
-        "sentry/requirements-pre-commit.txt"
-      ]
-    },
-    "asottile": {
-      "pyupgrade": [
-        "sentry/requirements-pre-commit.txt"
-      ]
-    },
-    "davidfischer": {
-      "requirements-parser": [
-        "sentry/requirements-pre-commit.txt"
-      ]
-    },
-    "docker": {
-      "docker-py": [
-        "sentry/requirements-dev.txt"
-      ]
-    },
-    "fluxx": {
-      "exam": [
-        "sentry/requirements-dev.txt"
-      ]
-    },
-    "spulec": {
-      "freezegun": [
-        "sentry/requirements-dev.txt"
-      ]
-    },
-    "p1c2u": {
-      "openapi-core": [
-        "sentry/requirements-dev.txt"
+        "relay/requirements-dev.txt",
+        "sentry/requirements-base.txt",
+        "sentry/requirements-dev-frozen.txt",
+        "sentry/requirements-frozen.txt"
       ]
     }
   },
   "rs": {
-    "dtolnay": {
-      "anyhow": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/examples/addr2line/Cargo.toml",
-        "symbolic/examples/symcache_debug/Cargo.toml",
-        "symbolic/examples/dump_cfi/Cargo.toml",
+    "3Hren": {
+      "msgpack-rust": [
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "56quarters": {
+      "cadence": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
         "symbolicator/Cargo.toml",
+        "relay/relay-statsd/Cargo.toml"
+      ]
+    },
+    "Amanieu": {
+      "parking_lot": [
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-statsd/Cargo.toml"
+      ]
+    },
+    "BurntSushi": {
+      "ripgrep": [
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-filter/Cargo.toml"
+      ],
+      "walkdir": [
+        "symbolic/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml"
+      ]
+    },
+    "Geal": {
+      "nom": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "GoogleChromeLabs": {
+      "wasmbin": [
+        "symbolicator/crates/wasm-split/Cargo.toml"
+      ]
+    },
+    "Keats": {
+      "jsonwebtoken": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ]
+    },
+    "KokaKiwi": {
+      "rust-hex": [
+        "symbolicator/crates/wasm-split/Cargo.toml"
+      ]
+    },
+    "Lucretiel": {
+      "nom-supreme": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "Lymia": {
+      "enumset": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "RazrFalcon": {
+      "memmap2-rs": [
+        "symbolic/symbolic-common/Cargo.toml"
+      ]
+    },
+    "RustCrypto": {
+      "MACs": [
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ],
+      "hashes": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ]
+    },
+    "SergioBenitez": {
+      "cookie-rs": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "Sgeo": {
+      "take_mut": [
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "Stebalien": {
+      "tempfile": [
+        "symbolic/symbolic-common/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ]
+    },
+    "TeXitoi": {
+      "structopt": [
         "symbolicator/crates/wasm-split/Cargo.toml",
         "symbolicator/crates/process-event/Cargo.toml",
         "symbolicator/crates/symbolicator/Cargo.toml",
         "symbolicator/crates/symsorter/Cargo.toml",
+        "symbolicator/Cargo.toml",
         "relay/tools/document-metrics/Cargo.toml",
         "relay/tools/generate-schema/Cargo.toml",
         "relay/tools/process-event/Cargo.toml",
         "relay/tools/scrub-minidump/Cargo.toml"
+      ]
+    },
+    "Thomasdezeeuw": {
+      "human-size-rs": [
+        "relay/relay-config/Cargo.toml"
+      ]
+    },
+    "achanda": {
+      "ipnetwork": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-filter/Cargo.toml"
+      ]
+    },
+    "actix": {
+      "actix": [
+        "relay/relay-aws-extension/Cargo.toml",
+        "relay/relay-system/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/relay-test/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
       ],
-      "thiserror": [
+      "actix-web": [
+        "relay/relay-test/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "alexcrichton": {
+      "brotli2-rs": [
+        "relay/relay-server/Cargo.toml"
+      ],
+      "cc-rs": [
         "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml"
+      ],
+      "cmake-rs": [
+        "symbolicator/crates/symbolicator-crash/Cargo.toml",
+        "relay/relay-crash/Cargo.toml"
+      ],
+      "filetime": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ],
+      "rustc-demangle": [
         "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml"
+      ]
+    },
+    "alicemaz": {
+      "rust-base64": [
+        "relay/relay-profiling/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ]
+    },
+    "bheisler": {
+      "criterion.rs": [
         "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unreal/Cargo.toml",
         "symbolic/symbolic-debuginfo/Cargo.toml",
         "symbolic/symbolic-symcache/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml"
+      ]
+    },
+    "bitvecto-rs": {
+      "bitvec": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "bluss": {
+      "indexmap": [
+        "symbolic/symbolic-il2cpp/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-ppdb/Cargo.toml",
+        "symbolic/symbolic-symcache/Cargo.toml"
       ],
-      "serde-yaml": [
-        "symbolicator/Cargo.toml",
+      "rust-itertools": [
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "bytecodealliance": {
+      "wasm-tools": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "carllerche": {
+      "bytes": [
+        "relay/relay-profiling/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "chronotope": {
+      "chrono": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml",
         "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/tools/document-metrics/Cargo.toml",
-        "relay/relay-config/Cargo.toml"
-      ],
-      "quote": [
-        "relay/relay-general/derive/Cargo.toml",
-        "relay/relay-ffi-macros/Cargo.toml"
-      ],
-      "syn": [
-        "relay/relay-general/derive/Cargo.toml",
-        "relay/tools/document-metrics/Cargo.toml",
-        "relay/relay-ffi-macros/Cargo.toml"
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
       ]
     },
     "clap-rs": {
@@ -1931,13 +2596,6 @@
         "symbolic/Cargo.toml",
         "symbolic/Cargo.toml",
         "symbolic/Cargo.toml",
-        "symbolic/examples/object_debug/Cargo.toml",
-        "symbolic/examples/unreal_engine_crash/Cargo.toml",
-        "symbolic/examples/dump_sources/Cargo.toml",
-        "symbolic/examples/addr2line/Cargo.toml",
-        "symbolic/examples/symcache_debug/Cargo.toml",
-        "symbolic/examples/dump_cfi/Cargo.toml",
-        "symbolic/examples/minidump_stackwalk/Cargo.toml",
         "relay/Cargo.toml",
         "relay/Cargo.toml",
         "relay/relay/Cargo.toml",
@@ -1945,549 +2603,132 @@
         "relay/relay-server/Cargo.toml"
       ]
     },
-    "BurntSushi": {
-      "walkdir": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/examples/minidump_stackwalk/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml"
-      ],
-      "ripgrep": [
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-filter/Cargo.toml"
-      ]
-    },
-    "serde-rs": {
-      "json": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolic/symbolic-cabi/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/process-event/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/tools/document-metrics/Cargo.toml",
-        "relay/tools/generate-schema/Cargo.toml",
-        "relay/relay-metrics/Cargo.toml",
-        "relay/relay-filter/Cargo.toml",
-        "relay/relay-config/Cargo.toml",
-        "relay/relay-sampling/Cargo.toml",
-        "relay/relay-quotas/Cargo.toml",
-        "relay/relay-cabi/Cargo.toml",
-        "relay/relay-server/Cargo.toml",
-        "relay/relay-auth/Cargo.toml"
-      ],
-      "serde": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/process-event/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml",
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/tools/document-metrics/Cargo.toml",
-        "relay/relay-metrics/Cargo.toml",
-        "relay/relay-filter/Cargo.toml",
-        "relay/relay-redis/Cargo.toml",
-        "relay/relay-config/Cargo.toml",
-        "relay/relay-sampling/Cargo.toml",
-        "relay/relay-quotas/Cargo.toml",
-        "relay/relay-cabi/Cargo.toml",
-        "relay/relay-server/Cargo.toml",
+    "dalek-cryptography": {
+      "ed25519-dalek": [
         "relay/relay-auth/Cargo.toml"
       ]
     },
     "danburkert": {
       "memmap-rs": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-common/Cargo.toml",
         "relay/relay-general/Cargo.toml"
       ]
     },
-    "storyyeller": {
-      "stable_deref_trait": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-common/Cargo.toml"
-      ]
-    },
-    "uuid-rs": {
-      "uuid": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-common/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/wasm-split/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "Stebalien": {
-      "tempfile": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-common/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ]
-    },
-    "emilk": {
-      "drop-merge-sort": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolic/symbolic-symcache/Cargo.toml"
-      ]
-    },
-    "sfackler": {
-      "rust-fallible-iterator": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ]
-    },
-    "rust-lang": {
-      "flate2-rs": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unreal/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ],
-      "regex": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unreal/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml",
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-filter/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ],
-      "backtrace-rs": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ],
-      "futures-rs": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ],
-      "glob": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ],
-      "log": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-log/Cargo.toml"
-      ],
-      "libc": [
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "gimli-rs": {
-      "gimli": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ],
-      "cpp_demangle": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-demangle/Cargo.toml"
-      ]
-    },
-    "m4b": {
-      "goblin": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ],
-      "scroll": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unreal/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
+    "davidarmstronglewis": {
+      "uap-rs": [
         "relay/relay-general/Cargo.toml"
       ]
     },
-    "rust-lang-nursery": {
-      "lazy-static.rs": [
+    "dtolnay": {
+      "anyhow": [
         "symbolic/Cargo.toml",
         "symbolic/Cargo.toml",
         "symbolic/Cargo.toml",
-        "symbolic/symbolic-unreal/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml",
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/Cargo.toml",
-        "relay/relay-filter/Cargo.toml",
-        "relay/relay-quotas/Cargo.toml",
-        "relay/relay/Cargo.toml",
-        "relay/relay-cabi/Cargo.toml",
-        "relay/relay-server/Cargo.toml",
-        "relay/relay-statsd/Cargo.toml"
-      ],
-      "failure": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-ffi/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/Cargo.toml",
-        "relay/relay-log/Cargo.toml",
-        "relay/relay-redis/Cargo.toml",
-        "relay/relay-config/Cargo.toml",
-        "relay/relay/Cargo.toml",
-        "relay/relay-cabi/Cargo.toml",
-        "relay/relay-server/Cargo.toml",
-        "relay/relay-auth/Cargo.toml"
-      ],
-      "futures-rs": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/Cargo.toml",
-        "relay/relay-metrics/Cargo.toml",
-        "relay/relay-test/Cargo.toml",
-        "relay/relay/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "indiv0": {
-      "lazycell": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "relay/relay-common/Cargo.toml"
-      ]
-    },
-    "Geal": {
-      "nom": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unwind/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ]
-    },
-    "Lucretiel": {
-      "nom-supreme": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ]
-    },
-    "Amanieu": {
-      "parking_lot": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-server/Cargo.toml",
-        "relay/relay-statsd/Cargo.toml"
-      ]
-    },
-    "willglynn": {
-      "pdb": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ]
-    },
-    "servo": {
-      "rust-smallvec": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-quotas/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ],
-      "rust-fnv": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-symcache/Cargo.toml",
-        "relay/relay-metrics/Cargo.toml"
-      ],
-      "rust-url": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-filter/Cargo.toml",
-        "relay/relay-config/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "rustwasm": {
-      "walrus": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ]
-    },
-    "bytecodealliance": {
-      "wasm-tools": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml"
-      ]
-    },
-    "zip-rs": {
-      "zip": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml"
-      ]
-    },
-    "bheisler": {
-      "criterion.rs": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-debuginfo/Cargo.toml",
-        "symbolic/symbolic-symcache/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml",
-        "relay/relay-general/Cargo.toml"
-      ]
-    },
-    "mstange": {
-      "msvc-demangler-rust": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-demangle/Cargo.toml"
-      ]
-    },
-    "alexcrichton": {
-      "rustc-demangle": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-demangle/Cargo.toml"
-      ],
-      "cc-rs": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-demangle/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml"
-      ],
-      "filetime": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ],
-      "cookie-rs": [
-        "relay/relay-general/Cargo.toml"
-      ],
-      "proc-macro2": [
-        "relay/relay-general/derive/Cargo.toml"
-      ],
-      "brotli2-rs": [
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "altsysrq": {
-      "proptest": [
-        "symbolic/Cargo.toml",
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unwind/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml"
-      ]
-    },
-    "rust-random": {
-      "rand": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-minidump/Cargo.toml",
-        "relay/relay-sampling/Cargo.toml",
-        "relay/relay-sampling/Cargo.toml",
-        "relay/relay-auth/Cargo.toml",
-        "relay/relay-statsd/Cargo.toml"
-      ]
-    },
-    "tokio-rs": {
-      "bytes": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unreal/Cargo.toml"
-      ],
-      "tokio": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-test/Cargo.toml",
-        "relay/relay-server/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "chronotope": {
-      "chrono": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unreal/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml",
-        "relay/relay-common/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-cabi/Cargo.toml",
-        "relay/relay-server/Cargo.toml",
-        "relay/relay-auth/Cargo.toml"
-      ]
-    },
-    "rust-num": {
-      "num-traits": [
-        "symbolic/Cargo.toml",
-        "symbolic/symbolic-unwind/Cargo.toml",
-        "relay/relay-general/Cargo.toml"
-      ]
-    },
-    "actix": {
-      "actix-web": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-test/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ],
-      "actix": [
-        "relay/relay-metrics/Cargo.toml",
-        "relay/relay-test/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "marshallpierce": {
-      "rust-base64": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ]
-    },
-    "56quarters": {
-      "cadence": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-statsd/Cargo.toml"
-      ]
-    },
-    "sebasmagri": {
-      "env_logger": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ]
-    },
-    "svartalf": {
-      "hostname": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/Cargo.toml",
-        "relay/relay/Cargo.toml"
-      ]
-    },
-    "jean-airoldie": {
-      "humantime-serde": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ]
-    },
-    "achanda": {
-      "ipnetwork": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-filter/Cargo.toml"
-      ]
-    },
-    "Keats": {
-      "jsonwebtoken": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ]
-    },
-    "jeromefroe": {
-      "lru-rs": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-common/Cargo.toml"
-      ]
-    },
-    "seanmonstar": {
-      "num_cpus": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-config/Cargo.toml"
-      ],
-      "pretty-env-logger": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ],
-      "warp": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ],
-      "reqwest": [
-        "symbolicator/crates/process-event/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
-      ],
-      "unicase": [
-        "relay/relay-sampling/Cargo.toml"
-      ]
-    },
-    "rusoto": {
-      "rusoto": [
-        "symbolicator/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symbolicator/Cargo.toml"
-      ]
-    },
-    "TeXitoi": {
-      "structopt": [
-        "symbolicator/Cargo.toml",
         "symbolicator/crates/wasm-split/Cargo.toml",
         "symbolicator/crates/process-event/Cargo.toml",
         "symbolicator/crates/symbolicator/Cargo.toml",
         "symbolicator/crates/symsorter/Cargo.toml",
+        "symbolicator/Cargo.toml",
         "relay/tools/document-metrics/Cargo.toml",
         "relay/tools/generate-schema/Cargo.toml",
         "relay/tools/process-event/Cargo.toml",
         "relay/tools/scrub-minidump/Cargo.toml"
+      ],
+      "async-trait": [
+        "symbolic/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ],
+      "proc-macro2": [
+        "relay/relay-general/derive/Cargo.toml"
+      ],
+      "quote": [
+        "relay/relay-general/derive/Cargo.toml",
+        "relay/relay-ffi-macros/Cargo.toml"
+      ],
+      "serde-yaml": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/relay-redis/Cargo.toml",
+        "relay/relay-config/Cargo.toml"
+      ],
+      "syn": [
+        "relay/relay-general/derive/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/relay-ffi-macros/Cargo.toml"
+      ],
+      "thiserror": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolic/symbolic-ppdb/Cargo.toml",
+        "symbolic/symbolic-symcache/Cargo.toml",
+        "symbolic/symbolic-cfi/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ]
+    },
+    "emilk": {
+      "drop-merge-sort": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "gimli-rs": {
+      "cpp_demangle": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml"
+      ],
+      "gimli": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ],
+      "leb128": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-ppdb/Cargo.toml"
       ]
     },
     "gyscos": {
       "zstd-rs": [
-        "symbolicator/Cargo.toml",
         "symbolicator/crates/symbolicator/Cargo.toml",
-        "symbolicator/crates/symsorter/Cargo.toml"
-      ]
-    },
-    "RustCrypto": {
-      "hashes": [
+        "symbolicator/crates/symsorter/Cargo.toml",
         "symbolicator/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "hrvolapeter": {
+      "gcp_auth": [
         "symbolicator/crates/symbolicator/Cargo.toml",
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-auth/Cargo.toml"
-      ],
-      "MACs": [
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-auth/Cargo.toml"
-      ]
-    },
-    "KokaKiwi": {
-      "rust-hex": [
-        "symbolicator/crates/wasm-split/Cargo.toml"
-      ]
-    },
-    "GoogleChromeLabs": {
-      "wasmbin": [
-        "symbolicator/crates/wasm-split/Cargo.toml"
-      ]
-    },
-    "rayon-rs": {
-      "rayon": [
-        "symbolicator/crates/symsorter/Cargo.toml"
+        "symbolicator/Cargo.toml"
       ]
     },
     "ihrwein": {
       "backoff": [
+        "relay/relay-common/Cargo.toml"
+      ]
+    },
+    "indiv0": {
+      "lazycell": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "japaric": {
+      "hash32": [
+        "relay/relay-metrics/Cargo.toml"
+      ]
+    },
+    "jean-airoldie": {
+      "humantime-serde": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ]
+    },
+    "jeromefroe": {
+      "lru-rs": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
         "relay/relay-common/Cargo.toml"
       ]
     },
@@ -2496,13 +2737,66 @@
         "relay/relay-general/Cargo.toml"
       ]
     },
-    "Lymia": {
-      "enumset": [
-        "relay/relay-general/Cargo.toml"
+    "luser": {
+      "rust-test-assembler": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
       ]
     },
-    "bluss": {
-      "rust-itertools": [
+    "m4b": {
+      "goblin": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ],
+      "scroll": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "manishearth": {
+      "elsa": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "marshallpierce": {
+      "rust-base64": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ]
+    },
+    "matklad": {
+      "once_cell": [
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-system/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "mstange": {
+      "msvc-demangler-rust": [
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-demangle/Cargo.toml"
+      ],
+      "pdb-addr2line": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "mystor": {
+      "synstructure": [
+        "relay/relay-general/derive/Cargo.toml"
+      ]
+    },
+    "notriddle": {
+      "rust-float-ord": [
+        "relay/relay-metrics/Cargo.toml"
+      ]
+    },
+    "nox": {
+      "serde_urlencoded": [
         "relay/relay-general/Cargo.toml",
         "relay/relay-server/Cargo.toml"
       ]
@@ -2512,9 +2806,9 @@
         "relay/relay-general/Cargo.toml"
       ]
     },
-    "luser": {
-      "rust-minidump": [
-        "relay/relay-general/Cargo.toml"
+    "pavlukivan": {
+      "android_trace_log": [
+        "relay/relay-profiling/Cargo.toml"
       ]
     },
     "pest-parser": {
@@ -2523,30 +2817,25 @@
         "relay/relay-general/Cargo.toml"
       ]
     },
-    "nox": {
-      "serde_urlencoded": [
-        "relay/relay-general/Cargo.toml",
-        "relay/relay-server/Cargo.toml"
+    "programatik29": {
+      "axum-server": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
       ]
     },
-    "davidarmstronglewis": {
-      "uap-rs": [
-        "relay/relay-general/Cargo.toml"
+    "rayon-rs": {
+      "rayon": [
+        "symbolicator/crates/symsorter/Cargo.toml"
       ]
     },
-    "johannhof": {
-      "difference.rs": [
-        "relay/relay-general/Cargo.toml"
-      ]
-    },
-    "wolandr": {
-      "pretty-hex": [
-        "relay/relay-general/Cargo.toml"
-      ]
-    },
-    "mystor": {
-      "synstructure": [
-        "relay/relay-general/derive/Cargo.toml"
+    "rusoto": {
+      "rusoto": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
       ]
     },
     "rust-cli": {
@@ -2557,45 +2846,300 @@
         "relay/tools/scrub-minidump/Cargo.toml"
       ]
     },
-    "notriddle": {
-      "rust-float-ord": [
-        "relay/relay-metrics/Cargo.toml"
+    "rust-fuzz": {
+      "libfuzzer": [
+        "symbolic/symbolic-debuginfo/fuzz/Cargo.toml",
+        "symbolic/symbolic-ppdb/fuzz/Cargo.toml"
       ]
     },
-    "japaric": {
-      "hash32": [
-        "relay/relay-metrics/Cargo.toml"
+    "rust-lang-nursery": {
+      "failure": [
+        "relay/relay-aws-extension/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-system/Cargo.toml",
+        "relay/relay-ffi/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-log/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay-redis/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay-profiling/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ],
+      "futures-rs": [
+        "relay/relay-aws-extension/Cargo.toml",
+        "relay/relay-system/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay-test/Cargo.toml",
+        "relay/relay/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "lazy-static.rs": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "symbolicator/Cargo.toml"
       ]
     },
-    "Thomasdezeeuw": {
-      "human-size-rs": [
+    "rust-lang": {
+      "backtrace-rs": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ],
+      "flate2-rs": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "futures-rs": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-system/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "glob": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ],
+      "hashbrown": [
+        "relay/relay-server/Cargo.toml"
+      ],
+      "libc": [
+        "relay/relay-server/Cargo.toml"
+      ],
+      "log": [
+        "relay/relay-log/Cargo.toml"
+      ],
+      "regex": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "rust-bindgen": [
+        "symbolicator/crates/symbolicator-crash/Cargo.toml",
+        "relay/relay-crash/Cargo.toml"
+      ]
+    },
+    "rust-minidump": {
+      "rust-minidump": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "rust-num": {
+      "num-traits": [
+        "relay/relay-general/Cargo.toml"
+      ]
+    },
+    "rust-random": {
+      "rand": [
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-replays/Cargo.toml",
+        "relay/relay-replays/Cargo.toml",
+        "relay/relay-auth/Cargo.toml",
+        "relay/relay-statsd/Cargo.toml"
+      ]
+    },
+    "seanmonstar": {
+      "num_cpus": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
         "relay/relay-config/Cargo.toml"
+      ],
+      "reqwest": [
+        "relay/relay-aws-extension/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "unicase": [
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-replays/Cargo.toml"
+      ],
+      "warp": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
       ]
     },
-    "alicemaz": {
-      "rust-base64": [
+    "serde-rs": {
+      "json": [
+        "symbolic/symbolic-il2cpp/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/process-event/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-aws-extension/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/tools/generate-schema/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay-profiling/Cargo.toml",
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-quotas/Cargo.toml",
+        "relay/relay-replays/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-auth/Cargo.toml"
+      ],
+      "serde": [
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/process-event/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-aws-extension/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-common/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/tools/document-metrics/Cargo.toml",
+        "relay/relay-metrics/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-redis/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay-profiling/Cargo.toml",
+        "relay/relay-profiling/Cargo.toml",
+        "relay/relay-sampling/Cargo.toml",
+        "relay/relay-quotas/Cargo.toml",
+        "relay/relay-replays/Cargo.toml",
+        "relay/relay-cabi/Cargo.toml",
         "relay/relay-server/Cargo.toml",
         "relay/relay-auth/Cargo.toml"
       ]
     },
-    "carllerche": {
+    "servo": {
+      "rust-fnv": [
+        "relay/relay-metrics/Cargo.toml"
+      ],
+      "rust-smallvec": [
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-quotas/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "rust-url": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
+        "relay/relay-filter/Cargo.toml",
+        "relay/relay-config/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ]
+    },
+    "sfackler": {
+      "rust-fallible-iterator": [
+        "symbolic/symbolic-debuginfo/Cargo.toml"
+      ]
+    },
+    "storyyeller": {
+      "stable_deref_trait": [
+        "symbolic/symbolic-common/Cargo.toml"
+      ]
+    },
+    "svartalf": {
+      "hostname": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/Cargo.toml",
+        "relay/relay/Cargo.toml"
+      ]
+    },
+    "time-rs": {
+      "time": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml"
+      ]
+    },
+    "tokio-rs": {
+      "axum": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ],
       "bytes": [
+        "symbolic/symbolic-unreal/Cargo.toml",
+        "symbolic/Cargo.toml"
+      ],
+      "tokio": [
+        "symbolic/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-aws-extension/Cargo.toml",
+        "relay/relay-system/Cargo.toml",
+        "relay/relay-system/Cargo.toml",
+        "relay/relay-test/Cargo.toml",
+        "relay/relay-server/Cargo.toml",
+        "relay/relay-server/Cargo.toml"
+      ],
+      "tracing": [
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-symcache/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ]
+    },
+    "tower-rs": {
+      "tower": [
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml"
+      ]
+    },
+    "uuid-rs": {
+      "uuid": [
+        "symbolic/symbolic-common/Cargo.toml",
+        "symbolic/Cargo.toml",
+        "symbolic/symbolic-ppdb/Cargo.toml",
+        "symbolicator/crates/wasm-split/Cargo.toml",
+        "symbolicator/crates/symbolicator/Cargo.toml",
+        "symbolicator/Cargo.toml",
+        "relay/relay-general/Cargo.toml",
         "relay/relay-server/Cargo.toml"
       ]
     },
-    "3Hren": {
-      "msgpack-rust": [
-        "relay/relay-server/Cargo.toml"
+    "wolandr": {
+      "pretty-hex": [
+        "relay/relay-general/Cargo.toml"
       ]
     },
-    "Sgeo": {
-      "take_mut": [
-        "relay/relay-server/Cargo.toml"
-      ]
-    },
-    "dalek-cryptography": {
-      "ed25519-dalek": [
-        "relay/relay-auth/Cargo.toml"
+    "zip-rs": {
+      "zip": [
+        "symbolic/symbolic-debuginfo/Cargo.toml",
+        "symbolicator/crates/symsorter/Cargo.toml"
       ]
     }
   }
