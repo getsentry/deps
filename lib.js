@@ -2,7 +2,7 @@ const fs = require('fs');
 const filepath = `${__dirname}/github.json`
 const github = require(filepath);
 
-function record(eco, org, repo, count) {
+function record(eco, org, repo, sources) {
   if (['getsentry', 'mitsuhiko'].includes(org)) {
     return;
   }
@@ -12,7 +12,7 @@ function record(eco, org, repo, count) {
   if (github[eco][org] === undefined) {
     github[eco][org] = {};
   }
-  github[eco][org][repo] = count;
+  github[eco][org][repo] = sources;
 }
 
 function dereference(urls) {
