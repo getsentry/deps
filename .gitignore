@@ -4,4 +4,5 @@ eco/*/deps.json
 node_modules
 eco/py/pi
 eco/js/npm
+eco/php/packagist
 gh

@@ -12,7 +12,7 @@ async function refresh(name) {
   } else {
     let response;
     try {
-      // TODO FIX response = await got(`https://api.packagist.io/v2/package/${encodedName}`);
+      response = await got(`https://repo.packagist.org/p2/${encodedName}.json`);
     } catch (error) {
       if (error.response.statusCode === 404) {
         console.log(`404 ${name}`);
@@ -30,13 +30,12 @@ async function refresh(name) {
 
 (async function main() {
   for ([name, sources] of Object.entries(deps)) {
-    // TODO UPDATE
     let pkg = await refresh(name);
     if (pkg) {
-      let urls = pkg.collected?.metadata?.links || '';
-      let ref = lib.dereference(urls);
+      let url = pkg.packages[name][0].source.url || '';
+      let ref = lib.dereference([url]);
       if (ref) {
-        lib.record('js', ref.org, ref.repo, sources);
+        lib.record('php', ref.org, ref.repo, sources);
       }
     }
   }

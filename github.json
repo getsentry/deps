@@ -1321,6 +1321,220 @@
       ]
     }
   },
+  "php": {
+    "illuminate": {
+      "support": [
+        "sentry-laravel/composer.json"
+      ]
+    },
+    "symfony": {
+      "psr-http-message-bridge": [
+        "sentry-laravel/composer.json",
+        "sentry-symfony/composer.json"
+      ],
+      "cache-contracts": [
+        "sentry-symfony/composer.json"
+      ],
+      "config": [
+        "sentry-symfony/composer.json"
+      ],
+      "console": [
+        "sentry-symfony/composer.json"
+      ],
+      "dependency-injection": [
+        "sentry-symfony/composer.json"
+      ],
+      "event-dispatcher": [
+        "sentry-symfony/composer.json"
+      ],
+      "http-kernel": [
+        "sentry-symfony/composer.json"
+      ],
+      "polyfill-php80": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ],
+      "security-core": [
+        "sentry-symfony/composer.json"
+      ],
+      "browser-kit": [
+        "sentry-symfony/composer.json"
+      ],
+      "cache": [
+        "sentry-symfony/composer.json"
+      ],
+      "dom-crawler": [
+        "sentry-symfony/composer.json"
+      ],
+      "framework-bundle": [
+        "sentry-symfony/composer.json"
+      ],
+      "messenger": [
+        "sentry-symfony/composer.json"
+      ],
+      "monolog-bundle": [
+        "sentry-symfony/composer.json"
+      ],
+      "phpunit-bridge": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ],
+      "process": [
+        "sentry-symfony/composer.json"
+      ],
+      "twig-bundle": [
+        "sentry-symfony/composer.json"
+      ],
+      "yaml": [
+        "sentry-symfony/composer.json"
+      ],
+      "options-resolver": [
+        "sentry-php/composer.json"
+      ],
+      "polyfill-uuid": [
+        "sentry-php/composer.json"
+      ]
+    },
+    "Nyholm": {
+      "psr7": [
+        "sentry-laravel/composer.json"
+      ]
+    },
+    "sebastianbergmann": {
+      "phpunit": [
+        "sentry-laravel/composer.json",
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ]
+    },
+    "laravel": {
+      "framework": [
+        "sentry-laravel/composer.json"
+      ]
+    },
+    "orchestral": {
+      "testbench": [
+        "sentry-laravel/composer.json"
+      ]
+    },
+    "FriendsOfPHP": {
+      "PHP-CS-Fixer": [
+        "sentry-laravel/composer.json",
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ]
+    },
+    "mockery": {
+      "mockery": [
+        "sentry-laravel/composer.json"
+      ]
+    },
+    "Jean85": {
+      "pretty-package-versions": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ]
+    },
+    "php-http": {
+      "discovery": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ],
+      "client-common": [
+        "sentry-php/composer.json"
+      ],
+      "httplug": [
+        "sentry-php/composer.json"
+      ],
+      "message": [
+        "sentry-php/composer.json"
+      ],
+      "mock-client": [
+        "sentry-php/composer.json"
+      ]
+    },
+    "doctrine": {
+      "dbal": [
+        "sentry-symfony/composer.json"
+      ],
+      "DoctrineBundle": [
+        "sentry-symfony/composer.json"
+      ]
+    },
+    "Jan0707": {
+      "phpstan-prophecy": [
+        "sentry-symfony/composer.json"
+      ]
+    },
+    "Seldaek": {
+      "monolog": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ]
+    },
+    "phpspec": {
+      "prophecy": [
+        "sentry-symfony/composer.json"
+      ],
+      "prophecy-phpunit": [
+        "sentry-symfony/composer.json"
+      ]
+    },
+    "phpstan": {
+      "extension-installer": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ],
+      "phpstan": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ],
+      "phpstan-phpunit": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ],
+      "phpstan-symfony": [
+        "sentry-symfony/composer.json"
+      ]
+    },
+    "vimeo": {
+      "psalm": [
+        "sentry-symfony/composer.json",
+        "sentry-php/composer.json"
+      ]
+    },
+    "guzzle": {
+      "promises": [
+        "sentry-php/composer.json"
+      ],
+      "psr7": [
+        "sentry-php/composer.json"
+      ]
+    },
+    "php-fig": {
+      "http-factory": [
+        "sentry-php/composer.json"
+      ],
+      "log": [
+        "sentry-php/composer.json"
+      ]
+    },
+    "http-interop": {
+      "http-factory-guzzle": [
+        "sentry-php/composer.json"
+      ]
+    },
+    "nikic": {
+      "PHP-Parser": [
+        "sentry-php/composer.json"
+      ]
+    },
+    "phpbench": {
+      "phpbench": [
+        "sentry-php/composer.json"
+      ]
+    }
+  },
   "py": {
     "gristlabs": {
       "asttokens": [
