@@ -14,8 +14,12 @@ async function refresh(name) {
     try {
       response = await got(`https://api.npms.io/v2/package/${encodedName}`);
     } catch (error) {
-      console.error(error);
-      console.log(`fail ${name}`);
+      if (error.response.statusCode === 404) {
+        console.log(`404 ${name}`);
+      } else {
+        console.error(error);
+        console.log(`fail ${name}`);
+      }
       return;
     }
     fs.writeFileSync(filepath, JSON.stringify(JSON.parse(response.body), null, 2))

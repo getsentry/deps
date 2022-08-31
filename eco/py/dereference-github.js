@@ -13,7 +13,13 @@ async function refresh(name) {
     try {
       response = await got(`https://pypi.org/pypi/${name}/json`);
     } catch (error) {
-      console.error(error.response.body);
+      if (error.response.statusCode === 404) {
+        console.log(`404 ${name}`);
+      } else {
+        console.error(error);
+        console.log(`fail ${name}`);
+      }
+      return
     }
     fs.writeFileSync(filepath, JSON.stringify(JSON.parse(response.body), null, 2))
     console.log(`got  ${name}`);
