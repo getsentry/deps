@@ -9,6 +9,12 @@ find . -name package.json \
   | sed -e 's|\./\(.*\)|\1|' \
   > ../../eco/js/deps-files
 
+# php
+find . -name composer.json \
+  | grep -v example \
+  | sed -e 's|\./\(.*\)|\1|' \
+  > ../../eco/php/deps-files
+
 # py
 find . -name \*requirements\*.txt \
   | grep -v example \

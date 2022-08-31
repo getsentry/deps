@@ -1,5 +1,5 @@
 repos
-eco/*/deps-files
+# eco/*/deps-files actually Ali is going to use these
 eco/*/deps.json
 node_modules
 eco/py/pi
