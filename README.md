@@ -5,7 +5,9 @@ ecosystems (Python, JavaScript, Rust) in our key repos ([these
 ones](https://open.sentry.io/structure/)). The purpose is to inform the
 allocation of our annual open source funding budget.
 
-- 💸 [**Fundable Dependencies**](https://raw.githack.com/getsentry/deps/main/fundable.html) &larr; Go check 'em out!
+- 💸 [**Fundable
+  Dependencies**](https://raw.githack.com/getsentry/deps/main/fundable.html)
+&larr; Go check 'em out!
 
 
 # Building
