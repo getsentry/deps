@@ -11,7 +11,6 @@ os.chdir(dirname(realpath(__file__)))
 deps = defaultdict(list)
 for filepath in open('deps-files'):
     loc = filepath.strip()
-    print(f'Processing {loc} ...')
 
     cmd = [
         'cargo',
