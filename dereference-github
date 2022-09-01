@@ -3,11 +3,12 @@ set -euo pipefail
 
 echo '{}' > github.json
 
-# For some ecosystems where we need to hit an API in order to determine a
-# GitHub repo for each package, cache the results for easier rerunning.
+# For most ecosystems we need to hit an API in order to determine a GitHub repo
+# for each package, and we cache the results for easier rerunning.
 mkdir -p eco/js/npm
-mkdir -p eco/py/pi
 mkdir -p eco/php/packagist
+mkdir -p eco/py/pi
+mkdir -p eco/rb/rubygems
 
 for eco in ${1:-$(cat eco-list)}; do
   node "./eco/$eco/dereference-github.js"

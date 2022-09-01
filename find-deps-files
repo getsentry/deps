@@ -21,6 +21,12 @@ find . -name \*requirements\*.txt \
   | sed -e 's|\./\(.*\)|\1|' \
   > ../../eco/py/deps-files
 
+# rb
+find . -name Gemfile \
+  | grep -v example \
+  | sed -e 's|\./\(.*\)|\1|' \
+  > ../../eco/rb/deps-files
+
 # rs
 find . -name Cargo.toml \
   | grep -v example \

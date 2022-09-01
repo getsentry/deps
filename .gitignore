@@ -2,7 +2,10 @@ repos
 # eco/*/deps-files actually Ali is going to use these
 eco/*/deps.json
 node_modules
-eco/py/pi
+
 eco/js/npm
 eco/php/packagist
+eco/py/pi
+eco/rb/rubygems
+
 gh

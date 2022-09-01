@@ -1,0 +1,7 @@
+sentry-cocoa/Gemfile
+sentry-ruby/sentry-rails/Gemfile
+sentry-ruby/sentry-resque/Gemfile
+sentry-ruby/sentry-raven/Gemfile
+sentry-ruby/sentry-delayed_job/Gemfile
+sentry-ruby/sentry-sidekiq/Gemfile
+sentry-ruby/sentry-ruby/Gemfile

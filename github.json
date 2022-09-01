@@ -2583,6 +2583,225 @@
       ]
     }
   },
+  "rb": {
+    "jruby": {
+      "activerecord-jdbc-adapter": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile"
+      ]
+    },
+    "evanphx": {
+      "benchmark-ips": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "jondot": {
+      "benchmark-ipsa": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "michaelherold": {
+      "benchmark-memory": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "benchmark-driver": {
+      "benchmark-driver": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "rubygems": {
+      "rubygems": [
+        "sentry-cocoa/Gemfile"
+      ]
+    },
+    "teamcapybara": {
+      "capybara": [
+        "sentry-ruby/sentry-raven/Gemfile"
+      ]
+    },
+    "CocoaPods": {
+      "CocoaPods": [
+        "sentry-cocoa/Gemfile"
+      ]
+    },
+    "codecov": {
+      "codecov-ruby": [
+        "sentry-ruby/sentry-raven/Gemfile"
+      ]
+    },
+    "ruby": {
+      "debug": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-resque/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ],
+      "rake": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-resque/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ],
+      "rexml": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-resque/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "collectiveidea": {
+      "delayed_job": [
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile"
+      ]
+    },
+    "fastlane": {
+      "fastlane": [
+        "sentry-cocoa/Gemfile"
+      ]
+    },
+    "ruby-i18n": {
+      "i18n": [
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile"
+      ]
+    },
+    "minimagick": {
+      "minimagick": [
+        "sentry-ruby/sentry-rails/Gemfile"
+      ]
+    },
+    "st0012": {
+      "object_tracer": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "pry": {
+      "pry": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-resque/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "puma": {
+      "puma": [
+        "sentry-ruby/sentry-raven/Gemfile"
+      ]
+    },
+    "rack": {
+      "rack": [
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "zombocom": {
+      "rack-timeout": [
+        "sentry-ruby/sentry-raven/Gemfile"
+      ]
+    },
+    "rest-client": {
+      "rest-client": [
+        "sentry-cocoa/Gemfile"
+      ]
+    },
+    "rspec": {
+      "rspec-metagem": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-resque/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ],
+      "rspec-rails": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile"
+      ]
+    },
+    "noredink": {
+      "rspec-retry": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "ruby-prof": {
+      "ruby-prof": [
+        "sentry-ruby/sentry-raven/Gemfile"
+      ]
+    },
+    "mperham": {
+      "sidekiq": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile"
+      ]
+    },
+    "simplecov-ruby": {
+      "simplecov": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-resque/Gemfile",
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "dashingrocket": {
+      "simplecov-cobertura": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-resque/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile",
+        "sentry-ruby/sentry-sidekiq/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "rails": {
+      "sprockets-rails": [
+        "sentry-ruby/sentry-rails/Gemfile"
+      ]
+    },
+    "sparklemotion": {
+      "sqlite3-ruby": [
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-rails/Gemfile",
+        "sentry-ruby/sentry-delayed_job/Gemfile"
+      ]
+    },
+    "test-unit": {
+      "test-unit": [
+        "sentry-ruby/sentry-raven/Gemfile"
+      ]
+    },
+    "travisjeffery": {
+      "timecop": [
+        "sentry-ruby/sentry-raven/Gemfile",
+        "sentry-ruby/sentry-ruby/Gemfile"
+      ]
+    },
+    "supermarin": {
+      "xcpretty": [
+        "sentry-cocoa/Gemfile"
+      ]
+    }
+  },
   "rs": {
     "3Hren": {
       "msgpack-rust": [
