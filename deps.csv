@@ -131,8 +131,6 @@ nedbat,nedbat,https://github.com/sponsors/nedbat,coveragepy,2168,py
 django,django,https://github.com/sponsors/django,django,65950,py
 encode,encode,https://github.com/sponsors/encode,django-rest-framework,24018,py
 pycqa,timothycrosley,https://github.com/sponsors/timothycrosley,isort,5112,py
-pre-commit,asottile,https://github.com/sponsors/asottile,identify,173,py
-pre-commit,asottile,https://github.com/sponsors/asottile,pre-commit,8732,py
 python,python,https://github.com/sponsors/python,mypy,13682,py
 python,python,https://github.com/sponsors/python,mypy_extensions,96,py
 python,python,https://github.com/sponsors/python,typeshed,3088,py

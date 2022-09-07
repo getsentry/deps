@@ -42,4 +42,7 @@ for eco in github:
             else:
                 url, sponsorable = get_url(deets)
             if url:
+                if sponsorable in ['getsentry', 'mitsuhiko', 'jan-auer', 'asottile']:
+                    # Special case filter out Sentry + staff. Ril WET.
+                    continue
                 out.writerow([org, sponsorable, url, repo, deets['stargazerCount'], eco])
