@@ -123,9 +123,6 @@ python-attrs,hynek,https://github.com/sponsors/hynek,attrs,4403,py
 celery,celery,https://github.com/sponsors/celery,celery,19992,py
 psf,psf,https://www.python.org/psf/donations/,black,28993,py
 psf,psf,https://www.python.org/psf/donations/,requests,48121,py
-asottile,asottile,https://github.com/sponsors/asottile,cfgv,29,py
-asottile,asottile,https://github.com/sponsors/asottile,pyupgrade,1932,py
-asottile,asottile,https://github.com/sponsors/asottile,tokenize-rt,37,py
 pallets,pallets,https://github.com/sponsors/pallets,click,12892,py
 pallets,pallets,https://github.com/sponsors/pallets,flask,60383,py
 pallets,pallets,https://github.com/sponsors/pallets,jinja,8714,py

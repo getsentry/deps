@@ -1679,21 +1679,6 @@
         "sentry/requirements-frozen.txt"
       ]
     },
-    "asottile": {
-      "cfgv": [
-        "sentry/requirements-dev-frozen.txt",
-        "sentry/requirements-dev-only-frozen.txt"
-      ],
-      "pyupgrade": [
-        "sentry/requirements-dev.txt",
-        "sentry/requirements-dev-frozen.txt",
-        "sentry/requirements-dev-only-frozen.txt"
-      ],
-      "tokenize-rt": [
-        "sentry/requirements-dev-frozen.txt",
-        "sentry/requirements-dev-only-frozen.txt"
-      ]
-    },
     "chardet": {
       "chardet": [
         "sentry/requirements-dev-frozen.txt",

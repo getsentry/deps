@@ -3,7 +3,7 @@ const filepath = `${__dirname}/github.json`
 const github = require(filepath);
 
 function record(eco, org, repo, sources) {
-  if (['getsentry', 'mitsuhiko'].includes(org)) {
+  if (['getsentry', 'mitsuhiko', 'asottile'].includes(org)) {
     return;
   }
   if (github[eco] === undefined) {
