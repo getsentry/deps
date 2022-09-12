@@ -19,7 +19,9 @@ counts = {
 }
 urls = dict()
 data = defaultdict(lambda: defaultdict(list))
-for org, sponsorable, url, repo, stars, eco in csv.reader(open('deps.csv')):
+inp = csv.reader(open('deps.csv'))
+next(inp)  # throw away headers
+for org, sponsorable, url, repo, stars, eco in inp:
     stars = int(stars)
     used_in = sorted(list(set([x.split('/')[0] for x in github[eco][org][repo]])))
     eco = eco_map.get(eco, eco)

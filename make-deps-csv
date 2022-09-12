@@ -4,6 +4,7 @@ import json
 
 github = json.load(open('github.json'))
 out = csv.writer(open('deps.csv', 'w'))
+out.writerow(['org', 'sponsorable', 'url', 'repo', 'stargazers', 'eco'])
 
 
 def get_url(deets):
