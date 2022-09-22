@@ -3,46 +3,51 @@ import csv
 import json
 from collections import defaultdict
 
-eco_map = {
-    'js': 'JavaScript',
-    'php': 'PHP',
-    'py': 'Python',
-    'rb': 'Ruby',
-    'rs': 'Rust',
-}
-eco_map_reverse = {v:k for k,v in eco_map.items()}
 
 github = json.load(open('github.json'))
-counts = {
-    'ecos': defaultdict(set),
-    'sponsorables': defaultdict(lambda: defaultdict(lambda: {'used_in': set(), 'projects': set()}))
-}
-urls = dict()
-data = defaultdict(lambda: defaultdict(list))
-inp = csv.reader(open('deps.csv'))
-next(inp)  # throw away headers
-for org, sponsorable, url, repo, stars, eco in inp:
-    used_in = sorted(list(set([x.split('/')[0] for x in github[eco][org][repo]])))
+details = defaultdict(list)
+deps = csv.reader(open('deps.csv'))
+platforms = csv.reader(open('platforms.csv'))
+submissions = csv.reader(open('submissions.csv'))
+prev = csv.reader(open('prev.csv'))
+next(deps); next(platforms); next(submissions); next(prev) # toss headers
 
-    counts['ecos'][eco].add(sponsorable)
-    counts['sponsorables'][eco][sponsorable]['used_in'] |= set(used_in)
-    counts['sponsorables'][eco][sponsorable]['projects'].add(repo)
-    urls[sponsorable] = url
-    data[eco][sponsorable].append((len(used_in), used_in, org, repo))
+ECO, USED_IN, NPROJECTS, NVOTES, PLATFORM, PREV = range(6)
 
-for eco in counts['ecos']:
-    counts['ecos'][eco] = len(counts['ecos'][eco])
-for eco in counts['sponsorables']:
-    for sponsorable in counts['sponsorables'][eco]:
-        nused_in = len(counts['sponsorables'][eco][sponsorable]['used_in'])
-        nprojects = len(counts['sponsorables'][eco][sponsorable]['projects'])
-        counts['sponsorables'][eco][sponsorable] = (nused_in, nprojects)
-
-deps = []
-for eco, peeps in data.items():
-    for name, deets in peeps.items():
+def get_deets(url, eco=None):
+    if url not in details:
+        details[url] = ['',set(),0,0,0,0]  # eco, used_in, nprojects, nvotes, platform, prev
+        if eco:
+            details[url][ECO] = eco
+    if eco and eco != details[url][ECO]:
         import pdb; pdb.set_trace()
-        deps.append(('', i, url, eco))
+        print(url, eco, details[url][ECO])
+        raise SystemExit
+    return details[url]
 
+for org, sponsorable, url, repo, stargazers, eco in deps:
+    deets = get_deets(url, eco)
+    deets[NPROJECTS] += 1
+    deets[USED_IN].update(sorted(list(set([x.split('/')[0] for x in github[eco][org][repo]]))))
 
+for eco, project, weight, url in platforms:
+    get_deets(url, eco)[PLATFORM] += int(weight)
 
+for ineligible, nvotes, url, eco, number in submissions:
+    if ineligible:
+        continue
+    get_deets(url, eco)[NVOTES] += int(nvotes)
+
+for url, eco in prev:
+    if eco == 'os':
+        eco = 'o'
+    get_deets(url, eco)[PREV] = 1
+
+for url, v in details.items():
+    details[url][USED_IN] = len(v[USED_IN])
+
+out = csv.writer(open('details.csv', 'w+'))
+out.writerow('eco url score nused_in nprojects nvotes platform_weight prev'.split())
+for url, v in details.items():
+    numerics = v[USED_IN:]
+    out.writerow([v[ECO], url, sum(numerics)] + numerics)

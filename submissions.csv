@@ -1,3 +1,4 @@
+ineligible,nvotes,url,eco,number
 ,4,https://github.com/sponsors/sindresorhus,js,i
 ,2,https://github.com/sponsors/tannerlinsley,js,i
 ,2,https://github.com/sponsors/motdotla,js,i
@@ -43,14 +44,14 @@
 ,1,https://github.com/sponsors/ziglang,o,p
 ,1,https://github.com/sponsors/syncthing,o,p
 ,2,https://github.com/sponsors/seldaek,o,i
-,2,https://github.com/sponsors/fabpot,o,i
+,2,https://github.com/sponsors/fabpot,php,i
 ,2,https://github.com/sponsors/tiangolo,py,i
 ,2,https://github.com/sponsors/hynek,py,i
 ,2,https://github.com/sponsors/dvarrazzo,py,i
 ,6,https://opencollective.com/pytest,py,p
 ,3,https://github.com/sponsors/encode,py,p
 ,2,https://opencollective.com/urllib3,py,p
-,4,https://github.com/sponsors/rubytogether,o,p
+,4,https://github.com/sponsors/rubytogether,rb,p
 ,3,https://github.com/sponsors/jhpratt,rs,i
 ,3,https://github.com/sponsors/dtolnay,rs,i
 ,1,https://github.com/sponsors/taiki-e,rs,i
@@ -62,7 +63,7 @@
 ,2,https://github.com/sponsors/swc-project,js,p
 ,1,https://opencollective.com/vapor,o,p
 ,1,https://github.com/sponsors/simoncropp,o,i
-,1,https://github.com/sponsors/sebastianbergmann,o,i
+,1,https://github.com/sponsors/sebastianbergmann,php,i
 ,1,https://github.com/sponsors/scoder,py,i
 ,1,https://github.com/sponsors/robjtede,rs,i
 ,1,https://github.com/sponsors/raphlinus,rs,i
