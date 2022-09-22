@@ -39,15 +39,19 @@ for ineligible, nvotes, url, eco, number in submissions:
     get_deets(url, eco)[NVOTES] += int(nvotes)
 
 for url, eco in prev:
-    if eco == 'os':
-        eco = 'o'
     get_deets(url, eco)[PREV] = 1
 
 for url, v in details.items():
     details[url][USED_IN] = len(v[USED_IN])
 
-out = csv.writer(open('details.csv', 'w+'))
-out.writerow('eco url score nused_in nprojects nvotes platform_weight prev'.split())
+rows = []
+SCORE = 2
 for url, v in details.items():
     numerics = v[USED_IN:]
-    out.writerow([v[ECO], url, sum(numerics)] + numerics)
+    rows.append([v[ECO], url, sum(numerics)] + numerics)
+ecos = ['py', 'js', 'rs', 'rb', 'php', 'java', 'go', 'o']
+rows.sort(key=lambda row: (ecos.index(row[ECO]), -row[SCORE]))
+
+out = csv.writer(open('details.csv', 'w+'))
+out.writerow('eco url score nused_in nprojects nvotes platform_weight prev'.split())
+out.writerows(rows)
