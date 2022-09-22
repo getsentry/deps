@@ -32,3 +32,10 @@ upstream and rerun)
    `gh/{org}-{repo}.json`, and output `deps.csv`
 1. `make-fundable-html` - iterate over `deps.csv`, pull details from
    `github.json` (I know, I know), and output `fundable.html`
+1. Then copy/paste from Raw in the Sheet and manually clean it up into `submissions.csv`.
+    1. attempt to dereference any non-GHS/OC URLs (committers?)
+    1. filter out otherwise ineligible projects/maintainers
+    1. communicate with employees who proposed ineligible projects
+    1. convert all OC urls to GHS if possible (dedupe)
+1. Manually update `platforms.csv`.
+1. `collate` - fold `deps.csv`, `submissions.csv` and `platforms.csv` together into 

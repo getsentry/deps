@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+import csv
+import json
+from collections import defaultdict
+
+eco_map = {
+    'js': 'JavaScript',
+    'php': 'PHP',
+    'py': 'Python',
+    'rb': 'Ruby',
+    'rs': 'Rust',
+}
+eco_map_reverse = {v:k for k,v in eco_map.items()}
+
+github = json.load(open('github.json'))
+counts = {
+    'ecos': defaultdict(set),
+    'sponsorables': defaultdict(lambda: defaultdict(lambda: {'used_in': set(), 'projects': set()}))
+}
+urls = dict()
+data = defaultdict(lambda: defaultdict(list))
+inp = csv.reader(open('deps.csv'))
+next(inp)  # throw away headers
+for org, sponsorable, url, repo, stars, eco in inp:
+    used_in = sorted(list(set([x.split('/')[0] for x in github[eco][org][repo]])))
+
+    counts['ecos'][eco].add(sponsorable)
+    counts['sponsorables'][eco][sponsorable]['used_in'] |= set(used_in)
+    counts['sponsorables'][eco][sponsorable]['projects'].add(repo)
+    urls[sponsorable] = url
+    data[eco][sponsorable].append((len(used_in), used_in, org, repo))
+
+for eco in counts['ecos']:
+    counts['ecos'][eco] = len(counts['ecos'][eco])
+for eco in counts['sponsorables']:
+    for sponsorable in counts['sponsorables'][eco]:
+        nused_in = len(counts['sponsorables'][eco][sponsorable]['used_in'])
+        nprojects = len(counts['sponsorables'][eco][sponsorable]['projects'])
+        counts['sponsorables'][eco][sponsorable] = (nused_in, nprojects)
+
+deps = []
+for eco, peeps in data.items():
+    for name, deets in peeps.items():
+        import pdb; pdb.set_trace()
+        deps.append(('', i, url, eco))
+
+
+
