@@ -39,7 +39,7 @@ for eco in github:
         for repo in github[eco][org]:
             deets = json.load(open(f'gh/{org}-{repo}.json'))['data']['repository']
             if org == 'psf':  # special case
-                url, sponsorable = ('https://www.python.org/psf/donations/', 'psf')
+                url, sponsorable = ('https://github.com/sponsors/python', 'psf')
             else:
                 url, sponsorable = get_url(deets)
             if url:
