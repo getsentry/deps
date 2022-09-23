@@ -44,14 +44,14 @@ for url, eco, amount in prev:
 for url, v in details.items():
     details[url][USED_IN] = len(v[USED_IN])
 
-rows = []
-SCORE = 2
-for url, v in details.items():
-    numerics = v[USED_IN:PLATFORM]
-    rows.append([v[ECO], url, sum(numerics)] + numerics + [v[PREV]])
 ecos = ['py', 'js', 'rs', 'rb', 'php', 'java', 'go', 'o']
-rows.sort(key=lambda row: (ecos.index(row[ECO]), -row[SCORE]))
+rows = []
+ECO_ORDER, SCORE = 0, 3
+for url, v in details.items():
+    numerics = v[USED_IN:PLATFORM+1]
+    rows.append([ecos.index(v[ECO]), v[ECO], url, sum(numerics)] + numerics + [v[PREV]])
+rows.sort(key=lambda row: (row[ECO_ORDER], -row[SCORE]))
 
 out = csv.writer(open('details.csv', 'w+'))
-out.writerow('eco url score nused_in nprojects nvotes platform_weight prev'.split())
+out.writerow('eco_order eco url score nused_in nprojects nvotes platform_weight prev'.split())
 out.writerows(rows)
