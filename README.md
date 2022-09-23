@@ -34,6 +34,7 @@ upstream and rerun)
    `github.json` (I know, I know), and output `fundable.html`
 1. Then copy/paste from Raw in the Sheet and manually clean it up into
    `submissions.csv`.
+    1. lowercase URLs
     1. attempt to dereference any non-GHS/OC URLs (committers?)
     1. filter out otherwise ineligible projects/maintainers
     1. communicate with employees who proposed ineligible projects
