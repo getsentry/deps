@@ -20,8 +20,8 @@ def get_deets(url, eco=None):
         if eco:
             details[url][ECO] = eco
     if eco and eco != details[url][ECO]:
-        import pdb; pdb.set_trace()
         print(url, eco, details[url][ECO])
+        import pdb; pdb.set_trace()
         raise SystemExit
     return details[url]
 
@@ -38,8 +38,8 @@ for ineligible, nvotes, url, eco, number in submissions:
         continue
     get_deets(url, eco)[NVOTES] += int(nvotes)
 
-for url, eco in prev:
-    get_deets(url, eco)[PREV] = 1
+for url, eco, amount in prev:
+    get_deets(url, eco)[PREV] = amount
 
 for url, v in details.items():
     details[url][USED_IN] = len(v[USED_IN])
@@ -47,8 +47,8 @@ for url, v in details.items():
 rows = []
 SCORE = 2
 for url, v in details.items():
-    numerics = v[USED_IN:]
-    rows.append([v[ECO], url, sum(numerics)] + numerics)
+    numerics = v[USED_IN:PLATFORM]
+    rows.append([v[ECO], url, sum(numerics)] + numerics + [v[PREV]])
 ecos = ['py', 'js', 'rs', 'rb', 'php', 'java', 'go', 'o']
 rows.sort(key=lambda row: (ecos.index(row[ECO]), -row[SCORE]))
 

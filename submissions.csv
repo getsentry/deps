@@ -27,7 +27,7 @@ ineligible,nvotes,url,eco,number
 ,2,https://github.com/sponsors/benaadams,o,i
 ,3,https://github.com/sponsors/junegunn,o,i
 ,3,https://github.com/sponsors/gnachman,o,i
-,2,https://github.com/sponsors/yuyz0112,o,i
+,2,https://github.com/sponsors/yuyz0112,js,i
 ,4,https://github.com/sponsors/neovim,o,i
 ,2,https://github.com/sponsors/dandavison,o,i
 ,1,https://github.com/sponsors/thelocehiliosan,o,i
@@ -43,7 +43,7 @@ ineligible,nvotes,url,eco,number
 ,1,https://opencollective.com/cocnvim,o,p
 ,1,https://github.com/sponsors/ziglang,o,p
 ,1,https://github.com/sponsors/syncthing,o,p
-,2,https://github.com/sponsors/seldaek,o,i
+,2,https://github.com/sponsors/seldaek,php,i
 ,2,https://github.com/sponsors/fabpot,php,i
 ,2,https://github.com/sponsors/tiangolo,py,i
 ,2,https://github.com/sponsors/hynek,py,i
