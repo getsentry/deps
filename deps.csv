@@ -22,7 +22,7 @@ mdx-js,unifiedjs,https://github.com/sponsors/unifiedjs,eslint-mdx,145,js
 axios,axios,https://github.com/sponsors/axios,axios,95457,js
 twbs,twbs,https://github.com/sponsors/twbs,bootstrap,159237,js
 jonschlinkert,jonschlinkert,https://github.com/sponsors/jonschlinkert,gray-matter,2715,js
-popperjs,popperjs,https://opencollective.com/popperjs,react-popper,2308,js
+popperjs,floating-ui,https://github.com/sponsors/floating-ui,react-popper,2308,js
 popperjs,FezVrasta,https://github.com/sponsors/fezvrasta,popper-core,22687,js
 TypeStrong,blakeembrey,https://github.com/sponsors/blakeembrey,ts-node,10764,js
 TypeStrong,johnnyreilly,https://github.com/sponsors/johnnyreilly,ts-loader,3267,js

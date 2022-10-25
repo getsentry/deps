@@ -19,11 +19,16 @@ def get_url(deets):
             slug = link['url'].split('/')[-1]
             url = f'https://github.com/sponsors/{slug}'
         elif link['platform'] == 'OPEN_COLLECTIVE':
+            # special case where we have two projects, one of which has GH + OC
+            # the other has OC only
             if 'unified' in link['url']:
-                # special case because we have two projects of theirs
-                # one of which has GH + OC the other has OC only
                 url = 'https://github.com/sponsors/unifiedjs'
                 slug = 'unifiedjs'
+                break
+            elif 'popper' in link['url']:
+                # TODO Fez? (But Evan?)
+                url = 'https://github.com/sponsors/floating-ui'
+                slug = 'floating-ui'
                 break
             elif have_github:
                 print(f"also on OC: {link['url']}")
